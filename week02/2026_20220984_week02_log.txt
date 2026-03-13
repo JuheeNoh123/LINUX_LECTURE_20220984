@@ -1,0 +1,32 @@
+Script started on 2026-03-13 10:12:33+09:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week02[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week02[00m$ ls
+[?2004l2026_20220984_week02_log.txt  t.txt
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week02[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week02[00m$ cat 2026_20220984_week02_log.[Kt[K.txt
+[?2004lScript started on 2026-03-13 10:12:33+09:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week02[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week02[00m$ ls
+[?2004l2026_20220984_week02_log.txt  t.txt
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week02[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week02[00m$ cat 2026_20220984_week02_log.[Kt[K.txt
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week02[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week02[00m$ cat 2026_20220984_week02_log.txt
+[?2004lScript started on 2026-03-13 10:12:33+09:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week02[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week02[00m$ ls
+[?2004l2026_20220984_week02_log.txt  t.txt
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week02[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week02[00m$ cat 2026_20220984_week02_log.[Kt[K.txt
+[?2004lScript started on 2026-03-13 10:12:33+09:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week02[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week02[00m$ ls
+[?2004l2026_20220984_week02_log.txt  t.txt
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week02[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week02[00m$ cat 2026_20220984_week02_log.[Kt[K.txt
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week02[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week02[00m$ cat 2026_20220984_week02_log.txt
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week02[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week02[00m$ ls
+[?2004l2026_20220984_week02_log.txt  t.txt
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week02[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week02[00m$ ls -al
+[?2004ltotal 16
+drwxr-xr-x 2 njh19270 njh19270 4096 Mar 13 10:12 [0m[01;34m.[0m
+drwxr-xr-x 3 njh19270 njh19270 4096 Mar 13 10:11 [01;34m..[0m
+-rw-r--r-- 1 njh19270 njh19270 2318 Mar 13 10:13 2026_20220984_week02_log.txt
+-rw-r--r-- 1 njh19270 njh19270  709 Mar 13 10:13 t.txt
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week02[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week02[00m$ watch -n 1 ls -l 2026_20220984_week02_log.txt
+[?2004l[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m]4;8;rgb:54/54/54\]4;9;rgb:FF/54/54\]4;10;rgb:54/FF/54\]4;11;rgb:FF/FF/54\]4;12;rgb:54/54/FF\]4;13;rgb:FF/54/FF\]4;14;rgb:54/FF/FF\[39;49m(B[m[H[2JEvery 1.0s: ls -l 2026_20220984_week02_log.txt[1;86HJUHEE-NOH: Fri Mar 13 10:14:16 2026[3;1H-rw-r--r-- 1 njh19270 njh19270 2760 Mar 13 10:14 2026_20220984_week02_log.txt[30;120H(B[m[1;115H7[3;32H3159[30;120H(B[m[1;115H8[3;34H94[30;120H(B[m[1;115H9[3;33H227[30;120H(B[m[1;114H20[3;34H61[30;120H(B[m[1;115H1[3;34H95[30;120H(B[m[1;115H2[3;33H328[30;120H(B[m[1;115H3[3;34H62[30;120H(B[m[1;115H4[3;34H95[30;120H(B[m[1;115H5[3;33H428[30;120H(B[m[1;115H6[3;34H62[30;120H(B[m[1;115H7[3;34H95[30;120H(B[m[1;115H8[3;33H528[30;120H(B[m[1;115H9[3;34H62[30;120H(B[m[1;114H30[3;34H95[30;120H(B[m[1;115H1[3;33H629[30;120H(B[m[1;115H2[3;34H63[30;120H(B[m[1;115H3[3;34H96[30;120H(B[m[1;115H4[3;33H729[30;120H(B[m[1;115H5[3;34H63[30;120H(B[m[1;115H6[3;34H96[30;120H(B[m[1;115H7[3;33H829[30;120H(B[m[1;115H8[3;34H63[30;120H(B[m[1;115H9[3;34H96[30;120H(B[m[1;114H40[3;33H929[30;120H(B[m[39;49m]104[30;1H[?1049l[23;0;0t[?1l>[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week02[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week02[00m$ ^C[?2004l[?2004h[?2004l
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week02[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week02[00m$ exit
+[?2004lexit
+
+Script done on 2026-03-13 10:15:46+09:00 [COMMAND_EXIT_CODE="130"]
