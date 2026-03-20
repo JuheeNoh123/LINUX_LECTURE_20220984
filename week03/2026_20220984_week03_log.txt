@@ -1,0 +1,439 @@
+Script started on 2026-03-20 10:10:00+09:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="120" LINES="30"]
+bash: SCRIPT.sh: No such file or directory
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ cd ..
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux[00m$ cd week02
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week02[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week02[00m$ ls
+[?2004l2026_20220984_week02_log.txt  get-docker.sh  t.txt  [0m[01;34mwww[0m
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week02[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week02[00m$ cd..[K[K ..
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux[00m$ exit
+[?2004lexit
+
+Script done on 2026-03-20 10:12:34+09:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-03-20 10:13:53+09:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="124" LINES="30"]
+bash: SCRIPT.sh: No such file or directory
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ ls
+[?2004l2026_20220984_week03_log.txt  t.txt  [0m[01;34mweb_service[0m
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ mkdir pds[K[K[K[K[K[K[K[K[Kcd[Kd e[Kweb_service/
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ ls
+[?2004ldocker-compose.yml  [0m[01;34mhtml[0m
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ cd html/
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service/html[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service/html[00m$ ks[K[Kls
+[?2004lindex.html
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service/html[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service/html[00m$ mkdir pds
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service/html[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service/html[00m$ stat pds
+[?2004l  File: pds
+  Size: 4096      	Blocks: 8          IO Block: 4096   directory
+Device: 8,48	Inode: 58676       Links: 2
+Access: (0755/drwxr-xr-x)  Uid: ( 1000/njh19270)   Gid: ( 1000/njh19270)
+Access: 2026-03-20 10:14:50.894921785 +0900
+Modify: 2026-03-20 10:14:50.894921785 +0900
+Change: 2026-03-20 10:14:50.894921785 +0900
+ Birth: 2026-03-20 10:14:50.894921785 +0900
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service/html[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service/html[00m$ getenet gree[K[Koup[C[1P
+[?2004lroot:x:0:
+daemon:x:1:
+bin:x:2:
+sys:x:3:
+adm:x:4:syslog,njh19270
+tty:x:5:
+disk:x:6:
+lp:x:7:
+mail:x:8:
+news:x:9:
+uucp:x:10:
+man:x:12:
+proxy:x:13:
+kmem:x:15:
+dialout:x:20:
+fax:x:21:
+voice:x:22:
+cdrom:x:24:njh19270
+floppy:x:25:
+tape:x:26:
+sudo:x:27:njh19270
+audio:x:29:
+dip:x:30:njh19270
+www-data:x:33:
+backup:x:34:
+operator:x:37:
+list:x:38:
+irc:x:39:
+src:x:40:
+shadow:x:42:
+utmp:x:43:
+video:x:44:
+sasl:x:45:
+plugdev:x:46:njh19270
+staff:x:50:
+games:x:60:
+users:x:100:njh19270
+nogroup:x:65534:
+systemd-journal:x:999:
+systemd-network:x:998:
+crontab:x:997:
+systemd-timesync:x:996:
+input:x:995:
+sgx:x:994:
+kvm:x:993:
+render:x:992:
+messagebus:x:101:
+syslog:x:102:
+systemd-resolve:x:991:
+uuidd:x:103:
+_ssh:x:104:
+landscape:x:105:
+polkitd:x:990:
+admin:x:106:
+netdev:x:107:
+njh19270:x:1000:
+docker:x:1001:njh19270
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service/html[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service/html[00m$ getent group www-data
+[?2004lwww-data:x:33:
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service/html[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service/html[00m$ stats pds
+[?2004lCommand 'stats' not found, did you mean:
+  command 'stars' from snap stars (2.7jrc3)
+  command 'states' from deb enscript (1.6.5.90-3.1)
+  command 'stat' from deb coreutils (9.4-3ubuntu6.1)
+  command 'statfs' from deb gocryptfs (2.4.0-1ubuntu0.24.04.3)
+  command 'kstats' from deb aircrack-ng (1:1.7-5)
+  command 'sats' from deb mpdtoys (0.26-1)
+See 'snap info <snapname>' for additional versions.
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service/html[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service/html[00m$ sts[Kat s[Kpds
+[?2004l  File: pds
+  Size: 4096      	Blocks: 8          IO Block: 4096   directory
+Device: 8,48	Inode: 58676       Links: 2
+Access: (0755/drwxr-xr-x)  Uid: ( 1000/njh19270)   Gid: ( 1000/njh19270)
+Access: 2026-03-20 10:14:50.894921785 +0900
+Modify: 2026-03-20 10:14:50.894921785 +0900
+Change: 2026-03-20 10:14:50.894921785 +0900
+ Birth: 2026-03-20 10:14:50.894921785 +0900
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service/html[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service/html[00m$ chgrp www-data html/pds[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd /[K..
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ chgrp www-daa[Kta html/pds
+[?2004lchgrp: changing group of 'html/pds': Operation not permitted
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ chgrp www-data html/pds[1@s[1@u[1@d[1@o[1@ 
+[?2004l[sudo] password for njh19270: 
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ cd html/
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service/html[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service/html[00m$ stat pds
+[?2004l  File: pds
+  Size: 4096      	Blocks: 8          IO Block: 4096   directory
+Device: 8,48	Inode: 58676       Links: 2
+Access: (0755/drwxr-xr-x)  Uid: ( 1000/njh19270)   Gid: (   33/www-data)
+Access: 2026-03-20 10:14:50.894921785 +0900
+Modify: 2026-03-20 10:14:50.894921785 +0900
+Change: 2026-03-20 10:22:00.603751005 +0900
+ Birth: 2026-03-20 10:14:50.894921785 +0900
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service/html[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service/html[00m$ cd ..
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ chmod 755 html/pds
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ ls
+[?2004ldocker-compose.yml  [0m[01;34mhtml[0m
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ lschmod 755 html/pdsd ..[Khmod 755 html/pdsls[Kchmod 755 html/pdsd ..[Kstat pds
+[?2004lstat: cannot statx 'pds': No such file or directory
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ cd html/
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service/html[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service/html[00m$ cd html/stat pds
+[?2004l  File: pds
+  Size: 4096      	Blocks: 8          IO Block: 4096   directory
+Device: 8,48	Inode: 58676       Links: 2
+Access: (0755/drwxr-xr-x)  Uid: ( 1000/njh19270)   Gid: (   33/www-data)
+Access: 2026-03-20 10:14:50.894921785 +0900
+Modify: 2026-03-20 10:14:50.894921785 +0900
+Change: 2026-03-20 10:23:09.010897273 +0900
+ Birth: 2026-03-20 10:14:50.894921785 +0900
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service/html[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service/html[00m$ sudo adduser guest
+[?2004linfo: Adding user `guest' ...
+info: Selecting UID/GID from range 1000 to 59999 ...
+info: Adding new group `guest' (1002) ...
+info: Adding new user `guest' (1002) with group `guest (1002)' ...
+info: Creating home directory `/home/guest' ...
+info: Copying files from `/etc/skel' ...
+New password: 
+Retype new password: 
+passwd: password updated successfully
+Changing the user information for guest
+Enter the new value, or press ENTER for the default
+	Full Name []: njh
+	Room Number []: 
+	Work Phone []: 
+	Home Phone []: 
+	Other []: 
+Is the information correct? [Y/n] y
+info: Adding new user `guest' to supplemental / extra groups `users' ...
+info: Adding user `guest' to group `users' ...
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service/html[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service/html[00m$ stat pds[K[K[K[K[K[K[K[Kcd html
+[?2004lbash: cd: html: No such file or directory
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service/html[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service/html[00m$ stat pds
+[?2004l  File: pds
+  Size: 4096      	Blocks: 8          IO Block: 4096   directory
+Device: 8,48	Inode: 58676       Links: 2
+Access: (0755/drwxr-xr-x)  Uid: ( 1000/njh19270)   Gid: (   33/www-data)
+Access: 2026-03-20 10:14:50.894921785 +0900
+Modify: 2026-03-20 10:14:50.894921785 +0900
+Change: 2026-03-20 10:23:09.010897273 +0900
+ Birth: 2026-03-20 10:14:50.894921785 +0900
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service/html[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service/html[00m$ do[K[Kstat pds[1Pcd htmlsudo adduser guest[10Ptat pdscd html/stat pdsls[Kchmod 755 html/pdsd ..[Kstat pdscd html/sudo chgrp www-data html/pds[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd ..[Kstat pdss pdsgetent group www-data[K[K[K[K[K[K[K[Kdockers
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service/html[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service/html[00m$ getent group dockers[K
+[?2004ldocker:x:1001:njh19270
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service/html[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service/html[00m$ getent group dockers[12Pstat pds[1Pcd html[K[K[K[K[K[K[Ksud[K[K[Kcd ..
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ sh[Kudo [K[K[K[K[Kcd html/
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service/html[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service/html[00m$ sudo chmod 770 html/[K[K[K[K[Kpds
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service/html[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service/html[00m$ sudo chmod 770 pds[10Pcd html/[3P..getent group dockers[Kcd ..[Khtml/sudo chmod 770 pds[10Pcd html/[3P..getent group dockercd ..[Khtml/sudo chmod 770 pds[10Pcd html/[3P..getent group dockers[12Pstat pds[1Pcd htmlsudo adduser guest[10Ptat pds
+[?2004l  File: pds
+  Size: 4096      	Blocks: 8          IO Block: 4096   directory
+Device: 8,48	Inode: 58676       Links: 2
+Access: (0770/drwxrwx---)  Uid: ( 1000/njh19270)   Gid: (   33/www-data)
+Access: 2026-03-20 10:14:50.894921785 +0900
+Modify: 2026-03-20 10:14:50.894921785 +0900
+Change: 2026-03-20 10:28:34.915792963 +0900
+ Birth: 2026-03-20 10:14:50.894921785 +0900
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service/html[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service/html[00m$ su gr[Kuest
+[?2004lPassword: 
+[?2004h]0;guest@JUHEE-NOH: /home/njh19270/linux/week03/web_service/html[01;32mguest@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/week03/web_service/html[00m$ ls
+[?2004lindex.html  [0m[01;34mpds[0m
+[?2004h]0;guest@JUHEE-NOH: /home/njh19270/linux/week03/web_service/html[01;32mguest@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/week03/web_service/html[00m$ cd pds
+[?2004lbash: cd: pds: Permission denied
+[?2004h]0;guest@JUHEE-NOH: /home/njh19270/linux/week03/web_service/html[01;32mguest@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/week03/web_service/html[00m$ cat[K[K[Kcd ..
+[?2004l[?2004h]0;guest@JUHEE-NOH: /home/njh19270/linux/week03/web_service[01;32mguest@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/week03/web_service[00m$ cat ecy[K[K[K/etc/passwd
+[?2004lroot:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/run/ircd:/usr/sbin/nologin
+_apt:x:42:65534::/nonexistent:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:998:998:systemd Network Management:/:/usr/sbin/nologin
+systemd-timesync:x:996:996:systemd Time Synchronization:/:/usr/sbin/nologin
+dhcpcd:x:100:65534:DHCP Client Daemon,,,:/usr/lib/dhcpcd:/bin/false
+messagebus:x:101:101::/nonexistent:/usr/sbin/nologin
+syslog:x:102:102::/nonexistent:/usr/sbin/nologin
+systemd-resolve:x:991:991:systemd Resolver:/:/usr/sbin/nologin
+uuidd:x:103:103::/run/uuidd:/usr/sbin/nologin
+landscape:x:104:105::/var/lib/landscape:/usr/sbin/nologin
+polkitd:x:990:990:User for polkitd:/:/usr/sbin/nologin
+njh19270:x:1000:1000:,,,:/home/njh19270:/bin/bash
+guest:x:1002:1002:njh,,,:/home/guest:/bin/bash
+[?2004h]0;guest@JUHEE-NOH: /home/njh19270/linux/week03/web_service[01;32mguest@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/week03/web_service[00m$ [K]0;guest@JUHEE-NOH: /home/njh19270/linux/week03/web_service[01;32mguest@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/week03/web_service[00m$ [K]0;guest@JUHEE-NOH: /home/njh19270/linux/week03/web_service[01;32mguest@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/week03/web_service[00m$ [K]0;guest@JUHEE-NOH: /home/njh19270/linux/week03/web_service[01;32mguest@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/week03/web_service[00m$ [K]0;guest@JUHEE-NOH: /home/njh19270/linux/week03/web_service[01;32mguest@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/week03/web_service[00m$ [K]0;guest@JUHEE-NOH: /home/njh19270/linux/week03/web_service[01;32mguest@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/week03/web_service[00m$ [K]0;guest@JUHEE-NOH: /home/njh19270/linux/week03/web_service[01;32mguest@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/week03/web_service[00m$ [K]0;guest@JUHEE-NOH: /home/njh19270/linux/week03/web_service[01;32mguest@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/week03/web_service[00m$ [K]0;guest@JUHEE-NOH: /home/njh19270/linux/week03/web_service[01;32mguest@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/week03/web_service[00m$ [K]0;guest@JUHEE-NOH: /home/njh19270/linux/week03/web_service[01;32mguest@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/week03/web_service[00m$ [K]0;guest@JUHEE-NOH: /home/njh19270/linux/week03/web_service[01;32mguest@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/week03/web_service[00m$ [K]0;guest@JUHEE-NOH: /home/njh19270/linux/week03/web_service[01;32mguest@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/week03/web_service[00m$ [K]0;guest@JUHEE-NOH: /home/njh19270/linux/week03/web_service[01;32mguest@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/week03/web_service[00m$ [K]0;guest@JUHEE-NOH: /home/njh19270/linux/week03/web_service[01;32mguest@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/week03/web_service[00m$ [K]0;guest@JUHEE-NOH: /home/njh19270/linux/week03/web_service[01;32mguest@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/week03/web_service[00m$ [K]0;guest@JUHEE-NOH: /home/njh19270/linux/week03/web_service[01;32mguest@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/week03/web_service[00m$ [K]0;guest@JUHEE-NOH: /home/njh19270/linux/week03/web_service[01;32mguest@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/week03/web_service[00m$ [K]0;guest@JUHEE-NOH: /home/njh19270/linux/week03/web_service[01;32mguest@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/week03/web_service[00m$ [K]0;guest@JUHEE-NOH: /home/njh19270/linux/week03/web_service[01;32mguest@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/week03/web_service[00m$ [K]0;guest@JUHEE-NOH: /home/njh19270/linux/week03/web_service[01;32mguest@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/week03/web_service[00m$ [K]0;guest@JUHEE-NOH: /home/njh19270/linux/week03/web_service[01;32mguest@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/week03/web_service[00m$ [K]0;guest@JUHEE-NOH: /home/njh19270/linux/week03/web_service[01;32mguest@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/week03/web_service[00m$ [K]0;guest@JUHEE-NOH: /home/njh19270/linux/week03/web_service[01;32mguest@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/week03/web_service[00m$ [K]0;guest@JUHEE-NOH: /home/njh19270/linux/week03/web_service[01;32mguest@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/week03/web_service[00m$ [K]0;guest@JUHEE-NOH: /home/njh19270/linux/week03/web_service[01;32mguest@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/week03/web_service[00m$ [K]0;guest@JUHEE-NOH: /home/njh19270/linux/week03/web_service[01;32mguest@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/week03/web_service[00m$ [K]0;guest@JUHEE-NOH: /home/njh19270/linux/week03/web_service[01;32mguest@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/week03/web_service[00m$ [K]0;guest@JUHEE-NOH: /home/njh19270/linux/week03/web_service[01;32mguest@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/week03/web_service[00m$ [K]0;guest@JUHEE-NOH: /home/njh19270/linux/week03/web_service[01;32mguest@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/week03/web_service[00m$ [K]0;guest@JUHEE-NOH: /home/njh19270/linux/week03/web_service[01;32mguest@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/week03/web_service[00m$ [K]0;guest@JUHEE-NOH: /home/njh19270/linux/week03/web_service[01;32mguest@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/week03/web_service[00m$ [K]0;guest@JUHEE-NOH: /home/njh19270/linux/week03/web_service[01;32mguest@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/week03/web_service[00m$ [K]0;guest@JUHEE-NOH: /home/njh19270/linux/week03/web_service[01;32mguest@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/week03/web_service[00m$ cat /etc/shadow
+[?2004lcat: /etc/shadow: Permission denied
+[?2004h]0;guest@JUHEE-NOH: /home/njh19270/linux/week03/web_service[01;32mguest@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/week03/web_service[00m$ su njh19270
+[?2004lPassword: 
+bash: SCRIPT.sh: No such file or directory
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ sudo cat /etc/ha[K[Ksah[K[Khadow
+[?2004lroot:*:20305:0:99999:7:::
+daemon:*:20305:0:99999:7:::
+bin:*:20305:0:99999:7:::
+sys:*:20305:0:99999:7:::
+sync:*:20305:0:99999:7:::
+games:*:20305:0:99999:7:::
+man:*:20305:0:99999:7:::
+lp:*:20305:0:99999:7:::
+mail:*:20305:0:99999:7:::
+news:*:20305:0:99999:7:::
+uucp:*:20305:0:99999:7:::
+proxy:*:20305:0:99999:7:::
+www-data:*:20305:0:99999:7:::
+backup:*:20305:0:99999:7:::
+list:*:20305:0:99999:7:::
+irc:*:20305:0:99999:7:::
+_apt:*:20305:0:99999:7:::
+nobody:*:20305:0:99999:7:::
+systemd-network:!*:20305::::::
+systemd-timesync:!*:20305::::::
+dhcpcd:!:20305::::::
+messagebus:!:20305::::::
+syslog:!:20305::::::
+systemd-resolve:!*:20305::::::
+uuidd:!:20305::::::
+landscape:!:20305::::::
+polkitd:!*:20305::::::
+njh19270:$y$j9T$7teGHh.fOHLm2B2nBDmrC.$bDF/XMGnDrV3EeaDK9nrCLkrgLDyT9nuGebcI1ZqJzB:20310:0:99999:7:::
+guest:$y$j9T$a1rkwMfhvsR9vmwo42Eoy1$Mo1Y5URu/A4.rvwmULaz9ji3QHH85bU9IHoX2xFbBT7:20532:0:99999:7:::
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ sudo cat /etc/shadow[1P[1P[1P[1P[1P
+[?2004lcat: /etc/shadow: Permission denied
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ sud[K root
+[?2004lPassword: 
+su: Authentication failure
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ su root
+[?2004lPassword: 
+su: Authentication failure
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ sudi[Ko adduser web_admin
+[?2004linfo: Adding user `web_admin' ...
+info: Selecting UID/GID from range 1000 to 59999 ...
+info: Adding new group `web_admin' (1003) ...
+info: Adding new user `web_admin' (1003) with group `web_admin (1003)' ...
+info: Creating home directory `/home/web_admin' ...
+info: Copying files from `/etc/skel' ...
+New password: 
+Retype new password: 
+passwd: password updated successfully
+Changing the user information for web_admin
+Enter the new value, or press ENTER for the default
+	Full Name []: web_admin
+	Room Number []: 
+	Work Phone []: 
+	Home Phone []: 
+	Other []: 
+Is the information correct? [Y/n] y
+info: Adding new user `web_admin' to supplemental / extra groups `users' ...
+info: Adding user `web_admin' to group `users' ...
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ sudo adduser web_admin root[Kcat /etc/shadow[5@sudo [C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Khistoryscript -t=t.txt -af 2026_20220984_week03_log.txtcd week03[Kls[Kcd ..[3Plscd week03[4P..ls -al[2Pjobs[K[1Ppsclear[3Pddcat 2026_20220984_week02_log.txt ls -al[Kcat 2026_20220984_week02_log.txt dd[Kclear[3Ppsjobsls -al[1Pcd ..week03ls[Kcd ..[3Plscd week03script -t=t.txt -af 2026_20220984_week03_log.txthistory[K[3Pexitsudo cat /etc/shadow[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Psu rootdo adduser web_admin[Kg[Ksudo adduser web_admin root[Kdo adduser web_admin[Ksudo cat /etc/shadow
+[?2004lroot:*:20305:0:99999:7:::
+daemon:*:20305:0:99999:7:::
+bin:*:20305:0:99999:7:::
+sys:*:20305:0:99999:7:::
+sync:*:20305:0:99999:7:::
+games:*:20305:0:99999:7:::
+man:*:20305:0:99999:7:::
+lp:*:20305:0:99999:7:::
+mail:*:20305:0:99999:7:::
+news:*:20305:0:99999:7:::
+uucp:*:20305:0:99999:7:::
+proxy:*:20305:0:99999:7:::
+www-data:*:20305:0:99999:7:::
+backup:*:20305:0:99999:7:::
+list:*:20305:0:99999:7:::
+irc:*:20305:0:99999:7:::
+_apt:*:20305:0:99999:7:::
+nobody:*:20305:0:99999:7:::
+systemd-network:!*:20305::::::
+systemd-timesync:!*:20305::::::
+dhcpcd:!:20305::::::
+messagebus:!:20305::::::
+syslog:!:20305::::::
+systemd-resolve:!*:20305::::::
+uuidd:!:20305::::::
+landscape:!:20305::::::
+polkitd:!*:20305::::::
+njh19270:$y$j9T$7teGHh.fOHLm2B2nBDmrC.$bDF/XMGnDrV3EeaDK9nrCLkrgLDyT9nuGebcI1ZqJzB:20310:0:99999:7:::
+guest:$y$j9T$a1rkwMfhvsR9vmwo42Eoy1$Mo1Y5URu/A4.rvwmULaz9ji3QHH85bU9IHoX2xFbBT7:20532:0:99999:7:::
+web_admin:$y$j9T$AbT7daNTfnq52O5Mc5qcA0$NCXN8vFdGaaz8fdjhMD8RJS2bKUtyQ7Q6fCMaCpB1J.:20532:0:99999:7:::
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ 2~[K[Ksudo visudo
+[?2004l[?2004h[?1049h[22;0;0t[1;40r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[38;56H(B[0;7m[ Reading... ](B[m[38;54H(B[0;7m[ Read 57 lines ](B[m[H(B[0;7m  GNU nano 7.2                                          /etc/sudoers.tmp                                                    [1;123H(B[m[39d(B[0;7m^G(B[m Help[39;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[39;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[40d(B[0;7m^X(B[m Exit[40;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2d[36m#[3d# This file MUST be edited with the 'visudo' command as root.[4d#[5d# Please consider adding local content in /etc/sudoers.d/ instead of[6d# directly modifying this file.[7d#[8d# See the man page for details on how to write a sudoers file.[9d#[10d[39m(B[mDefaults[38;5;208m        [39m(B[menv_reset[11dDefaults[38;5;208m        [39m(B[mmail_badpass[12dDefaults[38;5;208m        [39m(B[msecure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin"[14d[36m# This fixes CVE-2005-4890 and possibly breaks some versions of kdesu[15d# (#1011624, https://bugs.kde.org/show_bug.cgi?id=452532)[16d[39m(B[mDefaults[38;5;208m        [39m(B[muse_pty[18d[36m# This preserves proxy settings from user environments of root[19d# equivalent users (group sudo)[20d#Defaults:%sudo env_keep += "http_proxy https_proxy ftp_proxy all_proxy no_proxy"[22d# This allows running arbitrary commands, but so does ALL, and it means[23d# different sudoers have their choice of editor respected.[24d#Defaults:%sudo env_keep += "EDITOR"[26d# Completely harmless preservation of a user preference.[27d#Defaults:%sudo env_keep += "GREP_COLOR"[29d# While you shouldn't normally run git as root, you need to with etckeeper[30d#Defaults:%sudo env_keep += "GIT_AUTHOR_* GIT_COMMITTER_*"[32d# Per-user preferences; root won't have sensible values for them.[33d#Defaults:%sudo env_keep += "EMAIL DEBEMAIL DEBFULLNAME"[35d# "sudo scp" or "sudo rsync" should be able to use your SSH agent.[36d#Defaults:%sudo env_keep += "SSH_AGENT_PID SSH_AUTH_SOCK"[2d[39m(B[m[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[?12l[?25h[17d[?25l[?12l[?25h[18d[?25l[?12l[?25h[19d[?25l[?12l[?25h[20d[?25l[?12l[?25h[21d[?25l[38d[K[?12l[?25h[22d[?25l[?12l[?25h[23d[?25l[?12l[?25h[24d[?25l[?12l[?25h[25d[?25l[?12l[?25h[26d[?25l[?12l[?25h[27d[?25l[?12l[?25h[28d[?25l[?12l[?25h[29d[?25l[?12l[?25h[30d[?25l[?12l[?25h[31d[?25l[?12l[?25h[32d[?25l[?12l[?25h[33d[?25l[?12l[?25h[34d[?25l[?12l[?25h[35d[?25l[?12l[?25h[36d[?25l[?12l[?25h[37d[?25l[?12l[?25h7[2;38r8[38d
+[1;40r[37;1H[36m# Ditto for GPG agent[39m(B[m[?25l[?12l[?25h7[2;38r8[38d
+[1;40r[37;1H[36m#Defaults:%sudo env_keep += "GPG_AGENT_INFO"[39m(B[m[?25l[?12l[?25h7[2;38r8[38d
+[1;40r[37;1H[?25l[?12l[?25h7[2;38r8[38d
+[1;40r[37;1H[36m# Host alias specification[39m(B[m[?25l[?12l[?25h7[2;38r8[38d
+[1;40r[37;1H[?25l[?12l[?25h7[2;38r8[38d
+[1;40r[37;1H[36m# User alias specification[39m(B[m[?25l[?12l[?25h7[2;38r8[38d
+[1;40r[37;1H[?25l[?12l[?25h7[2;38r8[38d
+[1;40r[37;1H[36m# Cmnd alias specification[39m(B[m[?25l[?12l[?25h7[2;38r8[38d
+[1;40r[37;1H[?25l[?12l[?25h7[2;38r8[38d
+[1;40r[37;1H[36m# User privilege specification[39m(B[m[?25l[?12l[?25h7[2;38r8[38d
+[1;40r[37;1Hroot[38;5;208m    [39m(B[mALL=(ALL:ALL) ALL[?25l[?12l[?25h7[2;38r8[38d
+[1;40r[37;1H[?25l[?12l[?25h7[2;38r8[38d
+[1;40r[37;1H[36m# Members of the admin group may gain root privileges[39m(B[m[?25l[?12l[?25h7[2;38r8[38d
+[1;40r[37;1H%admin ALL=(ALL) ALL[?25l[?12l[?25h7[2;38r8[38d
+[1;40r[37;1H[?25l[?12l[?25h7[2;38r8[38d
+[1;40r[37;1H[36m# Allow members of group sudo to execute any command[39m(B[m[?25l[?12l[?25h7[2;38r8[38d
+[1;40r[37;1H%sudo[38;5;208m   [39m(B[mALL=(ALL:ALL) ALL[?25l[?12l[?25h7[2;38r8[38d
+[1;40r[37;1H[?25l[?12l[?25h7[2;38r8[38d
+[1;40r[37;1H[36m# See sudoers(5) for more information on "@include" directives:[39m(B[m[?25l[?12l[?25h7[2;38r8[38d
+[1;40r[37;1H[?25l[?12l[?25h7[2;38r8[38d
+[1;40r[37;1H@includedir /etc/sudoers.d[?25l[?12l[?25h7[2;38r8[38d
+[1;40r[37;1H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[31d[?25l[?12l[?25h[32d[?25l[?12l[?25h[33d[?25l[1;74H(B[0;7m*[123G(B[m[33;38r[33;1HM[1;40r[34;1H[?12l[?25h[?25l[33;38r[38;1H
+[1;40r[33;1H[?12l[?25h[?25l[?12l[?25h[34d[?25l[?12l[?25h[35d[?25l[?12l[?25h[36d[?25l[?12l[?25h[37d[?25l[?12l[?25h[?25l7[2;38r8[38d
+[1;40r[37;1H[?12l[?25h[?25l[?12l[?25hw[?25l[?12l[?25he[?25l[?12l[?25hb[?25l[?12l[?25h_[?25l[?12l[?25ha[?25l[?12l[?25hd[?25l[?12l[?25hm[?25l[?12l[?25hi[?25l[?12l[?25hn[?25l[?12l[?25h [?25l[?12l[?25hA[?25l[?12l[?25hL[?25l[?12l[?25hL[?25l[?12l[?25h [?25l[?12l[?25h=[?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h=[?25l[?12l[?25h([?25l[?12l[?25hA[?25l[?12l[?25hL[?25l[?12l[?25hL[?25l[?12l[?25h)[?25l[?12l[?25h [?25l[?12l[?25hN[?25l[?12l[?25hO[?25l[?12l[?25hP[?25l[?12l[?25hA[?25l[?12l[?25hS[?25l[?12l[?25hS[?25l[?12l[?25hW[?25l[?12l[?25hD[?25l[?12l[?25h:[?25l[?12l[?25h [?25l[?12l[?25h/[?25l[?12l[?25hu[?25l[?12l[?25hs[?25l[?12l[?25hr[?25l[?12l[?25h/[?25l[?12l[?25hb[?25l[?12l[?25hi[?25l[?12l[?25hn[?25l[?12l[?25h/[?25l[?12l[?25hd[?25l[?12l[?25ho[?25l[?12l[?25hc[?25l[?12l[?25hk[?25l[?12l[?25he[?25l[?12l[?25hr[?25l[?12l[?25h [?25l[?12l[?25hc[?25l[?12l[?25ho[?25l[?12l[?25hm[?25l[?12l[?25hp[?25l[?12l[?25ho[?25l[?12l[?25hs[?25l[?12l[?25he[?25l[?12l[?25h [?25l[?12l[?25hr[?25l[?12l[?25he[?25l[?12l[?25hs[?25l[?12l[?25ht[?25l[?12l[?25ha[?25l[?12l[?25hr[?25l[?12l[?25ht[?25l[38;56H(B[0;7m[ Writing... ](B[m[1;74H(B[0;7m [123G(B[m[38;54H(B[0;7m[ Wrote 59 lines ](B[m[?12l[?25h[37;62H[?25l[38d[J[40d[?12l[?25h[40;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ su web_d[Kadmin
+[?2004lPassword: 
+[?2004h]0;web_admin@JUHEE-NOH: /home/njh19270/linux/week03/web_service[01;32mweb_admin@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/week03/web_service[00m$ sudo docker compose stop nginx
+[?2004l[sudo] password for web_admin: 
+Sorry, user web_admin is not allowed to execute '/usr/bin/docker compose stop nginx' as root on JUHEE-NOH.localdomain.
+[?2004h]0;web_admin@JUHEE-NOH: /home/njh19270/linux/week03/web_service[01;32mweb_admin@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/week03/web_service[00m$ sudo docker compose stop nginx[C[1P nginx[1P nginx[1P nginx[1P nginxr nginxe nginxs nginxt nginxa nginxr nginxt nginx
+[?2004l[sudo] password for web_admin: 
+Sorry, user web_admin is not allowed to execute '/usr/bin/docker compose restart nginx' as root on JUHEE-NOH.localdomain.
+[?2004h]0;web_admin@JUHEE-NOH: /home/njh19270/linux/week03/web_service[01;32mweb_admin@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/week03/web_service[00m$ sudo docker compose restart nginx[3Pstop[C[C[C[C[C[C[3@restart[C[C[C[C[C[C[Ksu njh19270
+[?2004lPassword: 
+bash: SCRIPT.sh: No such file or directory
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ rm[K[Ksudo vidsu[K[K[Ksudo
+[?2004l[?2004h[?1049h[22;0;0t[1;40r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[38;56H(B[0;7m[ Reading... ](B[m[38;54H(B[0;7m[ Read 59 lines ](B[m[H(B[0;7m  GNU nano 7.2                                          /etc/sudoers.tmp                                                    [1;123H(B[m[39d(B[0;7m^G(B[m Help[39;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[39;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[40d(B[0;7m^X(B[m Exit[40;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2d[36m#[3d# This file MUST be edited with the 'visudo' command as root.[4d#[5d# Please consider adding local content in /etc/sudoers.d/ instead of[6d# directly modifying this file.[7d#[8d# See the man page for details on how to write a sudoers file.[9d#[10d[39m(B[mDefaults[38;5;208m        [39m(B[menv_reset[11dDefaults[38;5;208m        [39m(B[mmail_badpass[12dDefaults[38;5;208m        [39m(B[msecure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin"[14d[36m# This fixes CVE-2005-4890 and possibly breaks some versions of kdesu[15d# (#1011624, https://bugs.kde.org/show_bug.cgi?id=452532)[16d[39m(B[mDefaults[38;5;208m        [39m(B[muse_pty[18d[36m# This preserves proxy settings from user environments of root[19d# equivalent users (group sudo)[20d#Defaults:%sudo env_keep += "http_proxy https_proxy ftp_proxy all_proxy no_proxy"[22d# This allows running arbitrary commands, but so does ALL, and it means[23d# different sudoers have their choice of editor respected.[24d#Defaults:%sudo env_keep += "EDITOR"[26d# Completely harmless preservation of a user preference.[27d#Defaults:%sudo env_keep += "GREP_COLOR"[29d# While you shouldn't normally run git as root, you need to with etckeeper[30d#Defaults:%sudo env_keep += "GIT_AUTHOR_* GIT_COMMITTER_*"[32d# Per-user preferences; root won't have sensible values for them.[33d#Defaults:%sudo env_keep += "EMAIL DEBEMAIL DEBFULLNAME"[35d# "sudo scp" or "sudo rsync" should be able to use your SSH agent.[36d#Defaults:%sudo env_keep += "SSH_AGENT_PID SSH_AUTH_SOCK"[2d[39m(B[m[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[?12l[?25h[17d[?25l[?12l[?25h[18d[?25l[?12l[?25h[19d[?25l[?12l[?25h[20d[?25l[?12l[?25h[21d[?25l[38d[K[?12l[?25h[22d[?25l[?12l[?25h[23d[?25l[?12l[?25h[24d[?25l[?12l[?25h[25d[?25l[?12l[?25h[26d[?25l[?12l[?25h[27d[?25l[?12l[?25h[28d[?25l[?12l[?25h[29d[?25l[?12l[?25h[30d[?25l[?12l[?25h[31d[?25l[?12l[?25h[32d[?25l[?12l[?25h[33d[?25l[?12l[?25h[34d[?25l[?12l[?25h[35d[?25l[?12l[?25h[36d[?25l[?12l[?25h[37d[?25l[?12l[?25h7[2;38r8[38d
+[1;40r[37;1H[36m# Ditto for GPG agent[39m(B[m[?25l[?12l[?25h7[2;38r8[38d
+[1;40r[37;1H[36m#Defaults:%sudo env_keep += "GPG_AGENT_INFO"[39m(B[m[?25l[?12l[?25h7[2;38r8[38d
+[1;40r[37;1H[?25l[?12l[?25h7[2;38r8[38d
+[1;40r[37;1H[36m# Host alias specification[39m(B[m[?25l[?12l[?25h7[2;38r8[38d
+[1;40r[37;1H[?25l[?12l[?25h7[2;38r8[38d
+[1;40r[37;1H[36m# User alias specification[39m(B[m[?25l[?12l[?25h7[2;38r8[38d
+[1;40r[37;1H[?25l[?12l[?25h7[2;38r8[38d
+[1;40r[37;1H[36m# Cmnd alias specification[39m(B[m[?25l[?12l[?25h7[2;38r8[38d
+[1;40r[37;1H[?25l[?12l[?25h7[2;38r8[38d
+[1;40r[37;1H[36m# User privilege specification[39m(B[m[?25l[?12l[?25h7[2;38r8[38d
+[1;40r[37;1Hroot[38;5;208m    [39m(B[mALL=(ALL:ALL) ALL[?25l[?12l[?25h7[2;38r8[38d
+[1;40r[37;1H[?25l[?12l[?25h7[2;38r8[38d
+[1;40r[37;1H[36m# Members of the admin group may gain root privileges[39m(B[m[?25l[?12l[?25h7[2;38r8[38d
+[1;40r[37;1H%admin ALL=(ALL) ALL[?25l[?12l[?25h7[2;38r8[38d
+[1;40r[37;1H[?25l[?12l[?25h7[2;38r8[38d
+[1;40r[37;1H[36m# Allow members of group sudo to execute any command[39m(B[m[?25l[?12l[?25h7[2;38r8[38d
+[1;40r[37;1H%sudo[38;5;208m   [39m(B[mALL=(ALL:ALL) ALL[?25l[?12l[?25h7[2;38r8[38d
+[1;40r[37;1H[?25l[?12l[?25h7[2;38r8[38d
+[1;40r[37;1H[36m# See sudoers(5) for more information on "@include" directives:[39m(B[m[?25l[?12l[?25h7[2;38r8[38d
+[1;40r[37;1H[?25l[?12l[?25h7[2;38r8[38d
+[1;40r[37;1H@includedir /etc/sudoers.d[?25l[?12l[?25h7[2;38r8[38d
+[1;40r[37;1H[?25l[?12l[?25h7[2;38r8[38d
+[1;40r[37;1Hweb_admin ALL=(ALL) NOPASSWD: /usr/bin/docker compose restart[?25l[?12l[?25h7[2;38r8[38d
+[1;40r[37;1H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25hw[?25l[?12l[?25he[?25l[?12l[?25hb[?25l[?12l[?25h_[?25l[?12l[?25ha[?25l[?12l[?25hd[?25l[?12l[?25hm[?25l[?12l[?25hi[?25l[?12l[?25hn[?25l[?12l[?25h [?25l[?12l[?25hA[?25l[?12l[?25hL[?25l[?12l[?25hL[?25l[?12l[?25h=[?25l[?12l[?25h([?25l[?12l[?25hA[?25l[?12l[?25hL[?25l[?12l[?25hL[?25l[?12l[?25h)[?25l[?12l[?25h [?25l[?12l[?25hN[?25l[?12l[?25hO[?25l[?12l[?25hP[?25l[?12l[?25hA[?25l[?12l[?25hS[?25l[?12l[?25hS[?25l[?12l[?25hW[?25l[?12l[?25hD[?25l[?12l[?25h:[?25l[?12l[?25h [?25l[?12l[?25h/[?25l[?12l[?25hu[?25l[?12l[?25hs[?25l[?12l[?25hr[?25l[?12l[?25h/[?25l[?12l[?25hb[?25l[?12l[?25hi[?25l[?12l[?25hn[?25l[?12l[?25h/[?25l[?12l[?25hd[?25l[?12l[?25ho[?25l[?12l[?25hc[?25l[?12l[?25hk[?25l[?12l[?25he[?25l[?12l[?25hr[?25l[?12l[?25h [?25l[?12l[?25hc[?25l[?12l[?25ho[?25l[?12l[?25hm[?25l[?12l[?25hp[?25l[?12l[?25ho[?25l[?12l[?25hs[?25l[?12l[?25he[?25l[?12l[?25h [?25l[?12l[?25hr[?25l[?12l[?25he[?25l[?12l[?25hs[?25l[?12l[?25ht[?25l[?12l[?25ha[?25l[?12l[?25hr[?25l[?12l[?25ht[?25l[?12l[?25h[37d[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[36;62H[?25l[39d[J[40d[?12l[?25h[40;1H[?1049l[23;0;0t[?1l>[?2004lvisudo: /etc/sudoers.tmp unchanged
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ ls
+[?2004ldocker-compose.yml  [0m[01;34mhtml[0m
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ cd
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~[00m$ ls
+[?2004l[0m[01;32mSCRIPT.sh[0m  [01;34mlinux[0m
+[?2004h]0;njh19270@JUHEE-NOH: ~[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~[00m$ cat [K[K[K[Kcat[K[K[Kcd /etc/skel
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: /etc/skel[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/etc/skel[00m$ cat .profile
+[?2004l# ~/.profile: executed by the command interpreter for login shells.
+# This file is not read by bash(1), if ~/.bash_profile or ~/.bash_login
+# exists.
+# see /usr/share/doc/bash/examples/startup-files for examples.
+# the files are located in the bash-doc package.
+
+# the default umask is set in /etc/profile; for setting the umask
+# for ssh logins, install and configure the libpam-umask package.
+#umask 022
+
+# if running bash
+if [ -n "$BASH_VERSION" ]; then
+    # include .bashrc if it exists
+    if [ -f "$HOME/.bashrc" ]; then
+	. "$HOME/.bashrc"
+    fi
+fi
+
+# set PATH so it includes user's private bin if it exists
+if [ -d "$HOME/bin" ] ; then
+    PATH="$HOME/bin:$PATH"
+fi
+
+# set PATH so it includes user's private bin if it exists
+if [ -d "$HOME/.local/bin" ] ; then
+    PATH="$HOME/.local/bin:$PATH"
+fi
+[?2004h]0;njh19270@JUHEE-NOH: /etc/skel[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/etc/skel[00m$ sudo no[Kano .profile
+[?2004l[sudo] password for njh19270: 
+[?2004h[?1049h[22;0;0t[1;40r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[38;56H(B[0;7m[ Reading... ](B[m[38;54H(B[0;7m[ Read 27 lines ](B[m[H(B[0;7m  GNU nano 7.2                                              .profile                                                        [1;123H(B[m[39d(B[0;7m^G(B[m Help[39;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[39;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[40d(B[0;7m^X(B[m Exit[40;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2d[36m# ~/.profile: executed by the command interpreter for login shells.[3d# This file is not read by bash(1), if ~/.bash_profile or ~/.bash_login[4d# exists.[5d# see /usr/share/doc/bash/examples/startup-files for examples.[6d# the files are located in the bash-doc package.[8d# the default umask is set in /etc/profile; for setting the umask[9d# for ssh logins, install and configure the libpam-umask package.[10d#umask 022[12d# if running bash[13d[32mif[39m(B[m [32m[(B[0;1m[35m -n[39m(B[m (B[0;1m[33m"$BASH_VERSION"[39m(B[m [32m];[39m(B[m [32mthen[14;4H[36m # include .bashrc if it exists[15;5H[32mif[39m(B[m [32m[(B[0;1m[35m -f[39m(B[m (B[0;1m[33m"$HOME/.bashrc"[39m(B[m [32m];[39m(B[m [32mthen[16;9H[39m(B[m. (B[0;1m[33m"$HOME/.bashrc"[17;5H(B[0m[32mfi[18dfi[20d[36m# set PATH so it includes user's private bin if it exists[21d[32mif[39m(B[m [32m[(B[0;1m[35m -d[39m(B[m (B[0;1m[33m"$HOME/bin"[39m(B[m [32m][39m(B[m [32m;[39m(B[m [32mthen[22;5H[39m(B[mPATH[32m=(B[0;1m[33m"$HOME/bin:$PATH"[23d(B[0m[32mfi[25d[36m# set PATH so it includes user's private bin if it exists[26d[32mif[39m(B[m [32m[(B[0;1m[35m -d[39m(B[m (B[0;1m[33m"$HOME/.local/bin"[39m(B[m [32m][39m(B[m [32m;[39m(B[m [32mthen[27;5H[39m(B[mPATH[32m=(B[0;1m[33m"$HOME/.local/bin:$PATH"[28d(B[0m[32mfi[2d[39m(B[m[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[C[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8;2H[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12;2H[?25l[?12l[?25h[A[?25l[?12l[?25h[A[C[?25l[1;70H(B[0;7m*[123G(B[m[?12l[?25h[10d(B[0;1m[34mumask[39m(B[m 022[K[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[38d[K[?12l[?25h[10;7H[?25l[?12l[?25h0[?25l[?12l[?25h2[?25l[?12l[?25h2[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h7[?25l[?12l[?25h7[?25l[38;56H(B[0;7m[ Writing... ](B[m[1;70H(B[0;7m [123G(B[m[38;54H(B[0;7m[ Wrote 27 lines ](B[m[?12l[?25h[10;10H[?25l[38d[J[40d[?12l[?25h[40;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;njh19270@JUHEE-NOH: /etc/skel[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/etc/skel[00m$ sudo adduser guest2
+[?2004linfo: Adding user `guest2' ...
+info: Selecting UID/GID from range 1000 to 59999 ...
+info: Adding new group `guest2' (1004) ...
+info: Adding new user `guest2' (1004) with group `guest2 (1004)' ...
+info: Creating home directory `/home/guest2' ...
+info: Copying files from `/etc/skel' ...
+New password: 
+Retype new password: 
+passwd: password updated successfully
+Changing the user information for guest2
+Enter the new value, or press ENTER for the default
+	Full Name []: gus et st2
+	Room Number []: 
+	Work Phone []: 
+	Home Phone []: 
+	Other []: 
+Is the information correct? [Y/n] y
+info: Adding new user `guest2' to supplemental / extra groups `users' ...
+info: Adding user `guest2' to group `users' ...
+[?2004h]0;njh19270@JUHEE-NOH: /etc/skel[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/etc/skel[00m$ cd //jp[K[Khome
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: //home[01;32mnjh19270@JUHEE-NOH[00m:[01;34m//home[00m$ cd guest2
+[?2004lbash: cd: guest2: Permission denied
+[?2004h]0;njh19270@JUHEE-NOH: //home[01;32mnjh19270@JUHEE-NOH[00m:[01;34m//home[00m$ 
