@@ -1,0 +1,4101 @@
+Script started on 2026-03-27 09:29:52+09:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="120" LINES="30"]
+bash: SCRIPT.sh: No such file or directory
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ cd
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~[00m$ cd linux/week03
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ ls
+[?2004l2026_20220984_week03_2_log.txt  2026_20220984_week03_log.txt  t.txt  [0m[01;34mweb_service[0m
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ cd
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~[00m$ cd /etc/skel
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: /etc/skel[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/etc/skel[00m$ ls -al
+[?2004ltotal 20
+drwxr-xr-x  2 root root 4096 Mar 20 11:32 [0m[01;34m.[0m
+drwxr-xr-x 90 root root 4096 Mar 27 09:27 [01;34m..[0m
+-rw-r--r--  1 root root  220 Mar 31  2024 .bash_logout
+-rw-r--r--  1 root root 3771 Mar 31  2024 .bashrc
+-rw-r--r--  1 root root  806 Mar 20 11:32 .profile
+[?2004h]0;njh19270@JUHEE-NOH: /etc/skel[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/etc/skel[00m$ su -guest
+[?2004lsu: group uest does not exist
+[?2004h]0;njh19270@JUHEE-NOH: /etc/skel[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/etc/skel[00m$ su - a[Kguest
+[?2004lPassword: 
+반갑습니다유~~ Ubuntu 24.04.4 LTS (GNU/Linux 6.6.87.2-microsoft-standard-WSL2 x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Fri Mar 27 09:32:30 KST 2026
+
+  System load:  0.04                Processes:             55
+  Usage of /:   0.3% of 1006.85GB   Users logged in:       1
+  Memory usage: 5%                  IPv4 address for eth0: 172.19.111.225
+  Swap usage:   0%
+
+ * Strictly confined Kubernetes makes edge and IoT secure. Learn how MicroK8s
+   just raised the bar for easy, resilient and secure K8s cluster deployment.
+
+   https://ubuntu.com/engage/secure-kubernetes-at-the-edge
+
+This message is shown once a day. To disable it please create the
+/home/guest/.hushlogin file.
+[?2004h]0;guest@JUHEE-NOH: ~[01;32mguest@JUHEE-NOH[00m:[01;34m~[00m$ cd /etx[Kc/update-motd.d/[K
+[?2004l[?2004h]0;guest@JUHEE-NOH: /etc/update-motd.d[01;32mguest@JUHEE-NOH[00m:[01;34m/etc/update-motd.d[00m$ sudo nano 00-header
+[?2004l[sudo] password for guest: 
+guest is not in the sudoers file.
+[?2004h]0;guest@JUHEE-NOH: /etc/update-motd.d[01;32mguest@JUHEE-NOH[00m:[01;34m/etc/update-motd.d[00m$ su - njh19270
+[?2004lPassword: 
+^C
+[?2004h]0;guest@JUHEE-NOH: /etc/update-motd.d[01;32mguest@JUHEE-NOH[00m:[01;34m/etc/update-motd.d[00m$ su - njh19270
+[?2004lPassword: 
+-----------------------------------------------
+ 알림: 오늘의 로그 파일이 이미 존재합니다.
+-----------------------------------------------
+Script started on 2026-03-27 09:27:22+09:00 [TTY="/dev/pts/1" COLUMNS="-1" LINES="-1"]
+bash: SCRIPT.sh: No such file or directory
+njh19270@JUHEE-NOH:~/linux/2026-03-27$ -----------------------------------------------
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/2026-03-27[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-03-27[00m$ sudo nano 00-header
+[?2004l[sudo] password for njh19270: 
+[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;55H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 7.2                                            00-header                                                     [1;119H(B[m[29d(B[0;7m^G(B[m Help[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[29;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2d[?12l[?25h[?25l[1;69H(B[0;7m*[119G(B[m[?12l[?25h[2dp[?25l[?12l[?25hr[?25l[?12l[?25hi[?25l[?12l[?25hn[?25l[?12l[?25ht[?25l[?12l[?25hf[?25l[?12l[?25h [?25l[?12l[?25h"[?25l[?12l[?25hW[?25l[?12l[?25hl[?25l[?12l[?25he[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25he[?25l[?12l[?25hl[?25l[?12l[?25hc[?25l[?12l[?25ho[?25l[?12l[?25hm[?25l[?12l[?25he[?25l[28d[K[?12l[?25h[2;17H[?25l[?12l[?25ht[?25l[?12l[?25ho[?25l[?12l[?25h [?25l[?12l[?25h%[?25l[?12l[?25hs[?25l[?12l[?25h [?25l[?12l[?25h([?25l[?12l[?25h%[?25l[?12l[?25hs[?25l[?12l[?25h [?25l[?12l[?25hT[?25l[?12l[?25h [?25l[?12l[?25h%[?25l[?12l[?25hs[?25l[?12l[?25h [?25l[?12l[?25h%[?25l[?12l[?25hs[?25l[?12l[?25h)[?25l[?12l[?25h\[?25l[?12l[?25hn[?25l[?12l[?25h"[?25l[?12l[?25h [?25l[?12l[?25h"[?25l[?12l[?25h$[?25l[?12l[?25hD[?25l[?12l[?25hI[?25l[?12l[?25hS[?25l[?12l[?25hT[?25l[?12l[?25hR[?25l[?12l[?25hI[?25l[?12l[?25hP[?25l[?12l[?25h [?25l[?12l[?25hB[?25l[?12l[?25h_[?25l[?12l[?25hC[?25l[?12l[?25hI[?25l[?12l[?25hS[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25hD[?25l[?12l[?25hI[?25l[?12l[?25h [?25l[?12l[?25hE[?25l[?12l[?25hS[?25l[?12l[?25hC[?25l[?12l[?25hR[?25l[?12l[?25hI[?25l[?12l[?25hP[?25l[?12l[?25hT[?25l[?12l[?25hI[?25l[?12l[?25hO[?25l[?12l[?25hN[?25l[?12l[?25h"[?25l[?12l[?25h [?25l[?12l[?25h"[?25l[?12l[?25h%[?25l[?12l[?25h [?25l[?12l[?25h#[?25l[?12l[?25h [?25l[?12l[?25hS[?25l[?12l[?25h [?25l[?12l[?25h$[?25l[?12l[?25h([?25l[?12l[?25hu[?25l[?12l[?25hn[?25l[?12l[?25he[?25l[?12l[?25hm[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25ha[?25l[?12l[?25hm[?25l[?12l[?25he[?25l[?12l[?25h [?25l[?12l[?25h-[?25l[?12l[?25ho[?25l[?12l[?25h)[?25l[?12l[?25h"[?25l[?12l[?25h [?25l[?12l[?25h"[?25l[?12l[?25h$[?25l[?12l[?25hu[?25l[?12l[?25h [?25l[?12l[?25h([?25l[?12l[?25hu[?25l[?12l[?25hn[?25l[?12l[?25ha[?25l[?12l[?25hm[?25l[?12l[?25he[?25l[?12l[?25h [?25l[?12l[?25h-[?25l[?12l[?25hr[?25l[?12l[?25h)[?25l[?12l[?25h"[?25l[?12l[?25h [?25l[?12l[?25h"[?25l[?12l[?25h$[?25l[?12l[?25h([?25l[?12l[?25hU[?25l[?12l[?25hn[?25l[?12l[?25ha[?25l[?12l[?25hm[?25l[?12l[?25he[?25l[?12l[?25h [?25l[?12l[?25h-[?25l[?12l[?25hm[?25l[?12l[?25h"[?25l[3d[?12l[?25h[?25l[2;100H[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h)[?25l[?12l[?25h"[?25l[3d[?12l[?25h[?25l[?12l[?25hp[?25l[?12l[?25hr[?25l[?12l[?25hi[?25l[?12l[?25hn[?25l[?12l[?25ht[?25l[?12l[?25hf[?25l[?12l[?25h [?25l[?12l[?25h"[?25l[?12l[?25h방[?25l[?12l[?25h갑[?25l[?12l[?25h슴[?25l[?12l[?25h니[?25l[?12l[?25h다.[?25l[?12l[?25h [?25l[?12l[?25h처[?25l[?12l[?25h음 [?25l[?12l[?25h로[?25l[?12l[?25h그[?25l[?12l[?25h인 [?25l[?12l[?25h한[?25l[?12l[?25h [?25l[?12l[?25h학[?25l[?12l[?25h생[?25l[?12l[?25h은 [?25l[?12l[?25h반[?25l[?12l[?25h드[?25l[?12l[?25h시 [?25l[?12l[?25h1[?25l[?12l[?25h회 [?25l[?12l[?25h패[?25l[?12l[?25h스[?25l[?12l[?25h워[?25l[?12l[?25h드 [?25l[?12l[?25h설[?25l[?12l[?25h정[?25l[?12l[?25h이 [?25l[?12l[?25h필[?25l[?12l[?25h요[?25l[?12l[?25h함[?25l[?12l[?25h니[?25l[?12l[?25h다"[?25l[28;54H(B[0;7m[ Writing... ](B[m[1;69H(B[0;7m [119G(B[m[28;52H(B[0;7m[ Wrote 2 lines ](B[m[?12l[?25h[3;81H[?25l[28d[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux/2026-03-27[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-03-27[00m$ 겨[K[7mrun-parts /etc/update-motd.d/[27mrun-parts /etc/update-motd.d/
+[?2004l반갑습니다유~~ Ubuntu 24.04.4 LTS (GNU/Linux 6.6.87.2-microsoft-standard-WSL2 x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Fri Mar 27 09:36:52 KST 2026
+
+  System load:  0.0                 Processes:             56
+  Usage of /:   0.3% of 1006.85GB   Users logged in:       1
+  Memory usage: 5%                  IPv4 address for eth0: 172.19.111.225
+  Swap usage:   0%
+
+ * Strictly confined Kubernetes makes edge and IoT secure. Learn how MicroK8s
+   just raised the bar for easy, resilient and secure K8s cluster deployment.
+
+   https://ubuntu.com/engage/secure-kubernetes-at-the-edge
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/2026-03-27[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-03-27[00m$ [7msudo nano 00-header[27msudo nano 00-header
+[?2004l[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;54H(B[0;7m[ Reading... ](B[m[28;53H(B[0;7m[ Read 2 lines ](B[m[H(B[0;7m  GNU nano 7.2                                            00-header                                                     [1;119H(B[m[29d(B[0;7m^G(B[m Help[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[29;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2dprintf "Welcome to %s (%s %s %s)\n" "$DISTRIB_DESCRIPTION" "$(uname -o)" "$(uname -r)" "$(Uname -m)"[3dprintf "방갑슴니다. 처음 로그인 한 학생은 반드시 1회 패스워드 설정이 필요함니다"[A[?12l[?25h[?25l[28d[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux/2026-03-27[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-03-27[00m$ ㅣㄴ
+[?2004lㅣㄴ: command not found
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/2026-03-27[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-03-27[00m$ ls
+[?2004l00-header  njh19270_2026-03-27_session.log  njh19270_2026-03-27_session.tm
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/2026-03-27[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-03-27[00m$ rf- [K[K r[K-rm 00-header 
+[?2004lrf: command not found
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/2026-03-27[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-03-27[00m$ rm -[K00h[K-header 
+[?2004lrm: remove write-protected regular file '00-header'? 
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/2026-03-27[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-03-27[00m$ ls
+[?2004l00-header  njh19270_2026-03-27_session.log  njh19270_2026-03-27_session.tm
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/2026-03-27[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-03-27[00m$ lsrm 00-header [1@-[1@r[1@d[1P[1@f[1@ 
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux/2026-03-27[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-03-27[00m$ ls
+[?2004lnjh19270_2026-03-27_session.log  njh19270_2026-03-27_session.tm
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/2026-03-27[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-03-27[00m$ [7mcd /etc/update-motd.d[27mcd /etc/update-motd.d
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: /etc/update-motd.d[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/etc/update-motd.d[00m$ [7msudo nano 00-header[27msudo nano 00-header
+[?2004l[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;54H(B[0;7m[ Reading... ](B[m[28;52H(B[0;7m[ Read 29 lines ](B[m[H(B[0;7m  GNU nano 7.2                                            00-header                                                     [1;119H(B[m[29d(B[0;7m^G(B[m Help[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[29;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2d[36m#!/bin/sh[3d#[4d#    00-header - create the header of the MOTD[5d#    Copyright (C) 2009-2010 Canonical Ltd.[6d#[7d#    Authors: Dustin Kirkland <kirkland@canonical.com>[8d#[9d#    This program is free software; you can redistribute it and/or modify[10d#    it under the terms of the GNU General Public License as published by[11d#    the Free Software Foundation; either version 2 of the License, or[12d#    (at your option) any later version.[13d#[14d#    This program is distributed in the hope that it will be useful,[15d#    but WITHOUT ANY WARRANTY; without even the implied warranty of[16d#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the[17d#    GNU General Public License for more details.[18d#[19d#    You should have received a copy of the GNU General Public License along[20d#    with this program; if not, write to the Free Software Foundation, Inc.,[21d#    51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.[23d[32m[(B[0;1m[35m -r[39m(B[m /etc/lsb-release [32m][39m(B[m [32m&&[39m(B[m . /etc/lsb-release[25d[32mif[39m(B[m [32m[(B[0;1m[35m -z[39m(B[m (B[0;1m[33m"$DISTRIB_DESCRIPTION"[39m(B[m [32m][39m(B[m [32m&&[39m(B[m [32m[(B[0;1m[35m -x[39m(B[m /usr/bin/lsb_release [32m];[39m(B[m [32mthen[26;8H[36m[1K # Fall back to using the very slow lsb_release utility[27;9H[39m(B[mDISTRIB_DESCRIPTION[32m=$([39m(B[mlsb_release(B[0;1m[35m -s -d(B[0m[32m)[2d[39m(B[m[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[?12l[?25h[17d[?25l[?12l[?25h[18d[?25l[?12l[?25h[19d[?25l[?12l[?25h[20d[?25l[?12l[?25h[21d[?25l[28d[K[?12l[?25h[22d[?25l[?12l[?25h[23d[?25l[?12l[?25h[24d[?25l[?12l[?25h[25d[?25l[?12l[?25h[26d[?25l[?12l[?25h[27d[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[32mfi[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H(B[0;1m[34mprintf[39m(B[m (B[0;1m[33m"반갑습니다유~~ %s (%s %s %s)\n"[39m(B[m (B[0;1m[33m"$DISTRIB_DESCRIPTION"[39m(B[m (B[0;1m[33m"$(uname -o)"[39m(B[m (B[0;1m[33m"$(uname -r)"[39m(B[m (B[0;1m[33m"$(uname -m)"[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[29d[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;njh19270@JUHEE-NOH: /etc/update-motd.d[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/etc/update-motd.d[00m$ cd /dtx[K[K[Ke/[Ktc/skel
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: /etc/skel[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/etc/skel[00m$ cat .[[Kprofile 
+[?2004l# ~/.profile: executed by the command interpreter for login shells.
+# This file is not read by bash(1), if ~/.bash_profile or ~/.bash_login
+# exists.
+# see /usr/share/doc/bash/examples/startup-files for examples.
+# the files are located in the bash-doc package.
+
+# the default umask is set in /etc/profile; for setting the umask
+# for ssh logins, install and configure the libpam-umask package.
+umask 077
+
+# if running bash
+if [ -n "$BASH_VERSION" ]; then
+    # include .bashrc if it exists
+    if [ -f "$HOME/.bashrc" ]; then
+	. "$HOME/.bashrc"
+    fi
+fi
+
+# set PATH so it includes user's private bin if it exists
+if [ -d "$HOME/bin" ] ; then
+    PATH="$HOME/bin:$PATH"
+fi
+
+# set PATH so it includes user's private bin if it exists
+if [ -d "$HOME/.local/bin" ] ; then
+    PATH="$HOME/.local/bin:$PATH"
+fi
+[?2004h]0;njh19270@JUHEE-NOH: /etc/skel[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/etc/skel[00m$ [7mcat .bashrc[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat .bashrc
+[A
+[?2004l# ~/.bashrc: executed by bash(1) for non-login shells.
+# see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
+# for examples
+
+# If not running interactively, don't do anything
+case $- in
+    *i*) ;;
+      *) return;;
+esac
+
+# don't put duplicate lines or lines starting with space in the history.
+# See bash(1) for more options
+HISTCONTROL=ignoreboth
+
+# append to the history file, don't overwrite it
+shopt -s histappend
+
+# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
+HISTSIZE=1000
+HISTFILESIZE=2000
+
+# check the window size after each command and, if necessary,
+# update the values of LINES and COLUMNS.
+shopt -s checkwinsize
+
+# If set, the pattern "**" used in a pathname expansion context will
+# match all files and zero or more directories and subdirectories.
+#shopt -s globstar
+
+# make less more friendly for non-text input files, see lesspipe(1)
+[ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
+
+# set variable identifying the chroot you work in (used in the prompt below)
+if [ -z "${debian_chroot:-}" ] && [ -r /etc/debian_chroot ]; then
+    debian_chroot=$(cat /etc/debian_chroot)
+fi
+
+# set a fancy prompt (non-color, unless we know we "want" color)
+case "$TERM" in
+    xterm-color|*-256color) color_prompt=yes;;
+esac
+
+# uncomment for a colored prompt, if the terminal has the capability; turned
+# off by default to not distract the user: the focus in a terminal window
+# should be on the output of commands, not on the prompt
+#force_color_prompt=yes
+
+if [ -n "$force_color_prompt" ]; then
+    if [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then
+	# We have color support; assume it's compliant with Ecma-48
+	# (ISO/IEC-6429). (Lack of such support is extremely rare, and such
+	# a case would tend to support setf rather than setaf.)
+	color_prompt=yes
+    else
+	color_prompt=
+    fi
+fi
+
+if [ "$color_prompt" = yes ]; then
+    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+else
+    PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
+fi
+unset color_prompt force_color_prompt
+
+# If this is an xterm set the title to user@host:dir
+case "$TERM" in
+xterm*|rxvt*)
+    PS1="\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1"
+    ;;
+*)
+    ;;
+esac
+
+# enable color support of ls and also add handy aliases
+if [ -x /usr/bin/dircolors ]; then
+    test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
+    alias ls='ls --color=auto'
+    #alias dir='dir --color=auto'
+    #alias vdir='vdir --color=auto'
+
+    alias grep='grep --color=auto'
+    alias fgrep='fgrep --color=auto'
+    alias egrep='egrep --color=auto'
+fi
+
+# colored GCC warnings and errors
+#export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
+
+# some more ls aliases
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+
+# Add an "alert" alias for long running commands.  Use like so:
+#   sleep 10; alert
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+
+# Alias definitions.
+# You may want to put all your additions into a separate file like
+# ~/.bash_aliases, instead of adding them here directly.
+# See /usr/share/doc/bash-doc/examples in the bash-doc package.
+
+if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
+fi
+
+# enable programmable completion features (you don't need to enable
+# this, if it's already enabled in /etc/bash.bashrc and /etc/profile
+# sources /etc/bash.bashrc).
+if ! shopt -oq posix; then
+  if [ -f /usr/share/bash-completion/bash_completion ]; then
+    . /usr/share/bash-completion/bash_completion
+  elif [ -f /etc/bash_completion ]; then
+    . /etc/bash_completion
+  fi
+fi
+[?2004h]0;njh19270@JUHEE-NOH: /etc/skel[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/etc/skel[00m$ [7msudo nano .bashrc[27msudo nano .bashrc
+[?2004l[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;54H(B[0;7m[ Reading... ](B[m[28;52H(B[0;7m[ Read 117 lines ](B[m[H(B[0;7m  GNU nano 7.2                                             .bashrc                                                      [1;119H(B[m[29d(B[0;7m^G(B[m Help[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[29;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2d[36m# ~/.bashrc: executed by bash(1) for non-login shells.[3d# see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)[4d# for examples[6d# If not running interactively, don't do anything[7d[32mcase[39m(B[m (B[0;1m[31m$-[39m(B[m [32min[8;5H[39m(B[m*i*[32m)[39m(B[m [32m;;[9;7H[39m(B[m*[32m)[39m(B[m [32mreturn;;[10desac[12d[36m# don't put duplicate lines or lines starting with space in the history.[13d# See bash(1) for more options[14d[39m(B[mHISTCONTROL[32m=[39m(B[mignoreboth[16d[36m# append to the history file, don't overwrite it[17d[39m(B[mshopt(B[0;1m[35m -s[39m(B[m histappend[19d[36m# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)[20d[39m(B[mHISTSIZE[32m=[39m(B[m1000[21dHISTFILESIZE[32m=[39m(B[m2000[23d[36m# check the window size after each command and, if necessary,[24d# update the values of LINES and COLUMNS.[25d[39m(B[mshopt(B[0;1m[35m -s[39m(B[m checkwinsize[27d[36m# If set, the pattern (B[0;1m[33m"**"(B[0m[36m used in a pathname expansion context will[2d[39m(B[m[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[?12l[?25h[17d[?25l[?12l[?25h[18d[?25l[?12l[?25h[19d[?25l[?12l[?25h[20d[?25l[?12l[?25h[21d[?25l[28d[K[?12l[?25h[22d[?25l[?12l[?25h[23d[?25l[?12l[?25h[24d[?25l[?12l[?25h[25d[?25l[?12l[?25h[26d[?25l[?12l[?25h[27d[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[36m# match all files and zero or more directories and subdirectories.[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[36m#shopt -s globstar[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[36m# make less more friendly for non-text input files, see lesspipe(1)[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[32m[(B[0;1m[35m -x[39m(B[m /usr/bin/lesspipe [32m][39m(B[m [32m&&[39m(B[m [32meval[39m(B[m (B[0;1m[33m"$(SHELL=/bin/sh lesspipe)"[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[36m# set variable identifying the chroot you work in (used in the prompt below)[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[32mif[39m(B[m [32m[(B[0;1m[35m -z[39m(B[m (B[0;1m[33m"${debian_chroot:-}"[39m(B[m [32m][39m(B[m [32m&&[39m(B[m [32m[(B[0;1m[35m -r[39m(B[m /etc/debian_chroot [32m];[39m(B[m [32mthen[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;5Hdebian_chroot[32m=$((B[0;1m[34mcat[39m(B[m /etc/debian_chroot[32m)[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[32mfi[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[36m# set a fancy prompt (non-color, unless we know we (B[0;1m[33m"want"(B[0m[36m color)[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[32mcase[39m(B[m (B[0;1m[33m"$TERM"[39m(B[m [32min[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;5Hxterm-color[32m|[39m(B[m*-256color[32m)[39m(B[m color_prompt[32m=[39m(B[myes[32m;;[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[32mesac[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[36m# uncomment for a colored prompt, if the terminal has the capability; turned[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[36m# off by default to not distract the user: the focus in a terminal window[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[36m# should be on the output of commands, not on the prompt[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[36m#force_color_prompt=yes[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[32mif[39m(B[m [32m[(B[0;1m[35m -n[39m(B[m (B[0;1m[33m"$force_color_prompt"[39m(B[m [32m];[39m(B[m [32mthen[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;5H[32mif[39m(B[m [32m[(B[0;1m[35m -x[39m(B[m /usr/bin/tput [32m][39m(B[m [32m&&[39m(B[m tput setaf 1 [32m>&[39m(B[m/dev/null[32m;[39m(B[m [32mthen[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;8H[36m[1K # We have color support; assume it's compliant with Ecma-48[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;8H[36m[1K # (ISO/IEC-6429). (Lack of such support is extremely rare, and such[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;8H[36m[1K # a case would tend to support setf rather than setaf.)[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;9Hcolor_prompt[32m=[39m(B[myes[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;5H[32melse[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;9Hcolor_prompt[32m=[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;5H[32mfi[39m(B[m[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[26d[?25l[?12l[?25h[27d[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[32mfi[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[32mif[39m(B[m [32m[[39m(B[m (B[0;1m[33m"$color_prompt"[39m(B[m [32m=[39m(B[m yes [32m];[39m(B[m [32mthen[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;5HPS1[32m=(B[0;1m[33m'${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[32melse[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;5HPS1[32m=(B[0;1m[33m'${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[32mfi[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H(B[0;1m[34munset[39m(B[m color_prompt force_color_prompt[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[36m# If this is an xterm set the title to user@host:dir[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[32mcase[39m(B[m (B[0;1m[33m"$TERM"[39m(B[m [32min[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1Hxterm*[32m|[39m(B[mrxvt*[32m)[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;5HPS1[32m=(B[0;1m[33m"\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1"[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;5H[32m;;[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H*[32m)[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;5H[32m;;[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[32mesac[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[36m# enable color support of ls and also add handy aliases[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[32mif[39m(B[m [32m[(B[0;1m[35m -x[39m(B[m /usr/bin/dircolors [32m];[39m(B[m [32mthen[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;5Htest(B[0;1m[35m -r[39m(B[m ~/.dircolors [32m&&[39m(B[m [32meval[39m(B[m (B[0;1m[33m"$(dircolors -b ~/.dircolors)"[39m(B[m [32m||[39m(B[m [32meval[39m(B[m (B[0;1m[33m"$(dircolors -b)"[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;5Halias ls[32m=(B[0;1m[33m'ls --color=auto'[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;4H[36m #alias dir=(B[0;1m[33m'dir --color=auto'[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;4H[36m #alias vdir=(B[0;1m[33m'vdir --color=auto'[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;5Halias (B[0;1m[34mgrep(B[0m[32m=(B[0;1m[33m'grep --color=auto'[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;5Halias fgrep[32m=(B[0;1m[33m'fgrep --color=auto'[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;5Halias egrep[32m=(B[0;1m[33m'egrep --color=auto'[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[32mfi[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[36m# colored GCC warnings and errors[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[36m#export GCC_COLORS=(B[0;1m[33m'error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[36m# some more ls aliases[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1Halias ll[32m=(B[0;1m[33m'ls -alF'[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1Halias la[32m=(B[0;1m[33m'ls -A'[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1Halias l[32m=(B[0;1m[33m'ls -CF'[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[36m# Add an (B[0;1m[33m"alert"(B[0m[36m alias for long running commands.  Use like so:[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[36m#   sleep 10; alert[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1Halias alert[32m=(B[0;1m[33m'notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '(B[0m[32m\(B[0;1m[33m'[39m(B[0;7m>[27;1H(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[36m# Alias definitions.[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[36m# You may want to put all your additions into a separate file like[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[36m# ~/.bash_aliases, instead of adding them here directly.[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[36m# See /usr/share/doc/bash-doc/examples in the bash-doc package.[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[32mif[39m(B[m [32m[(B[0;1m[35m -f[39m(B[m ~/.bash_aliases [32m];[39m(B[m [32mthen[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;5H. ~/.bash_aliases[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[32mfi[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[36m# enable programmable completion features (you don't need to enable[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[36m# this, if it's already enabled in /etc/bash.bashrc and /etc/profile[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[36m# sources /etc/bash.bashrc).[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[32mif[39m(B[m [32m![39m(B[m shopt -oq posix[32m;[39m(B[m [32mthen[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;3H[32mif[39m(B[m [32m[(B[0;1m[35m -f[39m(B[m /usr/share/bash-completion/bash_completion [32m];[39m(B[m [32mthen[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;5H. /usr/share/bash-completion/bash_completion[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;3H[32melif[39m(B[m [32m[(B[0;1m[35m -f[39m(B[m /etc/bash_completion [32m];[39m(B[m [32mthen[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;5H. /etc/bash_completion[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;3H[32mfi[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[32mfi[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h7[2;28r8M[1;30r[2;1Halias la[32m=(B[0;1m[33m'ls -A'[39m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;1Halias ll[32m=(B[0;1m[33m'ls -alF'[39m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[36m# some more ls aliases[39m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[36m#export GCC_COLORS=(B[0;1m[33m'error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'[39m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[36m# colored GCC warnings and errors[39m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[32mfi[39m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;5Halias egrep[32m=(B[0;1m[33m'egrep --color=auto'[39m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;5Halias fgrep[32m=(B[0;1m[33m'fgrep --color=auto'[39m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;5Halias (B[0;1m[34mgrep(B[0m[32m=(B[0;1m[33m'grep --color=auto'[39m(B[m[?25l[?12l[?25h7[2;28r8M[1;30r[2;1H[?25l[?12l[?25h7[2;27r8M[1;30r[2;4H[36m #alias vdir=(B[0;1m[33m'vdir --color=auto'[39m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;4H[36m #alias dir=(B[0;1m[33m'dir --color=auto'[39m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;5Halias ls[32m=(B[0;1m[33m'ls --color=auto'[39m(B[m[?25l[?12l[?25h7[2;28r8M[1;30r[2;5Htest(B[0;1m[35m -r[39m(B[m ~/.dircolors [32m&&[39m(B[m [32meval[39m(B[m (B[0;1m[33m"$(dircolors -b ~/.dircolors)"[39m(B[m [32m||[39m(B[m [32meval[39m(B[m (B[0;1m[33m"$(dircolors -b)"[39m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[32mif[39m(B[m [32m[(B[0;1m[35m -x[39m(B[m /usr/bin/dircolors [32m];[39m(B[m [32mthen[39m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[36m# enable color support of ls and also add handy aliases[39m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[32mesac[39m(B[m[?25l[?12l[?25h7[2;28r8M[1;30r[2;5H[32m;;[39m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H*[32m)[39m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;5H[32m;;[39m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;5HPS1[32m=(B[0;1m[33m"\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1"[39m(B[m[?25l[?12l[?25h7[2;28r8M[1;30r[2;1Hxterm*[32m|[39m(B[mrxvt*[32m)[39m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[32mcase[39m(B[m (B[0;1m[33m"$TERM"[39m(B[m [32min[39m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[36m# If this is an xterm set the title to user@host:dir[39m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H(B[0;1m[34munset[39m(B[m color_prompt force_color_prompt[?25l[?12l[?25h7[2;28r8M[1;30r[2;1H[32mfi[39m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;5HPS1[32m=(B[0;1m[33m'${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '[39m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[32melse[39m(B[m[?25l[?12l[?25h7[2;28r8M[1;30r[2;5HPS1[32m=(B[0;1m[33m'${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '[39m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[32mif[39m(B[m [32m[[39m(B[m (B[0;1m[33m"$color_prompt"[39m(B[m [32m=[39m(B[m yes [32m];[39m(B[m [32mthen[39m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[32mfi[39m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;5H[32mfi[39m(B[m[?25l[?12l[?25h7[2;28r8M[1;30r[2;9Hcolor_prompt[32m=[39m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;5H[32melse[39m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;9Hcolor_prompt[32m=[39m(B[myes[?25l[?12l[?25h7[2;27r8M[1;30r[2;8H[36m[1K # a case would tend to support setf rather than setaf.)[39m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;8H[36m[1K # (ISO/IEC-6429). (Lack of such support is extremely rare, and such[39m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;8H[36m[1K # We have color support; assume it's compliant with Ecma-48[39m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;5H[32mif[39m(B[m [32m[(B[0;1m[35m -x[39m(B[m /usr/bin/tput [32m][39m(B[m [32m&&[39m(B[m tput setaf 1 [32m>&[39m(B[m/dev/null[32m;[39m(B[m [32mthen[39m(B[m[?25l[?12l[?25h7[2;28r8M[1;30r[2;1H[32mif[39m(B[m [32m[(B[0;1m[35m -n[39m(B[m (B[0;1m[33m"$force_color_prompt"[39m(B[m [32m];[39m(B[m [32mthen[39m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[36m#force_color_prompt=yes[39m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[36m# should be on the output of commands, not on the prompt[39m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[36m# off by default to not distract the user: the focus in a terminal window[39m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[36m# uncomment for a colored prompt, if the terminal has the capability; turned[39m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[32mesac[39m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;5Hxterm-color[32m|[39m(B[m*-256color[32m)[39m(B[m color_prompt[32m=[39m(B[myes[32m;;[39m(B[m[?25l[?12l[?25h7[2;28r8M[1;30r[2;1H[32mcase[39m(B[m (B[0;1m[33m"$TERM"[39m(B[m [32min[39m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[36m# set a fancy prompt (non-color, unless we know we (B[0;1m[33m"want"(B[0m[36m color)[39m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[32mfi[39m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;5Hdebian_chroot[32m=$((B[0;1m[34mcat[39m(B[m /etc/debian_chroot[32m)[39m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[32mif[39m(B[m [32m[(B[0;1m[35m -z[39m(B[m (B[0;1m[33m"${debian_chroot:-}"[39m(B[m [32m][39m(B[m [32m&&[39m(B[m [32m[(B[0;1m[35m -r[39m(B[m /etc/debian_chroot [32m];[39m(B[m [32mthen[39m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[36m# set variable identifying the chroot you work in (used in the prompt below)[39m(B[m[?25l[?12l[?25h7[2;28r8M[1;30r[2;1H[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[32m[(B[0;1m[35m -x[39m(B[m /usr/bin/lesspipe [32m][39m(B[m [32m&&[39m(B[m [32meval[39m(B[m (B[0;1m[33m"$(SHELL=/bin/sh lesspipe)"[39m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[36m# make less more friendly for non-text input files, see lesspipe(1)[39m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[36m#shopt -s globstar[39m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[36m# match all files and zero or more directories and subdirectories.[39m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[36m# If set, the pattern (B[0;1m[33m"**"(B[0m[36m used in a pathname expansion context will[39m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[?25l[?12l[?25h7[2;27r8M[1;30r[2;1Hshopt(B[0;1m[35m -s[39m(B[m checkwinsize[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[36m# update the values of LINES and COLUMNS.[39m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[36m# check the window size after each command and, if necessary,[39m(B[m[?25l[?12l[?25h7[2;28r8M[1;30r[2;1H[?25l[?12l[?25h7[2;27r8M[1;30r[2;1HHISTFILESIZE[32m=[39m(B[m2000[?25l[?12l[?25h7[2;27r8M[1;30r[2;1HHISTSIZE[32m=[39m(B[m1000[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[36m# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)[39m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[?25l[?12l[?25h7[2;28r8M[1;30r[2;1Hshopt(B[0;1m[35m -s[39m(B[m histappend[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[36m# append to the history file, don't overwrite it[39m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[?25l[?12l[?25h7[2;27r8M[1;30r[2;1HHISTCONTROL[32m=[39m(B[mignoreboth[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[36m# See bash(1) for more options[39m(B[m[?25l[?12l[?25h7[2;28r8M[1;30r[2;1H[36m# don't put duplicate lines or lines starting with space in the history.[39m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[32mesac[39m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;7H*[32m)[39m(B[m [32mreturn;;[39m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;5H*i*[32m)[39m(B[m [32m;;[39m(B[m[?25l[?12l[?25h7[2;28r8M[1;30r[2;1H[32mcase[39m(B[m (B[0;1m[31m$-[39m(B[m [32min[39m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[36m# If not running interactively, don't do anything[39m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[?25l[?12l[?25h7[2;28r8M[1;30r[2;1H[36m# for examples[39m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[36m# see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)[39m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[36m# ~/.bashrc: executed by bash(1) for non-login shells.[39m(B[m[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[?12l[?25h[17d[?25l[?12l[?25h[18d[?25l[?12l[?25h[19d[?25l[?12l[?25h[20d[?25l[?12l[?25h[21d[?25l[?12l[?25h[22d[?25l[?12l[?25h[23d[?25l[?12l[?25h[24d[?25l[?12l[?25h[25d[?25l[?12l[?25h[26d[?25l[?12l[?25h[27d[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[36m# match all files and zero or more directories and subdirectories.[39m(B[m[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[21d[?25l[1;68H(B[0;7m*[119G(B[m[21;27r[21;1HM[1;30r[22;1H[?12l[?25h[?25l[?12l[?25he[?25l[?12l[?25hx[?25l[?12l[?25hp[?25l[?12l[?25ho[?25l[?12l[?25hr[?25l[?12l[?25h[32mexport[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h H[?25l[?12l[?25hi[?25l[?12l[?25hs[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25hI[?25l[?12l[?25hS[?25l[?12l[?25hT[?25l[?12l[?25hI[?25l[?12l[?25hM[?25l[?12l[?25hE[?25l[?12l[?25hF[?25l[?12l[?25hO[?25l[?12l[?25hR[?25l[?12l[?25hM[?25l[?12l[?25hA[?25l[?12l[?25hT[?25l[?12l[?25hE[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [?25l[?12l[?25h[32m=[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[32m=[39m[42m [49m(B[m[K[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25h"[?25l[?12l[?25h[32m[[39m(B[m[?25l[?12l[?25h%[?25l[?12l[?25hY[?25l[?12l[?25h-[?25l[?12l[?25h%[?25l[?12l[?25hm[?25l[?12l[?25h-[?25l[?12l[?25h%[?25l[?12l[?25hd[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h %[?25l[?12l[?25hH[?25l[?12l[?25h[32m:[39m(B[m[?25l[?12l[?25h%[?25l[?12l[?25hM[?25l[?12l[?25h[32m:[39m(B[m[?25l[?12l[?25h%[?25l[?12l[?25hS[?25l[?12l[?25h[32m][39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[22;22H(B[0;1m[33m"[%Y-%m-%d %H:%M:%S] "[39m(B[m[?25l[28;54H(B[0;7m[ Writing... ](B[m[1;68H(B[0;7m [119G(B[m[28;51H(B[0;7m[ Wrote 118 lines ](B[m[?12l[?25h[22;44H[?25l[28d[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;njh19270@JUHEE-NOH: /etc/skel[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/etc/skel[00m$ [7msudo nano create_user.sh[27msudo nano create_user.sh
+[?2004l[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;55H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 7.2                                         create_user.sh                                                   [1;119H(B[m[29d(B[0;7m^G(B[m Help[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[29;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2d[?12l[?25h[?25l[?12l[?25h[?25l[1;71H(B[0;7m*[119G(B[m[2d[42m [28d[49m(B[m[K[2;2H[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l[28;50H(B[0;1m[37m[41m[ Cutbuffer is empty ][39;49m(B[m[?12l[?25h[2;4H[?25l[28;72H[?12l[?25h[2;4H[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[?12l[?25h[?25l[?12l[?25h[?25l[28;72H[?12l[?25h[2d[?25l[?12l[?25h[36m#[39m(B[m[?25l[?12l[?25h[36m~[39m(B[m[?25l[?12l[?25h [?25l[?12l[?25h[36m![39m(B[m[?25l[?12l[?25h[36m/[39m(B[m[?25l[?12l[?25h[36mb[39m(B[m[?25l[?12l[?25h[36mi[39m(B[m[?25l[?12l[?25h[36mn[39m(B[m[?25l[?12l[?25h[36m/[39m(B[m[?25l[?12l[?25h[36mb[39m(B[m[?25l[?12l[?25h[36ma[39m(B[m[?25l[?12l[?25h[36ms[39m(B[m[?25l[?12l[?25h[36mh[39m(B[m[?25l[3d[?12l[?25h[?25l[?12l[?25hf[?25l[?12l[?25ho[?25l[?12l[?25h[32mfor[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h i[?25l[28d[K[?12l[?25h[3;6H[42m [49m(B[m[?25l[?12l[?25h i[?25l[?12l[?25h[32min[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [32m{[39m(B[m[?25l[?12l[?25h1[?25l[?12l[?25h.[?25l[?12l[?25h.[?25l[?12l[?25h.[?25l[?12l[?25h [?25l[?12l[?25h2[?25l[?12l[?25h0[?25l[?12l[?25h[32m}[39m(B[m[?25l[4d[?12l[?25h[?25l[?12l[?25hd[?25l[?12l[?25h[32mdo[39m(B[m[?25l[5d[?12l[?25h[?25l[?12l[?25h[8G[42m[1K [49m(B[m[?25l[?12l[?25h[K[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[4;3H[?12l[?25h[?25l[?12l[?25hd[K[?25l[?12l[?25h[K[?25l[3;17H[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25hi[K[?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25hfo[K[?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[2;12H[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[28d(B[0;7mSave modified buffer?                                                                                                   [29;1H Y(B[m Yes[K[30d(B[0;7m N(B[m No  [30;16H (B[0;7m^C(B[m Cancel[K[28;23H[?12l[?25h[?25l[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;njh19270@JUHEE-NOH: /etc/skel[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/etc/skel[00m$ ls
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: /etc/skel[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/etc/skel[00m$ ls -al
+[?2004ltotal 20
+drwxr-xr-x  2 root root 4096 Mar 27 09:42 [0m[01;34m.[0m
+drwxr-xr-x 90 root root 4096 Mar 27 09:27 [01;34m..[0m
+-rw-r--r--  1 root root  220 Mar 31  2024 .bash_logout
+-rw-r--r--  1 root root 3815 Mar 27 09:41 .bashrc
+-rw-r--r--  1 root root  806 Mar 20 11:32 .profile
+[?2004h]0;njh19270@JUHEE-NOH: /etc/skel[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/etc/skel[00m$ sudo vd[K[Knano [K[K[K[K[K[K[K[K[K[Kcode create_user.sh
+[?2004lCommand 'code' not found, but can be installed with:
+sudo snap install code
+[?2004h]0;njh19270@JUHEE-NOH: /etc/skel[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/etc/skel[00m$ code create_user.sh.
+[?2004lCommand 'code' not found, but can be installed with:
+sudo snap install code
+[?2004h]0;njh19270@JUHEE-NOH: /etc/skel[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/etc/skel[00m$ code create_user.sh.[K[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcode
+[?2004lCommand 'code' not found, but can be installed with:
+sudo snap install code
+[?2004h]0;njh19270@JUHEE-NOH: /etc/skel[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/etc/skel[00m$ sudo code create_user
+[?2004lsudo: code: command not found
+[?2004h]0;njh19270@JUHEE-NOH: /etc/skel[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/etc/skel[00m$ cd
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~[00m$ cd linux/
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux[00m$ cd week0
+[?2004l-bash: cd: week0: No such file or directory
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux[00m$ cd week03
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ code nan[K[K[Kcreate_user.h[Ksh
+[?2004lCommand 'code' not found, but can be installed with:
+sudo snap install code
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ sudo nano create_user.js[K[Ksh
+[?2004l[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;55H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 7.2                                         create_user.sh                                                   [1;119H(B[m[29d(B[0;7m^G(B[m Help[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[29;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2d[?12l[?25h[?25l[1;71H(B[0;7m*[119G(B[m[28d[K[2d[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25hd[?25l[?12l[?25hp[?25l[?12l[?25hd[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25hc[?25l[?12l[?25h[K[?25l[28d(B[0;7mSave modified buffer?                                                                                                   [29;1H Y(B[m Yes[K[30d(B[0;7m N(B[m No  [30;16H (B[0;7m^C(B[m Cancel[K[28;23H[?12l[?25h[?25l[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ 
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ code
+[?2004lCommand 'code' not found, but can be installed with:
+sudo snap install code
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ t[Kypic[K[K[K[Ktou[K[K[Ksudo touch create.sh[K[K[K[Ke_user.sh
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ ls
+[?2004l2026_20220984_week03_2_log.txt  2026_20220984_week03_log.txt  create_user.sh  t.txt  [0m[01;34mweb_service[0m
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ c[Kls- al
+[?2004lCommand 'ls-' not found, did you mean:
+  command 'lsd' from snap lsd (0.16.0)
+  command 'lsw' from deb suckless-tools (47-1)
+  command 'lsm' from deb lsm (1.0.4-2)
+  command 'ls' from deb coreutils (9.4-3ubuntu6.1)
+  command 'lsh' from deb lsh-client (2.1-14)
+  command 'lsd' from deb lsd (0.23.1-8)
+  command 'lsc' from deb livescript (1.6.1+dfsg-3)
+See 'snap info <snapname>' for additional versions.
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ ls -l
+[?2004ltotal 148
+-rw-r--r-- 1 njh19270 njh19270 56419 Mar 27 09:59 2026_20220984_week03_2_log.txt
+-rw-r--r-- 1 njh19270 njh19270 52354 Mar 20 11:51 2026_20220984_week03_log.txt
+-rw-r--r-- 1 root     root         0 Mar 27 09:56 create_user.sh
+-rw-r--r-- 1 njh19270 njh19270 21193 Mar 27 09:59 t.txt
+drwxr-xr-x 3 njh19270 njh19270  4096 Mar 20 09:27 [0m[01;34mweb_service[0m
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ l[Kcd //
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: //[01;32mnjh19270@JUHEE-NOH[00m:[01;34m//[00m$ l[Kcd ..
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: //[01;32mnjh19270@JUHEE-NOH[00m:[01;34m//[00m$ ls
+[?2004l[0m[01;34mDocker[0m             [01;34mdev[0m   [01;36mlib[0m                [01;34mmedia[0m  [01;34mroot[0m                [01;34msnap[0m  [01;34musr[0m        [01;34mwslegeObD[0m  [01;34mwsljdeiGF[0m
+[01;36mbin[0m                [01;34metc[0m   [01;34mlib.usr-is-merged[0m  [01;34mmnt[0m    [01;34mrun[0m                 [01;34msrv[0m   [01;34mvar[0m        [01;34mwslflHGED[0m  [01;34mwsljmIfHF[0m
+[01;34mbin.usr-is-merged[0m  [01;34mhome[0m  [01;36mlib64[0m              [01;34mopt[0m    [01;36msbin[0m                [01;34msys[0m   [01;34mwslNAKlHF[0m  [01;34mwslhaPJHF[0m  [01;34mwslmCMmFF[0m
+[01;34mboot[0m               [01;32minit[0m  [01;34mlost+found[0m         [01;34mproc[0m   [01;34msbin.usr-is-merged[0m  [30;42mtmp[0m   [01;34mwslOElAEF[0m  [01;34mwsliANIGF[0m  [01;34mwslpKnmGF[0m
+[?2004h]0;njh19270@JUHEE-NOH: //[01;32mnjh19270@JUHEE-NOH[00m:[01;34m//[00m$ cd /home/cd[K[Kl[K
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: /home[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/home[00m$ ;
+[?2004l-bash: syntax error near unexpected token `;'
+[?2004h]0;njh19270@JUHEE-NOH: /home[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/home[00m$ ls
+[?2004l[0m[01;34mguest[0m  [01;34mguest2[0m  [01;34mnjh19270[0m  [01;34mweb_admin[0m
+[?2004h]0;njh19270@JUHEE-NOH: /home[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/home[00m$ cd mj[K[Knjh19270/
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~[00m$ ls
+[?2004l2026_20220984_week03_2_log.txt  [0m[01;32mSCRIPT.sh[0m  [01;34mlinux[0m  t.txt
+[?2004h]0;njh19270@JUHEE-NOH: ~[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~[00m$ ls -al
+[?2004ltotal 172
+drwxr-x--- 11 njh19270 njh19270  4096 Mar 27 09:55 [0m[01;34m.[0m
+drwxr-xr-x  6 root     root      4096 Mar 20 11:34 [01;34m..[0m
+lrwxrwxrwx  1 njh19270 njh19270    22 Aug 11  2025 [01;36m.aws[0m -> [34;42m/mnt/c/Users/User/.aws[0m
+lrwxrwxrwx  1 njh19270 njh19270    24 Aug 11  2025 [01;36m.azure[0m -> [34;42m/mnt/c/Users/User/.azure[0m
+-rw-------  1 njh19270 njh19270  5774 Mar 20 11:51 .bash_history
+-rw-r--r--  1 njh19270 njh19270   220 Aug 11  2025 .bash_logout
+-rw-r--r--  1 njh19270 njh19270  3788 Mar 20 08:48 .bashrc
+drwx------  3 njh19270 njh19270  4096 Mar 27 09:55 [01;34m.cache[0m
+drwx------  3 njh19270 njh19270  4096 Mar 27 09:55 [01;34m.copilot[0m
+drwxr-xr-x  4 njh19270 njh19270  4096 Aug 11  2025 [01;34m.docker[0m
+drwxr-xr-x  3 njh19270 njh19270  4096 Mar 27 09:55 [01;34m.dotnet[0m
+-rw-------  1 njh19270 njh19270    72 Mar 20 11:49 .git-credentials
+-rw-r--r--  1 njh19270 njh19270    89 Mar 13 10:40 .gitconfig
+drwxr-xr-x  2 njh19270 njh19270  4096 Aug 11  2025 [01;34m.landscape[0m
+-rw-------  1 njh19270 njh19270    20 Mar 13 09:51 .lesshst
+drwxr-xr-x  3 njh19270 docker    4096 Mar 13 11:36 [01;34m.local[0m
+-rw-r--r--  1 njh19270 njh19270     0 Mar 27 09:27 .motd_shown
+-rw-r--r--  1 njh19270 njh19270   807 Aug 11  2025 .profile
+-rw-r--r--  1 njh19270 njh19270     0 Mar 13 09:34 .sudo_as_admin_successful
+drwxr-xr-x  3 njh19270 njh19270  4096 Mar 27 09:55 [01;34m.vscode-remote-containers[0m
+drwxr-xr-x  5 njh19270 njh19270  4096 Mar 27 09:55 [01;34m.vscode-server[0m
+-rw-r--r--  1 njh19270 njh19270 60537 Mar 27 09:59 2026_20220984_week03_2_log.txt
+-rwxr-xr-x  1 njh19270 njh19270  1790 Mar 20 08:45 [01;32mSCRIPT.sh[0m
+drwxr-xr-x  8 njh19270 njh19270  4096 Mar 27 09:27 [01;34mlinux[0m
+-rw-r--r--  1 njh19270 njh19270 21894 Mar 27 09:59 t.txt
+[?2004h]0;njh19270@JUHEE-NOH: ~[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~[00m$ cd linux/
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux[00m$ ls
+[?2004l[0m[01;34m2026-03-20[0m  [01;34m2026-03-24[0m  [01;34m2026-03-27[0m  [01;34mweek02[0m  [01;34mweek03[0m
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux[00m$ cd week03
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ ls
+[?2004l2026_20220984_week03_2_log.txt  2026_20220984_week03_log.txt  create_user.sh  t.txt  [0m[01;34mweb_service[0m
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ ls -al
+[?2004ltotal 164
+drwxr-xr-x 3 njh19270 njh19270  4096 Mar 27 09:56 [0m[01;34m.[0m
+drwxr-xr-x 8 njh19270 njh19270  4096 Mar 27 09:27 [01;34m..[0m
+-rw-r--r-- 1 njh19270 njh19270 61505 Mar 27 10:00 2026_20220984_week03_2_log.txt
+-rw-r--r-- 1 njh19270 njh19270 52354 Mar 20 11:51 2026_20220984_week03_log.txt
+-rw-r--r-- 1 root     root         0 Mar 27 09:56 create_user.sh
+-rw-r--r-- 1 njh19270 njh19270 22481 Mar 27 10:00 t.txt
+drwxr-xr-x 3 njh19270 njh19270  4096 Mar 20 09:27 [01;34mweb_service[0m
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ rm [K[K[Krm create_user.sh 
+[?2004lrm: remove write-protected regular empty file 'create_user.sh'? Y
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ sudo [K[K[K[K[Ksudo [K[K[K[K[Knano[K[K[K[Ktouch create_user.sh
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ ls -al
+[?2004ltotal 164
+drwxr-xr-x 3 njh19270 njh19270  4096 Mar 27 10:00 [0m[01;34m.[0m
+drwxr-xr-x 8 njh19270 njh19270  4096 Mar 27 09:27 [01;34m..[0m
+-rw-r--r-- 1 njh19270 njh19270 62569 Mar 27 10:00 2026_20220984_week03_2_log.txt
+-rw-r--r-- 1 njh19270 njh19270 52354 Mar 20 11:51 2026_20220984_week03_log.txt
+-rw-rw-r-- 1 njh19270 njh19270     0 Mar 27 10:00 create_user.sh
+-rw-r--r-- 1 njh19270 njh19270 23419 Mar 27 10:00 t.txt
+drwxr-xr-x 3 njh19270 njh19270  4096 Mar 20 09:27 [01;34mweb_service[0m
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$  [7msudo touch readme.txt[27msudo touch readme.txt
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ rm readme.txt
+[?2004lrm: remove write-protected regular empty file 'readme.txt'? y
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ ls
+[?2004l2026_20220984_week03_2_log.txt  2026_20220984_week03_log.txt  create_user.sh  t.txt  [0m[01;34mweb_service[0m
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ cd /etx/[K[Kc/skel/
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: /etc/skel[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/etc/skel[00m$ ^?[K[7msudo touch readme.txt[27msudo touch readme.txt
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: /etc/skel[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/etc/skel[00m$ nano readme.txt 
+[?2004l[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;44H(B[0;1m[37m[41m[ Directory '.' is not writable ][39;49m(B[m[28;43H(B[0;1m[37m[41m[ File 'readme.txt' is unwritable ][39;49m(B[m[H(B[0;7m  GNU nano 7.2                                           readme.txt                                                     [1;119H(B[m[29d(B[0;7m^G(B[m Help[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[29;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2d[?12l[?25h[?25l[1;69H(B[0;7m*[119G(B[m[?12l[?25h[2dh[?25l[?12l[?25he[?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[?12l[?25h[?25l[?12l[?25hh[?25l[?12l[?25he[?25l[?12l[?25hl[?25l[?12l[?25hl[?25l[?12l[?25ho[?25l[?12l[?25h [?25l[?12l[?25hs[?25l[?12l[?25hu[?25l[?12l[?25ht[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25ht[?25l[?12l[?25hu[?25l[?12l[?25hd[?25l[28d[K[?12l[?25h[2;11He[?25l[?12l[?25hn[?25l[?12l[?25he[?25l[?12l[?25h [?25l[?12l[?25ht[?25l[?12l[?25h![?25l[28;37H(B[0;1m[37m[41m[ Error writing readme.txt: Permission denied ][39;49m(B[m[?12l[?25h[2;15H[?25l[28d(B[0;7mSave modified buffer?                                                                                                   [29;1H Y(B[m Yes[K[30d(B[0;7m N(B[m No  [30;16H (B[0;7m^C(B[m Cancel[K[28;23H[?12l[?25h[?25l[29d(B[0;7m^G(B[m Help[29;31H(B[0;7mM-D(B[m DOS Format[29;61H(B[0;7mM-A(B[m Append[29;91H(B[0;7mM-B(B[m Backup File[30d(B[0;7m^C(B[m Cancel[17G[14X[30;31H(B[0;7mM-M(B[m Mac Format[30;61H(B[0;7mM-P(B[m Prepend[30;91H(B[0;7m^T(B[m Browse[28d(B[0;7mFile Name to Write: readme.txt(B[m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[28;53H[1K (B[0;7m[ Cancelled ](B[m[K[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[29;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location[93G(B[0;7mU(B[m Undo       (B[0;7mM-A(B[m Set Mark[30;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo [106G(B[0;7mM-6(B[m Copy[?12l[?25h[2;15H[?25l[28;33H(B[0;7m[ line  1/2 (50%), col 15/15 (100%), char 14/15 (93%) ](B[m[?12l[?25h[2;15H[?25l[28d(B[0;7mSave modified buffer?                                                                                                   [29;1H Y(B[m Yes[K[30d(B[0;7m N(B[m No  [30;16H (B[0;7m^C(B[m Cancel[K[28;23H[?12l[?25h[?25l[29d(B[0;7m^G(B[m Help[29;31H(B[0;7mM-D(B[m DOS Format[29;61H(B[0;7mM-A(B[m Append[29;91H(B[0;7mM-B(B[m Backup File[30d(B[0;7m^C(B[m Cancel[17G[14X[30;31H(B[0;7mM-M(B[m Mac Format[30;61H(B[0;7mM-P(B[m Prepend[30;91H(B[0;7m^T(B[m Browse[28d(B[0;7mFile Name to Write: readme.txt(B[m[?12l[?25h[?25l[28;53H[1K (B[0;7m[ Cancelled ](B[m[K[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[29;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location[93G(B[0;7mU(B[m Undo       (B[0;7mM-A(B[m Set Mark[30;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo [106G(B[0;7mM-6(B[m Copy[?12l[?25h[2;15H[?25l[28;37H(B[0;1m[37m[41m[ Error writing readme.txt: Permission denied ][39;49m(B[m[?12l[?25h[2;15H[?25l[28d(B[0;7mSave modified buffer?                                                                                                   [29;1H Y(B[m Yes[K[30d(B[0;7m N(B[m No  [30;16H (B[0;7m^C(B[m Cancel[K[28;23H[?12l[?25h[?25l[?12l[?25h[?25l[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;njh19270@JUHEE-NOH: /etc/skel[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/etc/skel[00m$ nano readme.txt 
+[?2004l[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;44H(B[0;1m[37m[41m[ Directory '.' is not writable ][39;49m(B[m[28;43H(B[0;1m[37m[41m[ File 'readme.txt' is unwritable ][39;49m(B[m[H(B[0;7m  GNU nano 7.2                                           readme.txt                                                     [1;119H(B[m[29d(B[0;7m^G(B[m Help[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[29;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2d[?12l[?25h[?25l[1;69H(B[0;7m*[119G(B[m[?12l[?25h[2dh[?25l[?12l[?25he[?25l[?12l[?25hl[?25l[?12l[?25hl[?25l[?12l[?25ho[?25l[28;37H(B[0;1m[37m[41m[ Error writing readme.txt: Permission denied ][39;49m(B[m[?12l[?25h[2;6H[?25l[28d(B[0;7mSave modified buffer?                                                                                                   [29;1H Y(B[m Yes[K[30d(B[0;7m N(B[m No  [30;16H (B[0;7m^C(B[m Cancel[K[28;23H[?12l[?25h[?25l[29d(B[0;7m^G(B[m Help[29;31H(B[0;7mM-D(B[m DOS Format[29;61H(B[0;7mM-A(B[m Append[29;91H(B[0;7mM-B(B[m Backup File[30d(B[0;7m^C(B[m Cancel[17G[14X[30;31H(B[0;7mM-M(B[m Mac Format[30;61H(B[0;7mM-P(B[m Prepend[30;91H(B[0;7m^T(B[m Browse[28d(B[0;7mFile Name to Write: readme.txt(B[m[?12l[?25h[?25l[36G[1K (B[0;1m[37m[41m[ Error writing readme.txt: Permission denied ][39;49m(B[m[K[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[29;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location[93G(B[0;7mU(B[m Undo       (B[0;7mM-A(B[m Set Mark[30;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo [106G(B[0;7mM-6(B[m Copy[?12l[?25h[2;6H[?25l[28d(B[0;7mSave modified buffer?                                                                                                   [29;1H Y(B[m Yes[K[30d(B[0;7m N(B[m No  [30;16H (B[0;7m^C(B[m Cancel[K[28;23H[?12l[?25h[?25l[29d(B[0;7m^G(B[m Help[29;31H(B[0;7mM-D(B[m DOS Format[29;61H(B[0;7mM-A(B[m Append[29;91H(B[0;7mM-B(B[m Backup File[30d(B[0;7m^C(B[m Cancel[17G[14X[30;31H(B[0;7mM-M(B[m Mac Format[30;61H(B[0;7mM-P(B[m Prepend[30;91H(B[0;7m^T(B[m Browse[28d(B[0;7mFile Name to Write: readme.txt(B[m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[36G[1K (B[0;1m[37m[41m[ Error writing readme.txt: Permission denied ][39;49m(B[m[K[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[29;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location[93G(B[0;7mU(B[m Undo       (B[0;7mM-A(B[m Set Mark[30;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo [106G(B[0;7mM-6(B[m Copy[?12l[?25h[2;6H[?25l[28d(B[0;7mSave modified buffer?                                                                                                   [29;1H Y(B[m Yes[K[30d(B[0;7m N(B[m No  [30;16H (B[0;7m^C(B[m Cancel[K[28;23H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;njh19270@JUHEE-NOH: /etc/skel[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/etc/skel[00m$ sudo nano readme.txt
+[?2004l[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;54H(B[0;7m[ Reading... ](B[m[28;53H(B[0;7m[ Read 0 lines ](B[m[H(B[0;7m  GNU nano 7.2                                           readme.txt                                                     [1;119H(B[m[29d(B[0;7m^G(B[m Help[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[29;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2d[?12l[?25h[?25l[1;69H(B[0;7m*[119G(B[m[?12l[?25h[2dh[?25l[?12l[?25he[?25l[?12l[?25hl[?25l[?12l[?25hl[?25l[?12l[?25ho[?25l[28;53H (B[0;7m[ Writing... ](B[m[K[1;69H(B[0;7m [119G(B[m[28;53H(B[0;7m[ Wrote 1 line ](B[m[?12l[?25h[2;6H[?25l[28;34H(B[0;7m[ line  1/2 (50%), col  6/ 6 (100%), char  5/6 (83%) ](B[m[?12l[?25h[2;6H[?25l[28;53H[1K (B[0;7m[ Writing... ](B[m[K[1;119H[28;53H(B[0;7m[ Wrote 1 line ](B[m[?12l[?25h[2;6H[?25l[28;53H (B[0;7m[ Writing... ](B[m[K[1;119H[28;53H(B[0;7m[ Wrote 1 line ](B[m[?12l[?25h[2;6H[?25l[28;34H(B[0;7m[ line  1/2 (50%), col  6/ 6 (100%), char  5/6 (83%) ](B[m[?12l[?25h[2;6H[?25l[1;69H(B[0;7m*[119G(B[m[3d[?12l[?25h[?25l[28;53H[1K (B[0;7m[ Writing... ](B[m[K[1;69H(B[0;7m [119G(B[m[28;52H(B[0;7m[ Wrote 2 lines ](B[m[?12l[?25h[3d[?25l[1;69H(B[0;7m*[119G(B[m[?12l[?25h[3;8H[38;5;208m[1K [39m(B[m[?25l[?12l[?25h[K[?25l[2;6H[?12l[?25h[?25l[28;52H  (B[0;7m[ Writing... ](B[m[K[1;69H(B[0;7m [119G(B[m[28;53H(B[0;7m[ Wrote 1 line ](B[m[?12l[?25h[2;6H[?25l[28d[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;njh19270@JUHEE-NOH: /etc/skel[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/etc/skel[00m$ ls -al
+[?2004ltotal 24
+drwxr-xr-x  2 root root 4096 Mar 27 10:04 [0m[01;34m.[0m
+drwxr-xr-x 90 root root 4096 Mar 27 09:58 [01;34m..[0m
+-rw-r--r--  1 root root  220 Mar 31  2024 .bash_logout
+-rw-r--r--  1 root root 3815 Mar 27 09:41 .bashrc
+-rw-r--r--  1 root root  806 Mar 20 11:32 .profile
+-rw-r--r--  1 root root    6 Mar 27 10:04 readme.txt
+[?2004h]0;njh19270@JUHEE-NOH: /etc/skel[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/etc/skel[00m$ [7msudo chmod +x create_user.sh[27msudo chmod +x create_user.sh
+[?2004lchmod: cannot access 'create_user.sh': No such file or directory
+[?2004h]0;njh19270@JUHEE-NOH: /etc/skel[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/etc/skel[00m$ cd rm[K[Klinux/week03
+[?2004l-bash: cd: linux/week03: No such file or directory
+[?2004h]0;njh19270@JUHEE-NOH: /etc/skel[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/etc/skel[00m$ cd /linux/week03
+[?2004l-bash: cd: /linux/week03: No such file or directory
+[?2004h]0;njh19270@JUHEE-NOH: /etc/skel[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/etc/skel[00m$ cd
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~[00m$ cd/l[K[K [K[K[Kls
+[?2004l2026_20220984_week03_2_log.txt  [0m[01;32mSCRIPT.sh[0m  [01;34mlinux[0m  t.txt
+[?2004h]0;njh19270@JUHEE-NOH: ~[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~[00m$ cd linux/
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux[00m$ cd ..
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~[00m$ rm 2026_20220984_week03_2_log.txt 
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~[00m$ ls
+[?2004l[0m[01;32mSCRIPT.sh[0m  [01;34mlinux[0m  t.txt
+[?2004h]0;njh19270@JUHEE-NOH: ~[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~[00m$ cd linux/
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux[00m$ cd week04[K3
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ ls -al
+[?2004ltotal 184
+drwxr-xr-x 3 njh19270 njh19270  4096 Mar 27 10:02 [0m[01;34m.[0m
+drwxr-xr-x 8 njh19270 njh19270  4096 Mar 27 09:27 [01;34m..[0m
+-rw-r--r-- 1 njh19270 njh19270 77169 Mar 27 10:06 2026_20220984_week03_2_log.txt
+-rw-r--r-- 1 njh19270 njh19270 52354 Mar 20 11:51 2026_20220984_week03_log.txt
+-rw-rw-r-- 1 njh19270 njh19270   234 Mar 27 10:01 create_user.sh
+-rw-r--r-- 1 njh19270 njh19270 28139 Mar 27 10:06 t.txt
+drwxr-xr-x 3 njh19270 njh19270  4096 Mar 20 09:27 [01;34mweb_service[0m
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ sudo chnom[Kd[K[K[Kmod +x create_user.sh
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ sudo ./create_user.sh 
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ cd /home/
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: /home[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/home[00m$ ls
+[?2004l[0m[01;34mguest[0m     [01;34mstudent1[0m   [01;34mstudent12[0m  [01;34mstudent15[0m  [01;34mstudent18[0m  [01;34mstudent20[0m  [01;34mstudent5[0m  [01;34mstudent8[0m
+[01;34mguest2[0m    [01;34mstudent10[0m  [01;34mstudent13[0m  [01;34mstudent16[0m  [01;34mstudent19[0m  [01;34mstudent3[0m   [01;34mstudent6[0m  [01;34mstudent9[0m
+[01;34mnjh19270[0m  [01;34mstudent11[0m  [01;34mstudent14[0m  [01;34mstudent17[0m  [01;34mstudent2[0m   [01;34mstudent4[0m   [01;34mstudent7[0m  [01;34mweb_admin[0m
+[?2004h]0;njh19270@JUHEE-NOH: /home[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/home[00m$ cd student9
+[?2004l-bash: cd: student9: Permission denied
+[?2004h]0;njh19270@JUHEE-NOH: /home[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/home[00m$ su su[Ktudent9 (pass[K[K[K[K[K[K
+[?2004lPassword: 
+su: Authentication failure
+[?2004h]0;njh19270@JUHEE-NOH: /home[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/home[00m$ su student9
+[?2004lPassword: 
+You are required to change your password immediately (administrator enforced).
+Changing password for student9.
+Current password: 
+New password: 
+Retype new password: 
+You must choose a longer password.
+New password: 
+Retype new password: 
+[?2004h]0;student9@JUHEE-NOH: /home[01;32mstudent9@JUHEE-NOH[00m:[01;34m/home[00m$ cd student9
+[?2004l[?2004h]0;student9@JUHEE-NOH: ~[01;32mstudent9@JUHEE-NOH[00m:[01;34m~[00m$ ls -al
+[?2004ltotal 24
+drwxr-x---  2 student9 student9 4096 Mar 27 10:08 [0m[01;34m.[0m
+drwxr-xr-x 26 root     root     4096 Mar 27 10:08 [01;34m..[0m
+-rw-r--r--  1 student9 student9  220 Mar 31  2024 .bash_logout
+-rw-r--r--  1 student9 student9 3815 Mar 27 09:41 .bashrc
+-rw-r--r--  1 student9 student9  806 Mar 20 11:32 .profile
+-rw-r--r--  1 student9 student9    6 Mar 27 10:04 readme.txt
+[?2004h]0;student9@JUHEE-NOH: ~[01;32mstudent9@JUHEE-NOH[00m:[01;34m~[00m$ cat readme.txt 
+[?2004lhello
+[?2004h]0;student9@JUHEE-NOH: ~[01;32mstudent9@JUHEE-NOH[00m:[01;34m~[00m$ id web_admin
+[?2004luid=1003(web_admin) gid=1003(web_admin) groups=1003(web_admin),100(users)
+[?2004h]0;student9@JUHEE-NOH: ~[01;32mstudent9@JUHEE-NOH[00m:[01;34m~[00m$ su[K[Ksu[K[Ks[Kcat /etc/group
+[?2004lroot:x:0:
+daemon:x:1:
+bin:x:2:
+sys:x:3:
+adm:x:4:syslog,njh19270
+tty:x:5:
+disk:x:6:
+lp:x:7:
+mail:x:8:
+news:x:9:
+uucp:x:10:
+man:x:12:
+proxy:x:13:
+kmem:x:15:
+dialout:x:20:
+fax:x:21:
+voice:x:22:
+cdrom:x:24:njh19270
+floppy:x:25:
+tape:x:26:
+sudo:x:27:njh19270
+audio:x:29:
+dip:x:30:njh19270
+www-data:x:33:
+backup:x:34:
+operator:x:37:
+list:x:38:
+irc:x:39:
+src:x:40:
+shadow:x:42:
+utmp:x:43:
+video:x:44:
+sasl:x:45:
+plugdev:x:46:njh19270
+staff:x:50:
+games:x:60:
+users:x:100:njh19270,guest,web_admin,guest2
+nogroup:x:65534:
+systemd-journal:x:999:
+systemd-network:x:998:
+crontab:x:997:
+systemd-timesync:x:996:
+input:x:995:
+sgx:x:994:
+kvm:x:993:
+render:x:992:
+messagebus:x:101:
+syslog:x:102:
+systemd-resolve:x:991:
+uuidd:x:103:
+_ssh:x:104:
+landscape:x:105:
+polkitd:x:990:
+admin:x:106:
+netdev:x:107:
+njh19270:x:1000:
+docker:x:1001:njh19270
+guest:x:1002:
+web_admin:x:1003:
+guest2:x:1004:
+student1:x:1005:
+student2:x:1006:
+student3:x:1007:
+student4:x:1008:
+student5:x:1009:
+student6:x:1010:
+student7:x:1011:
+student8:x:1012:
+student9:x:1013:
+student10:x:1014:
+student11:x:1015:
+student12:x:1016:
+student13:x:1017:
+student14:x:1018:
+student15:x:1019:
+student16:x:1020:
+student17:x:1021:
+student18:x:1022:
+student19:x:1023:
+student20:x:1024:
+[?2004h]0;student9@JUHEE-NOH: ~[01;32mstudent9@JUHEE-NOH[00m:[01;34m~[00m$ sudo groupd[Kadd dev_team1
+[?2004l[sudo] password for student9: 
+student9 is not in the sudoers file.
+[?2004h]0;student9@JUHEE-NOH: ~[01;32mstudent9@JUHEE-NOH[00m:[01;34m~[00m$ su njh19270
+[?2004lPassword: 
+bash: SCRIPT.sh: Permission denied
+[?2004h]0;njh19270@JUHEE-NOH: /home/student9[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/home/student9[00m$ exitsu web_admin[8Pexitsu web_admin[7Pcd ..[3Pls[K[Ksudo groupadd dev_team1
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: /home/student9[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/home/student9[00m$ cat /etc/group
+[?2004lroot:x:0:
+daemon:x:1:
+bin:x:2:
+sys:x:3:
+adm:x:4:syslog,njh19270
+tty:x:5:
+disk:x:6:
+lp:x:7:
+mail:x:8:
+news:x:9:
+uucp:x:10:
+man:x:12:
+proxy:x:13:
+kmem:x:15:
+dialout:x:20:
+fax:x:21:
+voice:x:22:
+cdrom:x:24:njh19270
+floppy:x:25:
+tape:x:26:
+sudo:x:27:njh19270
+audio:x:29:
+dip:x:30:njh19270
+www-data:x:33:
+backup:x:34:
+operator:x:37:
+list:x:38:
+irc:x:39:
+src:x:40:
+shadow:x:42:
+utmp:x:43:
+video:x:44:
+sasl:x:45:
+plugdev:x:46:njh19270
+staff:x:50:
+games:x:60:
+users:x:100:njh19270,guest,web_admin,guest2
+nogroup:x:65534:
+systemd-journal:x:999:
+systemd-network:x:998:
+crontab:x:997:
+systemd-timesync:x:996:
+input:x:995:
+sgx:x:994:
+kvm:x:993:
+render:x:992:
+messagebus:x:101:
+syslog:x:102:
+systemd-resolve:x:991:
+uuidd:x:103:
+_ssh:x:104:
+landscape:x:105:
+polkitd:x:990:
+admin:x:106:
+netdev:x:107:
+njh19270:x:1000:
+docker:x:1001:njh19270
+guest:x:1002:
+web_admin:x:1003:
+guest2:x:1004:
+student1:x:1005:
+student2:x:1006:
+student3:x:1007:
+student4:x:1008:
+student5:x:1009:
+student6:x:1010:
+student7:x:1011:
+student8:x:1012:
+student9:x:1013:
+student10:x:1014:
+student11:x:1015:
+student12:x:1016:
+student13:x:1017:
+student14:x:1018:
+student15:x:1019:
+student16:x:1020:
+student17:x:1021:
+student18:x:1022:
+student19:x:1023:
+student20:x:1024:
+dev_team1:x:1025:
+[?2004h]0;njh19270@JUHEE-NOH: /home/student9[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/home/student9[00m$ [K]0;njh19270@JUHEE-NOH: /home/student9[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/home/student9[00m$ grou[K[K[K[Ksudo nan[K[K[K[K[K[K[K[Kcd /i[Klinux/week03
+[?2004lbash: cd: /linux/week03: No such file or directory
+[?2004h]0;njh19270@JUHEE-NOH: /home/student9[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/home/student9[00m$ cd /linux/week03~/linux/week03
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ ls
+[?2004l2026_20220984_week03_2_log.txt  [0m[01;32mcreate_user.sh[0m  [01;34mweb_service[0m
+2026_20220984_week03_log.txt    t.txt
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ cd[K[Ksudo th[Kea[K[K[K[K[K[K[K[Ktouch team_user.sh
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ cd[Kode
+[?2004lCommand 'code' not found, but can be installed with:
+sudo snap install code
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ ls
+[?2004l2026_20220984_week03_2_log.txt  [0m[01;32mcreate_user.sh[0m  team_user.sh
+2026_20220984_week03_log.txt    t.txt           [01;34mweb_service[0m
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ cat t.txt 
+[?2004l0.117267 44
+0.000160 108
+4.813254 1
+0.036380 1
+0.405319 11
+0.000111 82
+8.559497 1
+0.054555 1
+0.558624 1
+0.552950 1
+0.214009 1
+0.148338 1
+0.218082 1
+0.146169 1
+0.625390 1
+0.359703 1
+0.124117 1
+0.177952 1
+1.257124 1
+0.243032 1
+0.165658 1
+0.557060 11
+0.000274 108
+0.347869 1
+0.126498 1
+0.129287 11
+0.002084 98
+0.000229 108
+76.813981 1
+0.023924 1
+0.168043 11
+0.000278 82
+20.609893 1
+0.096966 1
+1.000964 1
+0.578862 1
+0.221066 1
+0.217057 1
+0.259670 1
+0.295376 1
+0.668992 1
+0.932972 1
+0.085607 1
+0.122188 1
+0.417064 11
+0.000184 98
+1.718876 1
+0.095494 1
+0.288024 1
+0.189355 1
+1.015272 1
+0.074546 1
+0.209939 11
+0.016528 10
+0.000040 278
+0.000333 98
+15.324886 1
+0.062428 1
+2.139981 1
+0.193059 1
+0.750154 1
+0.070832 1
+0.176468 1
+0.199621 1
+0.143031 1
+0.309598 11
+0.165119 31
+0.000258 98
+4.598152 1
+0.053572 1
+0.156389 1
+0.161821 1
+0.201405 1
+1.306656 1
+0.575465 4
+0.162280 1
+0.116356 1
+0.100369 1
+0.178239 1
+0.116995 1
+0.221719 11
+0.154236 10
+3.883698 2
+0.438880 93
+0.000727 141
+0.321960 280
+0.001008 2
+0.001536 220
+0.009421 2
+0.002058 90
+0.001969 7
+0.154168 76
+42.665006 1
+0.119955 1
+1.030457 1
+0.292500 1
+0.938736 1
+0.254299 1
+0.271228 1
+0.568314 4
+0.122131 1
+0.154710 1
+0.995620 1
+0.075222 1
+0.134875 1
+0.373870 6
+1.021832 1
+0.157318 5
+0.872928 4
+0.375275 11
+0.000180 110
+3.118061 1
+0.110043 1
+0.139960 1
+0.113711 1
+0.148531 1
+0.523624 1
+0.202949 1
+0.107760 1
+0.181360 1
+0.853275 1
+0.227761 1
+0.133594 1
+0.178400 1
+0.260239 1
+0.118265 1
+0.173160 1
+0.191504 1
+0.224253 1
+0.124020 1
+0.763198 11
+0.014344 27
+2.132289 2
+0.035307 35
+0.000678 110
+34.286714 1
+4.189505 1
+1.192518 1
+1.223149 1
+0.520703 1
+0.316346 1
+0.160985 1
+0.160343 1
+0.225105 1
+0.075168 1
+0.117683 1
+0.043793 1
+0.081288 1
+0.258237 11
+0.003385 10
+2.789044 2
+2.543352 2
+0.000409 2
+0.000108 110
+0.570455 13
+0.503577 11
+0.002987 10
+1.729003 2
+0.064965 159
+0.000880 172
+0.000184 49
+0.000396 116
+3.183425 1
+0.090853 1
+4.115166 1
+0.064740 1
+0.111099 1
+0.763363 1
+0.053034 1
+0.115127 1
+0.165578 1
+0.376083 1
+0.210936 1
+0.134701 1
+0.153755 1
+0.268852 1
+0.122652 1
+0.179037 1
+0.207895 1
+0.152106 1
+0.088198 1
+1.313313 11
+0.004300 30
+2.818852 2
+1.967151 75
+0.000137 56
+0.000314 271
+0.000035 369
+15.174326 35
+0.000180 18
+0.079450 19
+0.103530 19
+0.161534 19
+0.111131 19
+0.415389 19
+1.079615 19
+0.493821 19
+0.284093 19
+0.187350 19
+0.116421 19
+0.812319 21
+0.141195 21
+0.088000 19
+0.100964 19
+1.190738 19
+0.106481 6
+0.000026 13
+0.183601 19
+0.084248 19
+0.335957 34
+0.165924 19
+0.099297 19
+0.075419 19
+0.925546 19
+0.308948 19
+1.583496 6
+0.000067 13
+0.588209 19
+0.436745 19
+0.300550 19
+0.358401 19
+0.346001 19
+0.464820 21
+0.156357 6
+0.000061 13
+0.443715 19
+0.897926 19
+0.418697 19
+0.325493 19
+2.538067 19
+0.505001 6
+0.000021 13
+0.414227 6
+0.000108 13
+1.483875 19
+0.265697 19
+0.456080 19
+3.489122 19
+0.682678 6
+0.000026 13
+0.207601 19
+0.127211 19
+0.671949 19
+0.249778 6
+0.000026 13
+0.272030 19
+0.180016 6
+0.000026 13
+0.434987 21
+0.103405 19
+2.650831 19
+0.352943 19
+0.229455 19
+0.182877 19
+0.600855 21
+0.149311 21
+0.142360 21
+0.096771 19
+0.147352 19
+0.349049 21
+0.085053 6
+0.000016 13
+0.282313 19
+0.535507 19
+0.523479 19
+0.065969 19
+0.067521 19
+0.331887 19
+0.095489 19
+0.057424 19
+0.156933 19
+1.354213 19
+1.330717 19
+0.854415 19
+1.208088 19
+0.666760 21
+0.203400 19
+0.447686 21
+0.051848 19
+0.721291 21
+1.643448 19
+1.523245 19
+0.529326 19
+0.192780 19
+0.120244 19
+0.127184 19
+0.375924 21
+0.125880 21
+0.099498 19
+0.083161 19
+0.107530 6
+0.000162 13
+0.798522 19
+0.324451 19
+0.278218 19
+1.622498 19
+2.455029 19
+0.718703 6
+0.000018 13
+0.310865 19
+1.518071 19
+0.794975 19
+1.406993 6
+0.000024 15
+0.207318 19
+0.398528 6
+0.000042 13
+0.544352 19
+0.081720 19
+0.101272 19
+0.074343 19
+0.798861 19
+0.202615 19
+0.201050 19
+1.086311 6
+0.000104 13
+0.819961 19
+6.088388 18
+0.000033 1
+0.803617 19
+1.778270 19
+1.250862 19
+0.305737 6
+0.000030 13
+0.354964 19
+0.117948 6
+0.000193 13
+0.087035 6
+0.000026 13
+0.070644 6
+0.000056 13
+0.492462 6
+0.000046 13
+0.308079 6
+0.000026 13
+0.274315 6
+0.000013 13
+0.234811 6
+0.000027 13
+2.274734 23
+0.706379 6
+0.000145 20
+0.345742 21
+0.634772 19
+0.729652 19
+0.622086 23
+1.441628 19
+0.120346 19
+0.071180 19
+0.078185 19
+0.115357 6
+0.000025 13
+0.615173 19
+0.247054 19
+0.981702 19
+0.760998 21
+0.555834 6
+0.000025 15
+0.856670 21
+0.265432 21
+0.305970 22
+0.196602 19
+1.489220 21
+0.175579 6
+0.000074 16
+0.500825 21
+0.221258 21
+0.373664 6
+0.003590 16
+0.431462 21
+0.000282 18
+0.000025 1
+0.682560 21
+0.279987 6
+0.000026 15
+0.235043 22
+0.438948 6
+0.000025 15
+0.293125 21
+0.078261 6
+0.000024 16
+0.230999 6
+0.000022 13
+0.582985 6
+0.000023 16
+0.741615 21
+0.202135 21
+0.305681 21
+0.117699 22
+0.717596 6
+0.000056 15
+0.335200 6
+0.000028 15
+0.113226 6
+0.000033 16
+0.437066 6
+0.000124 15
+0.308088 21
+0.253201 21
+0.250965 21
+0.542783 22
+5.277033 6
+0.000226 37
+0.005404 88
+5.073914 6
+0.000324 66
+0.002578 116
+5.652797 3
+0.915813 5
+0.152754 1
+0.129812 1
+5.493655 38
+0.770757 60
+0.000170 9
+0.005670 93
+0.000712 141
+0.247399 280
+0.001189 2
+0.001602 220
+0.011430 116
+13.730070 28
+0.741497 49
+0.009220 133
+0.000051 39
+0.000254 623
+0.000231 236
+3.013264 6
+0.000037 65
+0.001285 116
+3.231090 3
+0.117112 14
+0.100454 27
+0.007586 116
+1.019412 1
+0.147626 1
+0.201855 11
+0.001799 76
+0.000259 116
+11.121418 1
+0.200933 1
+0.290208 1
+0.496339 1
+0.341891 4
+0.167477 4
+0.241448 1
+1.501447 1
+0.303519 4
+0.231838 1
+0.195863 1
+0.454553 1
+0.129491 1
+0.331952 1
+0.200181 9
+0.545314 11
+0.188188 23
+0.010408 116
+2.080223 1
+0.086603 1
+0.415265 1
+0.102618 1
+1.222411 4
+0.430750 1
+0.144062 1
+0.441558 1
+0.431051 4
+0.283884 1
+0.348939 1
+0.144948 6
+0.210606 11
+0.002621 53
+4.299885 2
+0.000442 116
+1.354045 1
+0.078290 1
+0.049562 11
+0.003823 76
+0.000753 116
+1.811582 2
+0.114215 1
+0.599208 14
+0.354928 1
+0.531775 1
+0.030471 1
+0.030368 1
+0.030591 1
+0.029728 1
+0.043181 1
+0.030925 1
+0.029300 1
+0.030116 1
+0.906696 5
+0.993642 5
+0.206056 5
+0.340310 5
+0.086441 5
+0.037327 5
+0.244763 11
+0.002838 116
+0.862805 1
+0.035980 1
+0.117055 11
+0.001566 65
+0.000248 116
+9.085333 30
+0.537825 53
+0.000029 116
+8.071753 28
+0.730931 49
+0.033279 75
+0.000600 58
+0.000211 40
+0.000634 623
+0.000729 561
+0.000046 976
+3.708445 22
+0.524063 18
+0.000012 4
+0.031552 22
+0.031602 22
+0.033175 22
+0.030898 22
+0.029423 22
+0.031953 23
+0.029185 23
+0.032178 23
+0.029900 23
+0.031983 23
+0.029438 23
+0.031448 23
+0.045675 23
+0.044483 23
+0.029647 23
+0.032070 23
+0.029645 23
+0.033047 31
+0.030962 23
+0.030244 23
+0.030786 23
+0.030386 23
+0.029314 23
+0.032519 6
+0.000140 62
+0.029840 6
+0.000166 43
+0.030252 6
+0.000485 43
+0.000040 261
+0.031577 18
+0.000070 31
+0.029931 18
+0.030182 18
+0.044569 18
+0.029942 18
+0.029843 18
+0.030899 18
+0.031165 18
+0.030203 18
+0.034340 18
+0.029632 18
+0.035087 18
+0.029329 18
+0.031857 18
+0.028971 18
+0.031884 18
+0.030955 18
+0.031826 18
+0.029636 18
+0.034021 18
+0.260165 18
+0.530763 18
+0.029703 18
+0.030237 18
+0.031161 18
+0.029364 18
+0.030084 18
+0.031137 18
+0.030116 18
+0.029946 18
+0.032606 18
+0.056211 18
+0.029175 18
+0.030818 18
+0.029473 18
+0.032144 18
+0.028398 18
+0.032938 18
+0.030217 18
+0.030169 18
+0.029657 18
+0.030091 18
+2.887104 71
+0.002529 116
+13.006171 1
+0.272933 1
+2.943215 1
+1.239188 1
+0.351224 1
+0.185987 1
+0.776651 1
+0.324917 4
+0.143607 4
+0.148026 4
+0.106759 1
+0.237710 1
+0.589617 4
+0.071504 1
+0.362729 1
+0.280117 1
+0.336374 1
+0.281829 1
+0.150528 1
+0.086318 1
+0.650671 11
+0.000269 98
+2.991688 1
+0.112715 1
+0.173148 1
+0.155356 1
+0.194545 1
+0.308085 1
+0.505820 4
+0.208063 1
+0.102623 1
+0.167079 1
+0.207544 5
+0.431820 11
+0.002756 833
+0.000237 98
+24.061974 23
+0.795986 121
+0.002768 3888
+0.000292 98
+28.424730 26
+1.002590 45
+0.008130 75
+0.000225 58
+0.000032 41
+0.000493 146
+0.000105 477
+0.000603 221
+0.000083 586
+0.000080 348
+2.039299 22
+0.517665 22
+0.031039 18
+0.000022 4
+0.029440 22
+0.030627 18
+0.000027 4
+0.029537 22
+0.035298 22
+0.028151 18
+0.000024 5
+0.031893 23
+0.029122 18
+0.000025 5
+0.031437 23
+0.028740 18
+0.000025 5
+0.031005 18
+0.000024 5
+0.029704 18
+0.000017 5
+0.031190 23
+0.029044 18
+0.000023 5
+0.032128 23
+0.042523 23
+0.044675 23
+0.027066 31
+0.030814 18
+0.000023 5
+0.030331 18
+0.000022 5
+0.031154 18
+0.000027 5
+0.029263 18
+0.000023 5
+0.031212 18
+0.000024 5
+0.030179 6
+0.000127 126
+0.030274 6
+0.000070 28
+0.000109 50
+0.029227 18
+0.000023 31
+0.031055 6
+0.000175 43
+0.000063 84
+0.029158 6
+0.000085 28
+0.000092 179
+0.031340 49
+0.029073 6
+0.000025 28
+0.000093 108
+0.032335 6
+0.000028 274
+0.028005 6
+0.000022 12
+0.000086 16
+0.000041 101
+0.043762 34
+0.000178 34
+0.028838 34
+0.000024 15
+0.031426 6
+0.000073 43
+0.000087 107
+0.029272 6
+0.000122 43
+0.000082 73
+0.030313 6
+0.000012 12
+0.000100 16
+0.000087 122
+0.035135 6
+0.000010 28
+0.000083 36
+0.029252 18
+0.000023 31
+0.029262 6
+0.000031 43
+0.000094 93
+0.030962 6
+0.000026 133
+0.031306 6
+0.000098 28
+0.000077 88
+0.028258 6
+0.000171 83
+0.029536 6
+0.000064 43
+0.030613 6
+0.000022 12
+0.000045 16
+0.000102 156
+0.029690 6
+0.000196 227
+0.030915 6
+0.000060 28
+0.000125 96
+0.036811 6
+0.000029 28
+0.000091 104
+0.041637 6
+0.000084 28
+0.000091 92
+0.036257 6
+0.000101 28
+0.000101 48
+0.031136 6
+0.000067 12
+0.000034 31
+0.000098 21
+0.028888 6
+0.000014 28
+0.000054 45
+0.036051 6
+0.000091 62
+0.192353 21
+0.316133 21
+0.268452 23
+0.532079 18
+0.000023 5
+0.028816 6
+0.000118 62
+0.031134 6
+0.000052 28
+0.000075 15
+0.029449 6
+0.000201 183
+0.049496 6
+0.000194 43
+0.000042 136
+0.024732 18
+0.000027 52
+0.031489 6
+0.000111 28
+0.000023 97
+0.029177 6
+0.000121 62
+0.030857 6
+0.000028 12
+0.000087 94
+0.029403 18
+0.000025 31
+0.034309 6
+0.000183 112
+0.029153 6
+0.000128 28
+0.000021 88
+0.030877 6
+0.000042 28
+0.000103 61
+0.028835 6
+0.000112 28
+0.000137 110
+0.030894 6
+0.000014 28
+0.000055 34
+0.029541 6
+0.000080 62
+0.030973 6
+0.000013 28
+0.000105 34
+0.029169 18
+0.000022 52
+0.031186 18
+0.000025 31
+0.029629 6
+0.000010 28
+0.000088 87
+0.031874 18
+0.000074 144
+0.042602 6
+0.000119 43
+0.000066 225
+0.045550 6
+0.000048 12
+0.000162 88
+0.027206 6
+0.000108 28
+0.000083 76
+0.518904 112
+0.158210 18
+0.000022 31
+0.155528 6
+0.000225 125
+0.112578 18
+0.000209 94
+0.531529 6
+0.000015 12
+0.000079 16
+0.000055 78
+0.042974 34
+0.000106 34
+0.029005 49
+0.031259 18
+0.000051 81
+0.028533 6
+0.000134 161
+0.032191 18
+0.000023 31
+0.035072 6
+0.000095 28
+0.000103 54
+0.027330 6
+0.000138 92
+0.030805 18
+0.000023 78
+0.030078 6
+0.000037 28
+0.000083 62
+0.031528 18
+0.000023 31
+0.029134 18
+0.000124 137
+0.029335 34
+0.000023 51
+0.030894 6
+0.000218 235
+0.028887 18
+0.000135 31
+0.030931 18
+0.000034 68
+0.036368 6
+0.000018 12
+0.000106 114
+0.042608 6
+0.000035 28
+0.000106 88
+0.035788 6
+0.000211 123
+0.031293 34
+0.000133 15
+0.028965 6
+0.000087 28
+0.000069 125
+0.036459 6
+0.000017 28
+0.000080 33
+0.027208 18
+0.000036 50
+0.029019 6
+0.000064 43
+0.029052 6
+0.000054 12
+0.000150 115
+0.030992 6
+0.000060 28
+0.000132 100
+0.029585 6
+0.000070 12
+0.000124 76
+0.030234 6
+0.000190 43
+0.000100 91
+0.030301 18
+0.000024 168
+0.030418 34
+0.000044 60
+0.029673 6
+0.000081 28
+0.000104 132
+0.031060 6
+0.000038 28
+0.000101 38
+0.028800 6
+0.000016 28
+0.000067 34
+0.030546 6
+0.000068 28
+0.000130 34
+0.042823 49
+0.032393 18
+0.027653 18
+0.030831 18
+0.029422 18
+0.030234 18
+9.944784 21
+0.518938 21
+0.030840 21
+0.030628 21
+0.033495 21
+0.029607 21
+0.031226 21
+0.028963 18
+0.000022 3
+0.031048 18
+0.000030 3
+0.031072 21
+0.029167 21
+0.030172 21
+0.030302 21
+0.029790 18
+0.000011 3
+0.045496 18
+0.000022 3
+0.042746 21
+0.030344 21
+0.029688 21
+0.032070 21
+0.030197 18
+0.000028 3
+0.031400 21
+0.030137 21
+0.030362 21
+0.030504 21
+0.029552 21
+0.030224 6
+0.000088 85
+0.030034 6
+0.000046 38
+0.000092 49
+0.030319 6
+0.000056 12
+0.000083 65
+0.029828 29
+0.000034 15
+0.030548 6
+0.000169 38
+0.000110 118
+0.029136 6
+0.000129 38
+0.000075 50
+0.042572 44
+0.030463 18
+0.000024 45
+0.030263 18
+0.000027 89
+0.030492 6
+0.000124 101
+0.029404 6
+0.000059 12
+0.000117 108
+0.029954 18
+0.000028 26
+0.033835 6
+0.000118 101
+0.031295 105
+0.031637 6
+0.000112 95
+0.029884 6
+0.000135 38
+0.000108 225
+0.030159 6
+0.000152 38
+0.000089 113
+0.029094 6
+0.000097 12
+0.000111 98
+0.030977 18
+0.000030 26
+0.030752 65
+0.030234 6
+0.000017 12
+0.000161 45
+0.031943 18
+0.000049 45
+0.028985 18
+0.000065 45
+0.054897 44
+0.000077 95
+0.029944 44
+0.000015 46
+0.029586 6
+0.000049 111
+0.030615 6
+0.000113 107
+0.030679 18
+0.000030 26
+0.028449 6
+0.000014 12
+0.000021 11
+0.000140 78
+0.032996 44
+0.000024 19
+0.030400 6
+0.000031 12
+0.000041 108
+0.030672 6
+0.000017 38
+0.000130 21
+0.030422 6
+0.000103 38
+0.000127 136
+0.028963 6
+0.000052 12
+0.000113 166
+0.029762 18
+0.000076 26
+0.030448 18
+0.000036 45
+0.030516 6
+0.000011 38
+0.000076 19
+0.030505 6
+0.000082 68
+0.030087 18
+0.000031 47
+0.043399 6
+0.000086 38
+0.000088 33
+0.029753 6
+0.000053 12
+0.000046 36
+0.000064 67
+0.029733 6
+0.000022 12
+0.000091 36
+0.000148 79
+0.030424 6
+0.000062 108
+0.000066 11
+0.029704 6
+0.000014 12
+0.000106 26
+0.000120 184
+0.030025 6
+0.000171 38
+0.000076 141
+0.032894 6
+0.000019 12
+0.000119 26
+0.030377 18
+0.000030 66
+0.031570 6
+0.000088 12
+0.000024 88
+0.000018 11
+0.029872 6
+0.000125 23
+0.000047 105
+0.418301 6
+0.000031 120
+0.000182 11
+0.519002 18
+0.000197 26
+0.033268 18
+0.000019 47
+0.030135 18
+0.000026 133
+0.032271 6
+0.000025 23
+0.000117 88
+0.029629 6
+0.000219 145
+0.030584 29
+0.000166 15
+0.030195 44
+0.000024 19
+0.030402 18
+0.000161 112
+0.029405 6
+0.000146 269
+0.030305 18
+0.000250 119
+0.030631 44
+0.030081 6
+0.000164 202
+0.056120 6
+0.000018 38
+0.000150 84
+0.030101 18
+0.000117 26
+0.029709 18
+0.000113 61
+0.030553 127
+0.030654 155
+0.028760 18
+0.000015 26
+0.033423 18
+0.000031 73
+0.030362 6
+0.000010 12
+0.000107 84
+0.029841 6
+0.000092 38
+0.000085 78
+0.030650 44
+0.029789 44
+0.000025 34
+0.030688 29
+0.000110 45
+0.030129 6
+0.000012 38
+0.000110 86
+0.030154 29
+0.000039 15
+0.030279 44
+0.000023 45
+0.030396 109
+0.042631 18
+0.000024 26
+0.030977 6
+0.000100 77
+0.029503 6
+0.000076 23
+0.000106 62
+0.029780 6
+0.000348 127
+0.030674 44
+0.030245 18
+0.000026 47
+0.033089 6
+0.000033 12
+0.000194 70
+0.030462 18
+0.000113 66
+0.031418 18
+0.000027 94
+0.029390 6
+0.000024 23
+0.000070 81
+0.030102 44
+0.030137 18
+0.000022 57
+0.030700 6
+0.000030 129
+0.030479 6
+0.000149 23
+0.000073 86
+0.029098 18
+0.031167 18
+0.030664 18
+0.043376 18
+0.043288 18
+0.029937 18
+0.030340 18
+0.031090 18
+0.029895 18
+0.030559 18
+0.029843 18
+0.030713 18
+0.030228 18
+0.030824 18
+0.029622 18
+0.029896 18
+0.029620 18
+0.030328 18
+0.838771 22
+0.135232 22
+0.256573 22
+0.164171 18
+0.000091 4
+2.080795 22
+0.531651 22
+0.029121 22
+0.031275 23
+0.028818 18
+0.000023 5
+0.031636 23
+0.030415 18
+0.000022 5
+0.030184 23
+0.029783 23
+0.030709 23
+0.043416 23
+0.033984 23
+0.026813 23
+0.308403 23
+0.533648 23
+0.030133 23
+0.029764 23
+0.030093 23
+0.031373 23
+0.043601 23
+0.029920 23
+0.030435 132
+0.194749 21
+0.213096 21
+0.150591 18
+0.000021 3
+0.137110 21
+0.136929 21
+0.113716 21
+0.184059 21
+0.316744 18
+0.000080 5
+1.792067 35
+0.000679 43
+0.821182 19
+0.206074 19
+0.375581 19
+0.112470 6
+0.000026 13
+0.139380 19
+0.235779 41
+0.214222 35
+2.825665 6
+0.000034 15
+0.159062 19
+0.103055 19
+1.886440 21
+0.145883 21
+0.758522 6
+0.000031 13
+0.126921 19
+0.958308 19
+0.085023 19
+0.195482 19
+0.063911 19
+1.177803 6
+0.000026 13
+0.055341 19
+0.136483 19
+0.521491 19
+0.098815 19
+0.596868 19
+0.166515 19
+2.736743 35
+2.069453 6
+0.000024 15
+0.230273 35
+0.139585 35
+4.289814 18
+0.000216 1
+0.628694 18
+0.000129 1
+0.433616 52
+0.600054 21
+0.187903 21
+1.103500 21
+0.392926 19
+1.097391 6
+0.000023 29
+0.924714 19
+1.213466 19
+0.983479 19
+0.678319 19
+0.441605 6
+0.000014 13
+0.808963 19
+0.401592 19
+0.549699 19
+0.429809 6
+0.000112 29
+1.560391 21
+0.257238 19
+0.901689 35
+1.346641 6
+0.000027 13
+0.441333 19
+3.690294 35
+0.605136 6
+0.000100 13
+0.439134 6
+0.000029 13
+1.025357 35
+2.589138 18
+0.000119 17
+0.343763 73
+12.448887 6
+0.000575 37
+0.001825 91
+2.170067 72
+0.001759 98
+7.929326 33
+0.992133 59
+0.008374 75
+0.000147 56
+0.000651 640
+9.808116 6
+0.000036 12
+2.942045 35
+0.000327 49
+0.825709 6
+0.000373 29
+0.166778 6
+0.000200 29
+7.646442 87
+7.601629 32
+1.607903 19
+0.000028 2
+0.167186 21
+0.165019 22
+0.117920 18
+0.146605 18
+0.445327 31
+2.673956 35
+0.571778 35
+1.421395 6
+0.000024 15
+0.176428 6
+0.000023 29
+0.261075 35
+0.957431 6
+0.000034 29
+0.067499 6
+0.000029 29
+0.116018 6
+0.000024 29
+1.871314 35
+0.404862 35
+0.080266 35
+0.196858 35
+0.060207 35
+1.552367 23
+0.244081 19
+0.079578 19
+0.121881 38
+0.090731 18
+0.000025 17
+0.704444 21
+0.088764 6
+0.000172 44
+0.084568 21
+0.120584 6
+0.000029 31
+0.062330 6
+0.000152 29
+0.598740 6
+0.000024 31
+0.194436 6
+0.000013 13
+0.256236 19
+0.147811 19
+0.190469 19
+0.438667 21
+0.171329 19
+0.092081 19
+0.737656 6
+0.000179 29
+0.248896 23
+1.027093 19
+0.077718 37
+0.614195 6
+0.000186 17
+0.502246 43
+0.999305 22
+0.331810 35
+0.163638 35
+0.182796 6
+0.000021 29
+0.594281 21
+0.182354 21
+0.140709 22
+0.493751 24
+0.520002 23
+0.029556 22
+0.031216 25
+0.030400 21
+0.034208 21
+0.029598 21
+0.030713 21
+0.031468 21
+0.029904 21
+0.029630 40
+0.030222 21
+0.030175 6
+0.000076 18
+0.030368 40
+0.029331 6
+0.000021 15
+0.047791 40
+0.041290 21
+0.031148 24
+0.030126 21
+0.029659 22
+0.032629 25
+0.030596 6
+0.000119 15
+0.029519 21
+0.030840 6
+0.000022 15
+0.030533 6
+0.000083 15
+0.029314 21
+0.031956 21
+0.029569 18
+0.000028 3
+0.028666 21
+0.029798 6
+0.000085 15
+0.032300 21
+0.030196 22
+0.044097 18
+0.029450 18
+0.030236 18
+0.030078 18
+0.029888 18
+0.030185 18
+0.032118 18
+0.029459 18
+0.241543 6
+0.000094 240
+3.778647 6
+0.000027 61
+0.001357 98
+12.278119 1
+0.078635 1
+0.101702 11
+0.001550 98
+1.462358 1
+0.090190 1
+0.324775 1
+0.203884 1
+0.115219 1
+0.150069 1
+0.262382 11
+0.001670 10
+0.000019 278
+0.000337 98
+7.826657 1
+0.054550 1
+0.155343 1
+0.839838 1
+0.071361 1
+3.580526 1
+0.060395 1
+0.560715 4
+0.172808 4
+19.376780 1
+0.138900 1
+0.070043 1
+0.405342 1
+0.788356 1
+1.233046 4
+0.526448 4
+0.031517 4
+0.028799 4
+0.029015 4
+0.032861 4
+0.054261 4
+0.031424 4
+0.029849 4
+0.030209 4
+0.031701 1
+0.028235 1
+0.033315 1
+0.030413 1
+0.030227 1
+10.757388 1
+0.047439 1
+0.136139 1
+0.246085 1
+1.339025 1
+0.766272 1
+0.192638 1
+0.097491 1
+0.145968 1
+0.090704 1
+0.085162 1
+2.202605 1
+0.471102 1
+0.104930 1
+0.068890 1
+0.063239 1
+0.285856 1
+0.323088 1
+0.098856 1
+0.633188 11
+0.084484 78
+0.007441 98
+6.648855 19
+4.574936 1
+0.755851 11
+0.071228 78
+0.007894 98
+1.522920 20
+1.172243 4
+0.460102 1
+0.403860 3
+0.166982 1
+1.881020 4
+0.519997 4
+0.030518 4
+0.032582 4
+0.041962 4
+0.043235 4
+0.029201 4
+0.030230 4
+0.031147 4
+0.030920 4
+0.030000 4
+0.029728 4
+0.030617 4
+0.030194 4
+0.030094 4
+0.030611 4
+0.030566 4
+0.030023 4
+0.030603 4
+0.030136 1
+0.030310 1
+0.042148 1
+0.030036 1
+0.030160 1
+0.030656 1
+0.029497 1
+0.030143 1
+0.034704 1
+0.029931 1
+0.030240 1
+0.030703 1
+0.030031 1
+0.029558 1
+0.031636 1
+0.030356 1
+0.029363 1
+0.030491 1
+0.047154 1
+47.549513 1
+0.085167 1
+0.227017 1
+0.224674 1
+1.130747 2
+0.000049 9
+0.071683 78
+0.008097 98
+2.101300 1
+0.090190 1
+0.130244 1
+0.123151 1
+0.089760 1
+1.917107 1
+0.050398 1
+0.182223 1
+0.188258 1
+0.535942 1
+0.259347 1
+0.213165 1
+0.121743 1
+0.104931 1
+0.127040 1
+0.114711 1
+1.711675 1
+0.275938 1
+0.077699 1
+0.095824 1
+0.077847 1
+0.337767 11
+0.004860 31
+0.000554 98
+81.434504 1
+0.078680 1
+0.985640 2
+0.000015 9
+0.000263 82
+0.759829 1
+0.087716 1
+0.774348 1
+0.214028 1
+0.360496 5
+0.289666 11
+0.000123 94
+1.428052 1
+0.040520 1
+0.394449 1
+0.664768 1
+0.235881 5
+0.277104 56
+0.000159 94
+1.339495 8
+0.347314 1
+0.222127 11
+0.000163 108
+0.620024 1
+0.088440 1
+0.090827 1
+0.180776 1
+0.644074 1
+0.797949 1
+0.054140 1
+0.128618 1
+1.071230 4
+0.139455 4
+0.142037 4
+1.102592 1
+0.222933 1
+0.104559 1
+0.097870 1
+0.070681 1
+0.094672 1
+1.263463 1
+0.300419 1
+0.059012 1
+0.085428 1
+0.055405 1
+0.206572 1
+0.245554 1
+0.315543 4
+0.120448 1
+0.064521 1
+0.183385 2
+0.000013 9
+0.076498 78
+0.007993 108
+73.328683 1
+0.068799 1
+0.090654 1
+0.085806 1
+0.129488 1
+0.709955 1
+0.060910 1
+0.110745 1
+0.124296 1
+0.121850 1
+0.645491 1
+0.237713 1
+0.155852 1
+0.024198 1
+0.133205 1
+0.107946 1
+1.054858 1
+0.218935 1
+0.070500 1
+0.114992 1
+0.042414 1
+0.172597 1
+0.222980 1
+0.099071 1
+0.265382 4
+0.140582 4
+0.094470 1
+0.155498 1
+0.347912 2
+0.000033 9
+0.010183 75
+0.002032 56
+0.000368 623
+0.000010 17
+28.524251 6
+0.000028 29
+0.000336 25
+0.187663 18
+6.672519 6
+0.000209 12
+15.009234 18
+0.559960 18
+0.151619 18
+0.135775 18
+0.978316 6
+0.000087 13
+0.175079 6
+0.000070 13
+0.071330 6
+0.000034 13
+0.263148 21
+0.145315 21
+0.140884 22
+0.156524 18
+21.356132 18
+0.186960 18
+0.172714 18
+0.188798 18
+0.192752 6
+0.000111 12
+0.182149 18
+0.174871 6
+0.000298 12
+0.193384 6
+0.000479 12
+0.174756 18
+2.463642 18
+0.203981 18
+0.221256 18
+0.173724 18
+1.788433 6
+0.000129 12
+0.167155 18
+0.182528 18
+15.496407 6
+0.000478 12
+0.195321 18
+0.194176 18
+0.195721 18
+2.370794 18
+0.264755 6
+0.000361 12
+1.953769 18
+0.173157 18
+23.692181 6
+0.000052 13
+0.517393 18
+0.000029 4
+2.390119 6
+0.000033 240
+2.799460 6
+0.000242 9
+0.000025 52
+0.001826 108
+0.119049 11
+0.000102 108
+1.901667 1
+0.075108 1
+0.087763 1
+0.188033 1
+0.176640 11
+0.072677 78
+0.007393 108
+356.509485 1
+0.342124 4
+0.132074 1
+0.149282 1
+0.185904 1
+0.131124 1
+0.161819 1
+0.289573 4
+0.200151 4
+0.089583 4
+0.136782 4
+0.094431 1
+0.120906 1
+0.093948 1
+0.616413 1
+0.127294 1
+0.087186 1
+0.455931 4
+0.125987 4
+0.095846 4
+0.115001 1
+0.105719 1
+0.469042 1
+0.096340 1
+0.082885 1
+0.140737 1
+0.078823 1
+0.920795 1
+0.147027 1
+0.095997 1
+0.343060 1
+0.157945 1
+0.076716 1
+0.397950 1
+0.272102 1
+0.092335 1
+0.620094 1
+0.179124 1
+0.135522 1
+0.795494 1
+0.131359 1
+0.229169 1
+0.776657 4
+0.125647 4
+0.104093 4
+0.060748 4
+0.798238 1
+0.455500 1
+0.412246 1
+0.088037 1
+0.102207 1
+0.168018 1
+0.461744 1
+0.297973 1
+0.085904 1
+1.494830 2
+0.000080 9
+0.014748 108
+199.119958 1
+0.122854 1
+0.457626 2
+0.000160 9
+0.002203 114
+0.000423 108
+1.408723 1
+0.420406 4
+0.114397 1
+0.122804 1
+0.879158 1
+0.127773 1
+0.147078 1
+0.121277 1
+0.135005 1
+0.130141 1
+0.153121 11
+0.231208 412
+0.011200 108
+0.284557 1
+0.116366 1
+0.079250 1
+0.107752 1
+0.211358 1
+0.101318 11
+0.002166 375
+0.000428 108
+0.564772 1
+0.340664 4
+0.125593 1
+0.098099 1
+0.083880 1
+0.075397 1
+0.081701 1
+0.133218 1
+0.075376 11
+0.000082 84
+0.276783 1
+0.563216 4
+0.134518 1
+0.184129 1
+0.070336 1
+0.070768 1
+0.087135 1
+0.143606 1
+0.050725 95
+0.274777 1
+0.095872 1
+0.130954 11
+0.003712 876
+0.000329 84
+0.894746 1
+0.076091 1
+0.064565 1
+0.182361 1
+0.350542 1
+0.130244 1
+0.113069 1
+0.119245 2
+0.830483 1
+0.085445 1
+0.261218 4
+0.117665 4
+0.685513 1
+0.371580 4
+0.193552 11
+0.000226 90
+0.237765 1
+0.199590 58
+0.000038 8
+0.000028 82
+0.438097 1
+0.158280 1
+0.069726 11
+0.003698 88
+0.000422 90
+0.734783 1
+0.080821 1
+0.070598 1
+0.198873 1
+0.772459 1
+0.545424 4
+0.137091 4
+0.195476 1
+0.190241 1
+0.184583 7
+0.524397 11
+0.000221 82
+0.297368 1
+0.134876 1
+0.072791 11
+0.003068 85
+0.000397 82
+0.810789 1
+0.070677 1
+0.109496 1
+0.081882 1
+0.116588 1
+0.086453 1
+0.131033 11
+0.007875 11
+0.000020 832
+0.000130 998
+0.000432 82
+5.764183 1
+0.114473 1
+0.041253 1
+0.289628 1
+0.156380 1
+0.115862 4
+0.347857 11
+0.000162 94
+0.283115 1
+0.110383 1
+0.091857 11
+0.003250 116
+0.000430 94
+1.582779 1
+0.096165 1
+0.029648 1
+0.184731 1
+0.304807 1
+0.275177 4
+0.703276 1
+0.303444 11
+0.000287 108
+0.298985 1
+0.119696 1
+0.104888 11
+0.001846 114
+0.000265 108
+0.594024 1
+0.075218 1
+0.090242 1
+0.070114 1
+0.122820 1
+0.080646 1
+0.133952 11
+0.002410 374
+0.000078 132
+0.000531 108
+8.732809 1
+0.127027 1
+0.093205 1
+0.268916 4
+0.132449 4
+0.103936 4
+0.111143 1
+0.063730 1
+0.137509 1
+0.101002 1
+0.265348 1
+0.203359 1
+0.105447 1
+0.232493 12
+0.505542 11
+0.002246 64
+0.975390 1
+0.176273 2
+0.000546 108
+1.943222 1
+0.145794 1
+0.081362 1
+0.262390 1
+0.092431 1
+1.892513 4
+0.132081 4
+0.135335 4
+0.122303 4
+0.118340 4
+0.109386 1
+0.086637 1
+2.426770 1
+0.068454 1
+0.098252 1
+0.126435 1
+0.084855 1
+2.016741 4
+0.124703 4
+0.141459 4
+0.100751 4
+0.093436 4
+0.097083 1
+0.199736 1
+0.064025 1
+0.123170 1
+0.398911 1
+1.101178 4
+0.114471 4
+0.127664 4
+0.107795 4
+0.109698 1
+0.171246 1
+0.074218 1
+0.085117 1
+0.117645 1
+0.131456 1
+0.089242 1
+0.993099 1
+0.232098 1
+0.059003 1
+0.279812 1
+0.161677 1
+0.154758 1
+0.852282 1
+0.344440 1
+0.100372 1
+0.090797 1
+0.153750 1
+0.335620 1
+0.720800 1
+0.118877 1
+1.647466 11
+0.004103 108
+0.637748 1
+0.084270 1
+0.110935 1
+0.048072 1
+0.116280 1
+0.074797 1
+0.464486 2
+0.000033 9
+0.001979 374
+0.000029 132
+0.000448 108
+15.276694 1
+0.117241 1
+73.301365 30
+0.905638 53
+0.027453 108
+8.122668 1
+0.097324 1
+1.291713 1
+4.192743 1
+0.078601 1
+0.168387 1
+0.162918 1
+0.383293 1
+0.202698 1
+0.267105 1
+0.194014 1
+0.277099 1
+0.227441 1
+0.266183 11
+0.001651 60
+1.128606 1
+0.150440 2
+0.000648 108
+1.285330 1
+0.058455 1
+0.076279 11
+0.002147 114
+0.000566 108
+12.858905 1
+0.078504 1
+0.159949 1
+0.748097 1
+0.119933 1
+0.186768 1
+0.224295 1
+0.214798 1
+0.454922 4
+0.118976 4
+0.135863 1
+0.154938 1
+0.285812 1
+0.254829 1
+0.249044 3
+0.647152 109
+2.332954 2
+0.140676 5
+0.162269 1
+0.849426 30
+1.112899 53
+0.013219 98
+6.469011 1
+0.085659 1
+0.088126 1
+0.117976 1
+0.776123 1
+0.588020 1
+0.110037 1
+0.217570 9
+0.298775 11
+0.020887 62
+0.000035 13
+0.000128 95
+0.000047 1
+0.000057 76
+0.000507 640
+1.308045 35
+0.000053 18
+0.064557 19
+0.638363 21
+0.135813 18
+0.000014 4
+0.145526 18
+0.871694 19
+0.095127 19
+0.079178 19
+0.157051 6
+0.000061 13
+0.181752 6
+0.000016 13
+0.592882 6
+0.000019 13
+0.147789 6
+0.000018 13
+0.168235 19
+0.268961 19
+0.506377 6
+0.000277 15
+0.324650 6
+0.000062 12
+0.000125 3
+0.107691 6
+0.000046 13
+0.149820 19
+0.205827 19
+0.211587 6
+0.000037 29
+0.233813 6
+0.000019 13
+0.111323 19
+0.294093 6
+0.000122 15
+0.106201 19
+1.866781 19
+1.201497 6
+0.000032 9
+0.000009 80
+0.000006 12
+0.000033 7
+0.268487 6
+0.000018 6
+0.000029 235
+2.585092 348
+1.123212 19
+0.866479 7
+0.000053 12
+1.048902 19
+0.345160 19
+0.148977 6
+0.000104 13
+4.147169 19
+0.930943 19
+0.399267 7
+0.000019 12
+0.231377 19
+1.317008 14
+0.000026 36
+0.000054 97
+0.000399 61
+0.000057 310
+0.358799 103
+2.417010 247
+2.185498 6
+0.000036 279
+0.000139 63
+2.737547 50
+0.000014 248
+0.000008 213
+0.000059 7
+0.816657 6
+0.000042 1
+0.000047 74
+0.000011 14
+0.000066 19
+1.010105 6
+0.000021 241
+3.592492 19
+1.684278 6
+0.000177 1
+0.000012 8
+0.000067 12
+0.000013 40
+0.000880 98
+1.449803 16
+1.056925 11
+0.003363 8
+0.000048 54
+0.000029 13
+0.000034 29
+0.000129 143
+0.000496 146
+0.000089 477
+0.000123 17
+2.313368 53
+1.763935 6
+0.000150 13
+0.225799 6
+0.000047 13
+0.125432 6
+0.000035 13
+0.239528 19
+1.406576 7
+0.000099 106
+0.553532 148
+0.000019 99
+1.261253 112
+0.000050 173
+0.000029 63
+0.464951 7
+0.000052 190
+0.000030 151
+0.000014 88
+0.000060 131
+1.547575 12
+0.000075 235
+1.315621 6
+0.000142 342
+6.403184 19
+0.450935 19
+0.268690 19
+0.147655 19
+1.641741 19
+0.233841 6
+0.000465 13
+0.174960 7
+0.000043 12
+0.090208 19
+3.391054 6
+0.000118 12
+0.365552 19
+0.741302 7
+0.000062 12
+4.315173 567
+6.381694 6
+0.000040 241
+0.463839 19
+3.060400 19
+1.578972 6
+0.001342 61
+0.000112 98
+1.205620 1
+0.189172 1
+0.167084 1
+0.092055 1
+0.159659 1
+0.767148 1
+0.180615 1
+0.132610 1
+0.165443 1
+0.223748 1
+14.362955 1
+0.094963 1
+0.139430 1
+0.160834 1
+0.649419 1
+0.030477 1
+0.814240 1
+0.160456 1
+0.309729 1
+0.184620 1
+1.089055 11
+0.011714 75
+0.000283 97
+0.000379 623
+0.000010 17
+1.289857 35
+0.000056 18
+0.061938 19
+0.119167 19
+0.156193 18
+0.000304 1
+0.153375 19
+1.256967 6
+0.000066 41
+0.003315 86
+0.388815 95
+0.000239 6
+4.140987 6
+0.000091 45
+0.004240 65
+0.396764 47
+0.003481 65
+0.530826 101
+0.638425 6
+0.000032 29
+0.000295 17
+0.585959 6
+0.000158 45
+0.003795 86
+0.864096 35
+0.000177 45
+2.098528 22
+0.157553 6
+0.000056 18
+0.891708 6
+0.000217 42
+0.003126 86
+2.392837 6
+0.000191 66
+0.001882 98
+6.292230 1
+0.096777 1
+0.199354 1
+0.160898 1
+0.141686 1
+0.073912 1
+0.302551 11
+0.002061 10
+0.000043 332
+0.000484 98
+31.329121 37
+1.026660 58
+0.000034 9
+0.013606 66
+0.001910 98
+7.011634 1
+0.058987 1
+0.463603 1
+0.849915 1
+0.096588 1
+0.986037 4
+0.525949 4
+5.346562 1
+0.282747 1
+0.224570 1
+0.380821 1
+0.766700 1
+0.095039 1
+4.649051 1
+0.223561 1
+0.152404 1
+0.077774 1
+0.885074 1
+0.684504 1
+2.329411 11
+0.000226 52
+0.000036 98
+1.693954 1
+0.017402 1
+1.118424 1
+0.217546 1
+0.371344 1
+0.187459 1
+0.181265 1
+0.211212 1
+0.161953 1
+0.710843 1
+0.354231 1
+0.151296 1
+0.188349 1
+0.183279 1
+0.668617 1
+0.159386 1
+0.225005 11
+0.000051 53
+0.000024 98
+1.371763 1
+0.053248 1
+0.688806 11
+0.000175 82
+1.001222 1
+0.049886 1
+0.310402 1
+0.818831 1
+0.297187 4
+0.132268 4
+0.156627 1
+0.169463 4
+0.143468 4
+0.169442 4
+0.121266 1
+0.169962 1
+0.069204 1
+0.079761 11
+0.002884 85
+0.000354 82
+1.417870 1
+0.059822 1
+0.383231 1
+0.288243 1
+0.208092 1
+0.127611 4
+0.331997 11
+0.000385 94
+1.763609 1
+0.084336 1
+0.189338 1
+0.176588 1
+0.139089 1
+0.175022 11
+0.000075 8
+0.000036 74
+2.828403 1
+0.114540 1
+0.198323 1
+0.831998 1
+0.094894 1
+0.119408 1
+0.319431 1
+1.427790 1
+0.525149 1
+0.106855 1
+0.159903 24
+0.666927 11
+0.001804 82
+0.644436 1
+0.059076 1
+0.135352 11
+0.002641 53
+0.000521 82
+1.700430 1
+0.022832 1
+0.410821 1
+1.514199 1
+0.880567 1
+0.267029 1
+0.088000 3
+0.337764 105
+1.316711 1
+0.112865 1
+0.242568 1
+0.131708 1
+0.146823 1
+0.207510 4
+1.087657 1
+1.471239 4
+0.064303 1
+0.238076 11
+0.000178 108
+11.226625 1
+0.060505 1
+0.399035 1
+0.165359 1
+0.911810 1
+0.054733 1
+0.199594 11
+0.002969 11
+0.000145 495
+0.000810 108
+26.272872 1
+0.172584 1
+0.174523 1
+3.682219 1
+0.077051 1
+0.075063 1
+0.100203 1
+0.079044 1
+2.707656 1
+0.096175 1
+0.198118 1
+0.158759 1
+0.200384 1
+0.557606 4
+0.105995 1
+0.297070 4
+0.119599 4
+0.153520 4
+0.180950 1
+0.185418 1
+0.101022 1
+0.757714 1
+0.416351 1
+0.316641 1
+0.600692 1
+0.162910 1
+0.297983 1
+0.099093 1
+0.124231 1
+0.105212 1
+0.098735 1
+2.531841 1
+0.959538 1
+0.035149 1
+0.101566 1
+0.057066 1
+0.674235 1
+0.227166 1
+0.084165 1
+3.675448 11
+0.011688 108
+51.394580 1
+0.088715 1
+0.041895 1
+0.133420 1
+0.466178 1
+0.356556 1
+0.179062 1
+0.480738 1
+0.256979 14
+0.600223 11
+1.827260 108
+1.212119 1
+0.047152 1
+0.204949 1
+0.237882 1
+2.064604 1
+0.097398 1
+0.200027 1
+0.069140 1
+1.101583 1
+0.235458 11
+0.000252 90
+0.402949 1
+0.105580 1
+0.100967 11
+0.001943 548
+0.000314 90
+18.822949 1
+0.055067 1
+0.580984 1
+0.474896 1
+0.641165 7
+0.688258 1
+0.262709 51
+0.000098 90
+2.695233 1
+0.092013 1
+0.687829 1
+0.322287 1
+0.072915 1
+0.503766 4
+0.647502 1
+0.078376 1
+0.272356 1
+0.175877 1
+0.132937 1
+0.127790 1
+1.097167 1
+0.965198 1
+0.990439 1
+1.045952 1
+0.071036 1
+0.194469 1
+0.159800 1
+0.259148 4
+0.158315 4
+0.146486 4
+0.163079 4
+0.176326 4
+0.951428 4
+0.813431 11
+0.006947 10
+5.747482 2
+2.974755 28
+0.000828 90
+3.433659 11
+0.377894 11
+0.003682 10
+6.628208 2
+0.040656 113
+0.000049 18
+7.523760 2
+0.036718 14
+2.820695 23
+1.266486 52
+3.987809 23
+1.928919 2
+0.087377 90
+3.259258 1
+0.076064 1
+0.300594 1
+0.171138 1
+0.246947 7
+0.973111 1
+0.760562 11
+0.000131 82
+1.345277 1
+0.082270 1
+0.671203 1
+0.146927 1
+0.246685 1
+0.119612 1
+0.446992 11
+0.002320 10
+0.000055 380
+0.000451 82
+0.488679 1
+0.152611 1
+0.173371 1
+1.298886 1
+0.075178 1
+0.484485 1
+0.285213 9
+0.351292 11
+0.003225 7
+0.000362 82
+481.430105 1
+0.055970 1
+1.099213 1
+0.148990 1
+0.118386 1
+0.319383 1
+0.475391 1
+0.208843 1
+0.199215 1
+0.552140 1
+0.190460 1
+0.195517 1
+0.846571 11
+0.004358 75
+0.000704 82
+0.589588 1
+0.116683 1
+2.076344 4
+0.176530 4
+0.162579 1
+0.163001 1
+0.192345 1
+76.507507 1
+0.054438 1
+12.607221 4
+0.137647 4
+0.133001 1
+9.360185 1
+0.760775 4
+0.164512 1
+12.349827 1
+0.801330 1
+0.199696 1
+0.962606 1
+0.250007 1
+0.221713 1
+0.163607 1
+0.509032 1
+0.268658 1
+0.241848 1
+0.260934 1
+0.701732 1
+0.193480 1
+0.111339 1
+0.264863 11
+0.001264 1303
+0.000241 82
+31.673018 1
+0.106099 1
+0.233556 1
+0.092982 1
+1.730671 1
+0.362699 1
+0.208858 1
+0.111385 1
+0.178520 1
+0.161621 1
+0.130558 1
+0.274040 4
+0.096734 1
+0.195109 1
+0.144748 1
+0.644265 1
+0.092572 1
+0.193936 1
+0.195143 1
+0.262519 1
+0.264412 1
+0.144868 1
+1.433695 1
+0.222235 1
+1.089944 1
+1.180140 11
+0.006792 30
+3.338365 2
+0.030388 38
+0.000482 8
+0.000053 74
+12.748708 1
+0.080458 1
+0.190107 1
+0.294271 1
+0.151281 1
+0.125997 1
+0.129853 1
+0.083003 1
+0.123148 1
+0.044452 1
+0.097641 1
+0.589227 11
+0.003336 10
+1.684353 2
+0.047009 36
+0.000262 108
+3.182680 4
+0.162184 16
+2.159841 20
+0.467122 16
+0.172363 21
+0.335699 11
+0.582527 4
+0.138075 4
+0.146019 1
+0.536148 1
+0.057635 1
+0.721443 1
+0.095403 1
+0.177173 1
+0.686929 1
+0.208497 1
+0.074716 1
+0.119361 1
+0.091801 1
+0.367322 1
+0.174204 1
+0.142131 1
+0.095572 1
+0.104927 1
+0.156454 1
+0.611054 1
+0.278956 1
+0.232513 1
+0.114810 1
+0.186149 1
+0.139096 1
+0.242954 1
+0.378166 11
+0.027235 108
+12.930701 1
+0.147664 1
+0.260203 1
+1.249085 1
+0.341619 1
+0.481667 1
+0.259506 1
+0.821092 1
+0.407650 1
+0.415424 1
+0.350101 1
+0.237034 1
+0.462747 1
+0.212774 1
+0.269351 11
+0.001270 1322
+0.000196 108
+77.543153 105
+35.795343 1
+0.192661 1
+0.102570 1
+0.175595 1
+0.404615 4
+0.152596 4
+0.215939 4
+0.447105 4
+0.178357 1
+0.182240 1
+9.728743 1
+7.836684 1
+0.071120 1
+0.113819 1
+0.101431 1
+0.164422 1
+3.059079 1
+0.142176 1
+0.182027 1
+1.245241 4
+0.531727 4
+0.030756 4
+0.029820 4
+0.030878 4
+0.029659 4
+0.032254 4
+0.029611 4
+0.030329 1
+0.031240 1
+0.030052 1
+0.042888 1
+0.030686 1
+0.028730 1
+0.031016 1
+0.030546 1
+0.031469 1
+0.032205 1
+0.034813 1
+0.026281 1
+0.029893 1
+0.030365 1
+0.031186 1
+0.029732 1
+0.030074 1
+0.029546 1
+0.030569 1
+0.031337 1
+0.059704 1
+0.025254 1
+0.029835 1
+0.030142 1
+0.031347 1
+0.035232 1
+0.025368 1
+3.389860 1
+0.088378 1
+0.402579 1
+0.813396 1
+0.742454 1
+0.949294 4
+0.893473 1
+0.178765 1
+0.180911 1
+0.220100 1
+0.896909 1
+0.400808 1
+0.626609 1
+0.179220 1
+0.165712 1
+0.134959 1
+0.591106 1
+0.199796 1
+0.224845 11
+0.000023 60
+0.000054 100
+2.060881 16
+0.297098 1
+0.520521 1
+0.030456 1
+0.030528 1
+0.030031 1
+0.030922 1
+0.030475 1
+0.029646 1
+0.031842 1
+0.030122 1
+0.253660 1
+0.298313 1
+0.797031 1
+0.471476 27
+0.517370 11
+0.000209 108
+1.504752 1
+0.060827 1
+0.078420 11
+0.001892 128
+0.000151 108
+11.653532 1
+0.058768 1
+2.874670 4
+0.171779 4
+0.156284 1
+0.183510 1
+2.421898 1
+0.075230 1
+0.097767 1
+0.081345 1
+0.170451 1
+0.749461 1
+0.137732 1
+0.363442 4
+0.105323 1
+0.222969 1
+0.445973 4
+0.149837 4
+0.144431 4
+0.165563 4
+0.130963 4
+0.143401 4
+0.147692 4
+0.143589 4
+0.146520 1
+0.561367 1
+0.256053 1
+0.199698 1
+0.278281 1
+0.064565 1
+0.229112 1
+1.065279 1
+0.140781 1
+0.175642 1
+0.122949 1
+0.576651 1
+0.273048 1
+0.098077 1
+0.114947 1
+0.066523 1
+0.429235 1
+0.298616 1
+0.871473 1
+0.432002 11
+0.001758 108
+13.820045 1
+0.083195 1
+0.921640 4
+0.305361 1
+0.086659 1
+0.176087 1
+0.159440 11
+0.086065 78
+0.007933 108
+7.003539 1
+51.325695 1
+0.096117 1
+0.193538 11
+0.002077 151
+0.000398 108
+10.669300 1
+0.127239 1
+0.166717 1
+0.181796 1
+0.210967 1
+0.568336 1
+0.166413 1
+0.376922 3
+0.287454 11
+0.002296 3656
+0.000029 1287
+0.000038 100
+0.000008 273
+0.000008 248
+0.000007 244
+0.000008 283
+0.000007 209
+0.000006 372
+0.000113 2862
+0.000052 1477
+0.000011 656
+0.000009 180
+0.000018 77
+0.000055 358
+0.000091 5038
+0.000024 2015
+0.000012 288
+0.000058 3940
+0.000011 596
+0.000008 178
+0.000028 1474
+0.000016 1246
+0.000035 233
+0.000034 2042
+0.000014 1282
+0.000007 84
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ sudo chmod +x team_uus[K[Kser.sj[Kh
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ ls
+[?2004l2026_20220984_week03_2_log.txt  [0m[01;32mcreate_user.sh[0m  [01;32mteam_user.sh[0m
+2026_20220984_week03_log.txt    t.txt           [01;34mweb_service[0m
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ sudo ./team_user.hs[K[Ksj[Kh
+[?2004lsudo: usermod-aG: command not found
+student1 를 dev_team1에 추가 완료
+sudo: usermod-aG: command not found
+student2 를 dev_team1에 추가 완료
+sudo: usermod-aG: command not found
+student3 를 dev_team1에 추가 완료
+sudo: usermod-aG: command not found
+student4 를 dev_team1에 추가 완료
+sudo: usermod-aG: command not found
+student5 를 dev_team1에 추가 완료
+./team_user.sh: line 8: 옵션: command not found
+모든 작업이 완료되었습니다.
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ sudo ./team_user.sh
+[?2004lsudo: usermod-aG: command not found
+student1 를 dev_team1에 추가 완료
+sudo: usermod-aG: command not found
+student2 를 dev_team1에 추가 완료
+sudo: usermod-aG: command not found
+student3 를 dev_team1에 추가 완료
+sudo: usermod-aG: command not found
+student4 를 dev_team1에 추가 완료
+sudo: usermod-aG: command not found
+student5 를 dev_team1에 추가 완료
+모든 작업이 완료되었습니다.
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ sudo ./team_user.sh
+[?2004lstudent1 를 dev_team1에 추가 완료
+student2 를 dev_team1에 추가 완료
+student3 를 dev_team1에 추가 완료
+student4 를 dev_team1에 추가 완료
+student5 를 dev_team1에 추가 완료
+모든 작업이 완료되었습니다.
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ \\[K[Kgrep "dev_team1" /etc/group
+[?2004l[01;31m[Kdev_team1[m[K:x:1025:student1,student2,student3,student4,student5
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ su student1
+[?2004lPassword: 
+You are required to change your password immediately (administrator enforced).
+Changing password for student1.
+Current password: 
+su: Authentication token manipulation error
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ su student1
+[?2004lPassword: 
+su: Authentication failure
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ su student1
+[?2004lPassword: 
+You are required to change your password immediately (administrator enforced).
+Changing password for student1.
+Current password: 
+su: Authentication token manipulation error
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ su student1
+[?2004lPassword: 
+You are required to change your password immediately (administrator enforced).
+Changing password for student1.
+Current password: 
+New password: 
+Retype new password: 
+[?2004h]0;student1@JUHEE-NOH: /home/njh19270/linux/week03[01;32mstudent1@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/week03[00m$ sd student1
+[?2004lCommand 'sd' not found, but can be installed with:
+apt install sd
+Please ask your administrator.
+[?2004h]0;student1@JUHEE-NOH: /home/njh19270/linux/week03[01;32mstudent1@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/week03[00m$ cd student1
+[?2004lbash: cd: student1: Permission denied
+[?2004h]0;student1@JUHEE-NOH: /home/njh19270/linux/week03[01;32mstudent1@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/week03[00m$ pwd
+[?2004l/home/njh19270/linux/week03
+[?2004h]0;student1@JUHEE-NOH: /home/njh19270/linux/week03[01;32mstudent1@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/week03[00m$ cd .. [K
+[?2004l[?2004h]0;student1@JUHEE-NOH: /home/njh19270/linux[01;32mstudent1@JUHEE-NOH[00m:[01;34m/home/njh19270/linux[00m$ cd ..
+[?2004lbash: cd: ..: Permission denied
+[?2004h]0;student1@JUHEE-NOH: /home/njh19270/linux[01;32mstudent1@JUHEE-NOH[00m:[01;34m/home/njh19270/linux[00m$ su njh19270
+[?2004lPassword: 
+bash: SCRIPT.sh: No such file or directory
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux[00m$ cd
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~[00m$ ls
+[?2004l[0m[01;32mSCRIPT.sh[0m  [01;34mlinux[0m  t.txt
+[?2004h]0;njh19270@JUHEE-NOH: ~[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~[00m$ psw[Kd
+[?2004lCommand 'psd' not found, but can be installed with:
+sudo apt install profile-sync-daemon
+[?2004h]0;njh19270@JUHEE-NOH: ~[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~[00m$ pwd
+[?2004l/home/njh19270
+[?2004h]0;njh19270@JUHEE-NOH: ~[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~[00m$ cd ..
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: /home[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/home[00m$ su t[Kstudent1
+[?2004lPassword: 
+[?2004h]0;student1@JUHEE-NOH: /home[01;32mstudent1@JUHEE-NOH[00m:[01;34m/home[00m$ cd student1
+[?2004l[?2004h]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ mkdir dev_share
+[?2004l[?2004h]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ stat dev_sher[K[Kare
+[?2004l  File: dev_share
+  Size: 4096      	Blocks: 8          IO Block: 4096   directory
+Device: 8,48	Inode: 62705       Links: 2
+Access: (0775/drwxrwxr-x)  Uid: ( 1005/student1)   Gid: ( 1005/student1)
+Access: 2026-03-27 10:32:31.734438903 +0900
+Modify: 2026-03-27 10:32:31.734438903 +0900
+Change: 2026-03-27 10:32:31.734438903 +0900
+ Birth: 2026-03-27 10:32:31.734438903 +0900
+[?2004h]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ chgrp dev_team1 dev_share
+[?2004l[?2004h]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ schgrp dev_team1 dev_share[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pstat[C[C[C[C[C[C[C[C[C[C
+[?2004l  File: dev_share
+  Size: 4096      	Blocks: 8          IO Block: 4096   directory
+Device: 8,48	Inode: 62705       Links: 2
+Access: (0775/drwxrwxr-x)  Uid: ( 1005/student1)   Gid: ( 1025/dev_team1)
+Access: 2026-03-27 10:32:31.734438903 +0900
+Modify: 2026-03-27 10:32:31.734438903 +0900
+Change: 2026-03-27 10:35:22.604245244 +0900
+ Birth: 2026-03-27 10:32:31.734438903 +0900
+[?2004h]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ sudo chmod 2750 dev_share
+[?2004l[sudo] password for student1: 
+student1 is not in the sudoers file.
+[?2004h]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ cu njh19270
+[?2004lCommand 'cu' not found, but can be installed with:
+apt install cu      # version 1.07-28, or
+apt install opencu  # version 3-3build2
+Ask your administrator to install one of them.
+[?2004h]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ su njh19270 
+[?2004lPassword: 
+bash: SCRIPT.sh: Permission denied
+[?2004h]0;njh19270@JUHEE-NOH: /home/student1[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/home/student1[00m$ exit[Ksudo chmod 2750 dev_share
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: /home/student1[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/home/student1[00m$ su sta[Kudent1
+[?2004lPassword: 
+[?2004h]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ stat dev_share/
+[?2004l  File: dev_share/
+  Size: 4096      	Blocks: 8          IO Block: 4096   directory
+Device: 8,48	Inode: 62705       Links: 2
+Access: (2750/drwxr-s---)  Uid: ( 1005/student1)   Gid: ( 1025/dev_team1)
+Access: 2026-03-27 10:32:31.734438903 +0900
+Modify: 2026-03-27 10:32:31.734438903 +0900
+Change: 2026-03-27 10:39:40.367361081 +0900
+ Birth: 2026-03-27 10:32:31.734438903 +0900
+[?2004h]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ ^C[?2004l[?2004h[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C^C[?2004l[?2004h[?2004l
+[?2004h]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ ls -al
+[?2004ltotal 28
+drwxr-x---  3 student1 student1  4096 Mar 27 10:32 [0m[01;34m.[0m
+drwxr-xr-x 26 root     root      4096 Mar 27 10:08 [01;34m..[0m
+-rw-r--r--  1 student1 student1   220 Mar 31  2024 .bash_logout
+-rw-r--r--  1 student1 student1  3815 Mar 27 09:41 .bashrc
+-rw-r--r--  1 student1 student1   806 Mar 20 11:32 .profile
+drwxr-s---  2 student1 dev_team1 4096 Mar 27 10:32 [01;34mdev_share[0m
+-rw-r--r--  1 student1 student1     6 Mar 27 10:04 readme.txt
+[?2004h]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ [K]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ [K]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ find /usr/bin -perm 0[K-2000
+[?2004l/usr/bin/expiry
+/usr/bin/chage
+/usr/bin/crontab
+/usr/bin/ssh-agent
+[?2004h]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ find /usr/bin -perm -2000[C[C[C[C[C[C[C[C[C[1P0004000
+[?2004l/usr/bin/mount
+/usr/bin/sudo
+/usr/bin/umount
+/usr/bin/newgrp
+/usr/bin/chsh
+/usr/bin/su
+/usr/bin/chfn
+/usr/bin/passwd
+/usr/bin/gpasswd
+/usr/bin/fusermount3
+[?2004h]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ cd dev_share
+[?2004l[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ touch report1.hwp
+[?2004l[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ su student [K0[K9
+[?2004lPassword: 
+[?2004h]0;student9@JUHEE-NOH: /home/student1/dev_share[01;32mstudent9@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ ls
+[?2004lls: cannot open directory '.': Permission denied
+[?2004h]0;student9@JUHEE-NOH: /home/student1/dev_share[01;32mstudent9@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ cd student1
+[?2004lbash: cd: student1: Permission denied
+[?2004h]0;student9@JUHEE-NOH: /home/student1/dev_share[01;32mstudent9@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ 12341234
+[?2004l12341234: command not found
+[?2004h]0;student9@JUHEE-NOH: /home/student1/dev_share[01;32mstudent9@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ su student2
+[?2004lPassword: 
+You are required to change your password immediately (administrator enforced).
+Changing password for student2.
+Current password: 
+New password: 
+Retype new password: 
+[?2004h]0;student2@JUHEE-NOH: /home/student1/dev_share[01;32mstudent2@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ ls
+[?2004lreport1.hwp
+[?2004h]0;student2@JUHEE-NOH: /home/student1/dev_share[01;32mstudent2@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ su student2
+[?2004lPassword: 
+[?2004h]0;student2@JUHEE-NOH: /home/student1/dev_share[01;32mstudent2@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ cat report1.hwp 
+[?2004l[?2004h]0;student2@JUHEE-NOH: /home/student1/dev_share[01;32mstudent2@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ ls -al
+[?2004ltotal 8
+drwxr-s--- 2 student1 dev_team1 4096 Mar 27 10:49 [0m[01;34m.[0m
+drwxr-x--- 3 student1 student1  4096 Mar 27 10:32 [01;34m..[0m
+-rw-rw-r-- 1 student1 dev_team1    0 Mar 27 10:49 report1.hwp
+[?2004h]0;student2@JUHEE-NOH: /home/student1/dev_share[01;32mstudent2@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ [7mecho "hello" > report1.hwp[27mecho "hello" > report1.hwp
+[?2004l[?2004h]0;student2@JUHEE-NOH: /home/student1/dev_share[01;32mstudent2@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ cat h[Kreport1.hwp 
+[?2004lhello
+[?2004h]0;student2@JUHEE-NOH: /home/student1/dev_share[01;32mstudent2@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ sts[Kat report1.hwp 
+[?2004l  File: report1.hwp
+  Size: 6         	Blocks: 8          IO Block: 4096   regular file
+Device: 8,48	Inode: 62599       Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1005/student1)   Gid: ( 1025/dev_team1)
+Access: 2026-03-27 10:54:23.031227473 +0900
+Modify: 2026-03-27 10:54:04.625519489 +0900
+Change: 2026-03-27 10:54:04.625519489 +0900
+ Birth: 2026-03-27 10:49:41.991543206 +0900
+[?2004h]0;student2@JUHEE-NOH: /home/student1/dev_share[01;32mstudent2@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ xmrwjd[K[K[K[K[K[Knano test.sh[K[K[K[K[K[K[K[K[K[K[K[Ksu student1
+[?2004lPassword: 
+[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ nano ets[K[K[Ktest.sh
+[?2004l[?2004h[?1049h[22;0;0t[1;49r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[47;41H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 7.2                               test.sh                                         [1;92H(B[m[48d(B[0;7m^G(B[m Help[48;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[48;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location[49d(B[0;7m^X(B[m Exit[49;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line[2d[?12l[?25h[?25l[47d[K[1;54H(B[0;7m*[92G(B[m[2d[36m#!/bin/bash[3d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"=============================="[4d[34mecho[39m(B[m (B[0;1m[33m" 실행 테스트 성공"[5d[34mecho[39m(B[m (B[0;1m[33m" 실행 사용자: $(whoami)"[6d[34mecho[39m(B[m (B[0;1m[33m"=============================="[39m(B[m[?12l[?25h[?25l[47;40H(B[0;7m[ Writing... ](B[m[1;54H(B[0;7m [92G(B[m[47;39H(B[0;7m[ Wrote 5 lines ](B[m[?12l[?25h[6;38H[?25l[47d[J[49d[?12l[?25h[49;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ ls
+[?2004lreport1.hwp  test.sh
+[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ tes[K[K[Ksu test.sh
+[?2004lsu: user test.sh does not exist or the user entry does not contain all the required fields
+[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ test.sh
+[?2004ltest.sh: command not found
+[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ stat test.sh
+[?2004l  File: test.sh
+  Size: 156       	Blocks: 8          IO Block: 4096   regular file
+Device: 8,48	Inode: 62712       Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1005/student1)   Gid: ( 1025/dev_team1)
+Access: 2026-03-27 11:11:05.532834400 +0900
+Modify: 2026-03-27 11:11:05.532834400 +0900
+Change: 2026-03-27 11:11:05.532834400 +0900
+ Birth: 2026-03-27 11:11:05.532834400 +0900
+[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ cho[Kmod 740 test.sh
+[?2004l[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ chmod 740 test.sh[5Pstat[C[C[C[C[C[C[C[C
+[?2004l  File: test.sh
+  Size: 156       	Blocks: 8          IO Block: 4096   regular file
+Device: 8,48	Inode: 62712       Links: 1
+Access: (0740/-rwxr-----)  Uid: ( 1005/student1)   Gid: ( 1025/dev_team1)
+Access: 2026-03-27 11:11:05.532834400 +0900
+Modify: 2026-03-27 11:11:05.532834400 +0900
+Change: 2026-03-27 11:15:40.632795650 +0900
+ Birth: 2026-03-27 11:11:05.532834400 +0900
+[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ snj[K[K[Ksu njh192970
+[?2004lsu: user njh192970 does not exist or the user entry does not contain all the required fields
+[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ su njh19270 
+[?2004lPassword: 
+bash: SCRIPT.sh: Permission denied
+[?2004h]0;njh19270@JUHEE-NOH: /home/student1/dev_share[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ ls
+[?2004lls: cannot open directory '.': Permission denied
+[?2004h]0;njh19270@JUHEE-NOH: /home/student1/dev_share[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ su student1
+[?2004lPassword: 
+[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ ls
+[?2004lreport1.hwp  [0m[01;32mtest.sh[0m
+[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ ./[Ktest.sh[1Ptest.sh
+[?2004ltest.sh: command not found
+[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ test.shls[K[K[Kstat test.sh 
+[?2004l  File: test.sh
+  Size: 156       	Blocks: 8          IO Block: 4096   regular file
+Device: 8,48	Inode: 62712       Links: 1
+Access: (0740/-rwxr-----)  Uid: ( 1005/student1)   Gid: ( 1025/dev_team1)
+Access: 2026-03-27 11:11:05.532834400 +0900
+Modify: 2026-03-27 11:11:05.532834400 +0900
+Change: 2026-03-27 11:15:40.632795650 +0900
+ Birth: 2026-03-27 11:11:05.532834400 +0900
+[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ su njh19270 
+[?2004lPassword: 
+bash: SCRIPT.sh: Permission denied
+[?2004h]0;njh19270@JUHEE-NOH: /home/student1/dev_share[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ sudo apt-get install acl[C[K[K[K[K[K[K[K[K[K[K[K[Ki[K install acl
+[?2004l[sudo] password for njh19270: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  libllvm19 libwayland-server0
+Use 'sudo apt autoremove' to remove them.
+The following NEW packages will be installed:
+  acl
+0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Need to get 39.4 kB of archives.
+After this operation, 197 kB of additional disk space will be used.
+0% [Working]0% [Waiting for headers]                        Get:1 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 acl amd64 2.3.2-1build1.1 [39.4 kB]
+24% [1 acl 11.8 kB/39.4 kB 30%]                               100% [Working]              Fetched 39.4 kB in 1s (38.3 kB/s)
+Selecting previously unselected package acl.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 41626 files and directories currently installed.)
+Preparing to unpack .../acl_2.3.2-1build1.1_amd64.deb ...
+Unpacking acl (2.3.2-1build1.1) ...
+Setting up acl (2.3.2-1build1.1) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+[?2004h]0;njh19270@JUHEE-NOH: /home/student1/dev_share[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ [7msudo setfacl-m u:student2:--x test.sh[27msudo setfacl-m u:student2:--x test.sh
+[?2004lsudo: setfacl-m: command not found
+[?2004h]0;njh19270@JUHEE-NOH: /home/student1/dev_share[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ sudo setfacl-m u:student2:--x test.sh[1@ 
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: /home/student1/dev_share[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ su student1
+[?2004lPassword: 
+[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ stata[K test.sh 
+[?2004l  File: test.sh
+  Size: 156       	Blocks: 8          IO Block: 4096   regular file
+Device: 8,48	Inode: 62712       Links: 1
+Access: (0750/-rwxr-x---)  Uid: ( 1005/student1)   Gid: ( 1025/dev_team1)
+Access: 2026-03-27 11:11:05.532834400 +0900
+Modify: 2026-03-27 11:11:05.532834400 +0900
+Change: 2026-03-27 11:19:54.590210639 +0900
+ Birth: 2026-03-27 11:11:05.532834400 +0900
+[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ ls -al
+[?2004ltotal 16
+drwxr-s---  2 student1 dev_team1 4096 Mar 27 11:11 [0m[01;34m.[0m
+drwxr-x---  4 student1 student1  4096 Mar 27 11:10 [01;34m..[0m
+-rw-rw-r--  1 student1 dev_team1    6 Mar 27 10:54 report1.hwp
+-rwxr-x---+ 1 student1 dev_team1  156 Mar 27 11:11 [01;32mtest.sh[0m
+[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ getfacl test.sh 
+[?2004l# file: test.sh
+# owner: student1
+# group: dev_team1
+user::rwx
+user:student2:--x
+group::r--
+mask::r-x
+other::---
+
+[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ su student23[K
+[?2004lPassword: 
+[?2004h]0;student2@JUHEE-NOH: /home/student1/dev_share[01;32mstudent2@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ su student1
+[?2004lPassword: 
+[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ ./test.sh
+[?2004l==============================
+ 실행 테스트 성공
+ 실행 사용자: student1
+==============================
+[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ ./test.sh[K./test.sh[K[K[K[K[K[K[K[K[Ksu student2
+[?2004lPassword: 
+[?2004h]0;student2@JUHEE-NOH: /home/student1/dev_share[01;32mstudent2@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ ls -al
+[?2004ltotal 16
+drwxr-s---  2 student1 dev_team1 4096 Mar 27 11:11 [0m[01;34m.[0m
+drwxr-x---  4 student1 student1  4096 Mar 27 11:10 [01;34m..[0m
+-rw-rw-r--  1 student1 dev_team1    6 Mar 27 10:54 report1.hwp
+-rwxr-x---+ 1 student1 dev_team1  156 Mar 27 11:11 [01;32mtest.sh[0m
+[?2004h]0;student2@JUHEE-NOH: /home/student1/dev_share[01;32mstudent2@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ ./test.sh
+[?2004l/bin/bash: ./test.sh: Permission denied
+[?2004h]0;student2@JUHEE-NOH: /home/student1/dev_share[01;32mstudent2@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ ls
+[?2004lreport1.hwp  [0m[01;32mtest.sh[0m
+[?2004h]0;student2@JUHEE-NOH: /home/student1/dev_share[01;32mstudent2@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ cd ..
+[?2004lbash: cd: ..: Permission denied
+[?2004h]0;student2@JUHEE-NOH: /home/student1/dev_share[01;32mstudent2@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ s[Ksu student1
+[?2004lPassword: 
+[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ cd .[K[K[K[Kcd ..
+[?2004l[?2004h]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ ls
+[?2004l[0m[01;34mdev_share[0m  readme.txt
+[?2004h]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ setfacl 0[K-m u:u[Kstudent2:--x dev_share/[K
+[?2004l[?2004h]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ gee[K[Kget[K[K[Ketfacl dev_share
+[?2004l# file: dev_share
+# owner: student1
+# group: dev_team1
+# flags: -s-
+user::rwx
+user:student2:--x
+group::r-x
+mask::r-x
+other::---
+
+[?2004h]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ su student2
+[?2004lPassword: 
+[?2004h]0;student2@JUHEE-NOH: /home/student1[01;32mstudent2@JUHEE-NOH[00m:[01;34m/home/student1[00m$ ./test.sh
+[?2004lbash: ./test.sh: Permission denied
+[?2004h]0;student2@JUHEE-NOH: /home/student1[01;32mstudent2@JUHEE-NOH[00m:[01;34m/home/student1[00m$ cd [K[K[Ksu student[K[K[K[K[K[K[K[K[K[Kcd ..
+[?2004l[?2004h]0;student2@JUHEE-NOH: /home[01;32mstudent2@JUHEE-NOH[00m:[01;34m/home[00m$ cd su[Ktudent1/devshea[K[K[K[K_shat[Kre
+[?2004lbash: cd: student1/dev_share: Permission denied
+[?2004h]0;student2@JUHEE-NOH: /home[01;32mstudent2@JUHEE-NOH[00m:[01;34m/home[00m$ cd[K[Kdm[K[Ksu student1
+[?2004lPassword: 
+
+^C
+[?2004h]0;student2@JUHEE-NOH: /home[01;32mstudent2@JUHEE-NOH[00m:[01;34m/home[00m$ su student1
+[?2004lPassword: 
+[?2004h]0;student1@JUHEE-NOH: /home[01;32mstudent1@JUHEE-NOH[00m:[01;34m/home[00m$ su[K[Kcd student1/dev_share/
+[?2004l[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ su stuen[K[Kdne[K[Kent2
+[?2004lPassword: 
+[?2004h]0;student2@JUHEE-NOH: /home/student1/dev_share[01;32mstudent2@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ ./testh[K.sh
+[?2004l/bin/bash: ./test.sh: Permission denied
+[?2004h]0;student2@JUHEE-NOH: /home/student1/dev_share[01;32mstudent2@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ su student1
+[?2004lPassword: 
+[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ setsacl -m u:stue[Ksent[K[K[K[Kdent2:r-w test.sh
+[?2004lCommand 'setsacl' not found, did you mean:
+  command 'setfacl' from deb acl (2.3.2-1build1.1)
+Try: apt install <deb name>
+[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ setsacl -m u:student2:r-w test.sh[C[1P[1@f
+[?2004l[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ stat test.sh 
+[?2004l  File: test.sh
+  Size: 156       	Blocks: 8          IO Block: 4096   regular file
+Device: 8,48	Inode: 62712       Links: 1
+Access: (0760/-rwxrw----)  Uid: ( 1005/student1)   Gid: ( 1025/dev_team1)
+Access: 2026-03-27 11:25:08.390663336 +0900
+Modify: 2026-03-27 11:11:05.532834400 +0900
+Change: 2026-03-27 11:31:52.626632705 +0900
+ Birth: 2026-03-27 11:11:05.532834400 +0900
+[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ stat test.sh etfacl -m u:student2:r-w test.sh[1P test.shx test.sh
+[?2004l[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ setfacl -m u:student2:r-x test.sh[20Ptat test.sh 
+[?2004l  File: test.sh
+  Size: 156       	Blocks: 8          IO Block: 4096   regular file
+Device: 8,48	Inode: 62712       Links: 1
+Access: (0750/-rwxr-x---)  Uid: ( 1005/student1)   Gid: ( 1025/dev_team1)
+Access: 2026-03-27 11:25:08.390663336 +0900
+Modify: 2026-03-27 11:11:05.532834400 +0900
+Change: 2026-03-27 11:32:20.816558681 +0900
+ Birth: 2026-03-27 11:11:05.532834400 +0900
+[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ su studet[Knt t[K[K2
+[?2004lPassword: 
+[?2004h]0;student2@JUHEE-NOH: /home/student1/dev_share[01;32mstudent2@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ ./test.sh
+[?2004l==============================
+ 실행 테스트 성공
+ 실행 사용자: student2
+==============================
+[?2004h]0;student2@JUHEE-NOH: /home/student1/dev_share[01;32mstudent2@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ su student3
+[?2004lPassword: 
+You are required to change your password immediately (administrator enforced).
+Changing password for student3.
+Current password: 
+New password: 
+Retype new password: 
+[?2004h]0;student3@JUHEE-NOH: /home/student1/dev_share[01;32mstudent3@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ su student3
+[?2004lPassword: 
+[?2004h]0;student3@JUHEE-NOH: /home/student1/dev_share[01;32mstudent3@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ ls
+[?2004lreport1.hwp  [0m[01;32mtest.sh[0m
+[?2004h]0;student3@JUHEE-NOH: /home/student1/dev_share[01;32mstudent3@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ tes[K[K[Kcaat report1.hwp [K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kt report1.hwp 
+[?2004lhello
+[?2004h]0;student3@JUHEE-NOH: /home/student1/dev_share[01;32mstudent3@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ test[K[K[K[K./s[Ktest.sh
+[?2004lbash: ./test.sh: Permission denied
+[?2004h]0;student3@JUHEE-NOH: /home/student1/dev_share[01;32mstudent3@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ ls
+[?2004lreport1.hwp  [0m[01;32mtest.sh[0m
+[?2004h]0;student3@JUHEE-NOH: /home/student1/dev_share[01;32mstudent3@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ su student9
+[?2004lPassword: 
+[?2004h]0;student9@JUHEE-NOH: /home/student1/dev_share[01;32mstudent9@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ ls
+[?2004lls: cannot open directory '.': Permission denied
+[?2004h]0;student9@JUHEE-NOH: /home/student1/dev_share[01;32mstudent9@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ exit[K[K[K[Kexit
+[?2004lexit
+[?2004h]0;student3@JUHEE-NOH: /home/student1/dev_share[01;32mstudent3@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ head 22[K026_sh[K[K20220984_log_2.[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls
+[?2004lreport1.hwp  [0m[01;32mtest.sh[0m
+[?2004h]0;student3@JUHEE-NOH: /home/student1/dev_share[01;32mstudent3@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ cd /[K~/linux/week-3
+[?2004lbash: cd: /home/student3/linux/week-3: No such file or directory
+[?2004h]0;student3@JUHEE-NOH: /home/student1/dev_share[01;32mstudent3@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ cd ~/linux/week-3[1P303
+[?2004lbash: cd: /home/student3/linux/week03: No such file or directory
+[?2004h]0;student3@JUHEE-NOH: /home/student1/dev_share[01;32mstudent3@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ su njh19270
+[?2004lPassword: 
+bash: SCRIPT.sh: Permission denied
+[?2004h]0;njh19270@JUHEE-NOH: /home/student1/dev_share[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ head 202[K[K[K[K[K[K[K[Kls
+[?2004lls: cannot open directory '.': Permission denied
+[?2004h]0;njh19270@JUHEE-NOH: /home/student1/dev_share[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ cd
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~[00m$ cd linux/se[K[Kweek03
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ ls
+[?2004l2026_20220984_week03_2_log.txt  [0m[01;32mcreate_user.sh[0m  [01;32mteam_user.sh[0m
+2026_20220984_week03_log.txt    t.txt           [01;34mweb_service[0m
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ ha[Kean[Kd 2026_20220984_week03_2_log.txt 
+[?2004lScript started on 2026-03-27 09:29:52+09:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="120" LINES="30"]
+bash: SCRIPT.sh: No such file or directory
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ cd
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~[00m$ cd linux/week03
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ ls
+[?2004l2026_20220984_week03_2_log.txt  2026_20220984_week03_log.txt  t.txt  [0m[01;34mweb_service[0m
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ cd
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~[00m$ cd /etc/skel
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: /etc/skel[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/etc/skel[00m$ ls -al
+[?2004ltotal 20
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ tail 2026_20220984_week03_2_log.txt 
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ cd
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~[00m$ cd linux/week03
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ ls
+[?2004l2026_20220984_week03_2_log.txt  2026_20220984_week03_log.txt  t.txt  [0m[01;34mweb_service[0m
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ cd
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~[00m$ cd /etc/skel
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: /etc/skel[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/etc/skel[00m$ ls -al
+[?2004ltotal 20
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ tail 2026_20220984_week03_2_log.txt 
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ it[K[Kgit a[Kstatus
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   2026_20220984_week03_log.txt[m
+	[31mmodified:   t.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../2026-03-24/[m
+	[31m../2026-03-27/[m
+	[31m2026_20220984_week03_2_log.txt[m
+	[31mcreate_user.sh[m
+	[31mteam_user.sh[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ git add .
+[?2004l

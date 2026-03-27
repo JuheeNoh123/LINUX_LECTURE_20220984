@@ -436,4 +436,15 @@ info: Adding user `guest2' to group `users' ...
 [?2004h]0;njh19270@JUHEE-NOH: /etc/skel[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/etc/skel[00m$ cd //jp[K[Khome
 [?2004l[?2004h]0;njh19270@JUHEE-NOH: //home[01;32mnjh19270@JUHEE-NOH[00m:[01;34m//home[00m$ cd guest2
 [?2004lbash: cd: guest2: Permission denied
-[?2004h]0;njh19270@JUHEE-NOH: //home[01;32mnjh19270@JUHEE-NOH[00m:[01;34m//home[00m$ 
+[?2004h]0;njh19270@JUHEE-NOH: //home[01;32mnjh19270@JUHEE-NOH[00m:[01;34m//home[00m$ exit
+[?2004lexit
+[?2004h]0;web_admin@JUHEE-NOH: /home/njh19270/linux/week03/web_service[01;32mweb_admin@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/week03/web_service[00m$ exut[K[K[Kxit
+[?2004lexit
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ exit
+[?2004lexit
+[?2004h]0;guest@JUHEE-NOH: /home/njh19270/linux/week03/web_service[01;32mguest@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/week03/web_service[00m$ ext[Kit
+[?2004lexit
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service/html[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service/html[00m$ eix[K[Kxit
+[?2004lexit
+
+Script done on 2026-03-20 11:51:08+09:00 [COMMAND_EXIT_CODE="1"]
