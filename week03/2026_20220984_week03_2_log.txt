@@ -4098,4 +4098,28 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 [?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ git add .
-[?2004l
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ git commit -m "week03 완료"
+[?2004l[main 61ef3ab] week03 완료
+ 5 files changed, 9219 insertions(+), 1832 deletions(-)
+ create mode 100644 week03/2026_20220984_week03_2_log.txt
+ create mode 100755 week03/create_user.sh
+ create mode 100755 week03/team_user.sh
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ 햣 ㅔㅕ[K[K[K[Kgit spu[K[K[Kpush orifin[K[K[Kgin main
+[?2004lEnumerating objects: 12, done.
+Counting objects:   8% (1/12)Counting objects:  16% (2/12)Counting objects:  25% (3/12)Counting objects:  33% (4/12)Counting objects:  41% (5/12)Counting objects:  50% (6/12)Counting objects:  58% (7/12)Counting objects:  66% (8/12)Counting objects:  75% (9/12)Counting objects:  83% (10/12)Counting objects:  91% (11/12)Counting objects: 100% (12/12)Counting objects: 100% (12/12), done.
+Delta compression using up to 12 threads
+Compressing objects:  12% (1/8)Compressing objects:  25% (2/8)Compressing objects:  37% (3/8)Compressing objects:  50% (4/8)Compressing objects:  62% (5/8)Compressing objects:  75% (6/8)Compressing objects:  87% (7/8)Compressing objects: 100% (8/8)Compressing objects: 100% (8/8), done.
+Writing objects:  12% (1/8)Writing objects:  25% (2/8)Writing objects:  37% (3/8)Writing objects:  50% (4/8)Writing objects:  62% (5/8)Writing objects:  75% (6/8)Writing objects:  87% (7/8)Writing objects: 100% (8/8)Writing objects: 100% (8/8), 51.51 KiB | 8.58 MiB/s, done.
+Total 8 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+To https://github.com/JuheeNoh123/LINUX_LECTURE_20220984.git
+   c33d198..61ef3ab  main -> main
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ exit
+[?2004lexit
+[?2004h]0;student3@JUHEE-NOH: /home/student1/dev_share[01;32mstudent3@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ exit
+[?2004lexit
+[?2004h]0;student3@JUHEE-NOH: /home/student1/dev_share[01;32mstudent3@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ exit
+[?2004lexit
+[?2004h]0;student2@JUHEE-NOH: /home/student1/dev_share[01;32mstudent2@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ [?2004l
+exit
+[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ 
