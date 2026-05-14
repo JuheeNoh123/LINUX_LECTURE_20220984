@@ -1,0 +1,857 @@
+Script started on 2026-04-20 01:33:50+09:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="120" LINES="30"]
+bash: SCRIPT.sh: No such file or directory
+bash: SCRIPT.sh: No such file or directory
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/2026-04-20[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-04-20[00m$ su sst[K[Ktudent3[K2
+[?2004lPassword: 
+[?2004h]0;student2@JUHEE-NOH: /home/njh19270/linux/2026-04-20[01;32mstudent2@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/2026-04-20[00m$ su njh19270 
+[?2004lPassword: 
+[?2004h]0;student2@JUHEE-NOH: /home/njh19270/linux/2026-04-20[01;32mstudent2@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/2026-04-20[00m$ su student1
+[?2004lPassword: 
+bash: fork: retry: Resource temporarily unavailable
+bash: fork: retry: Resource temporarily unavailable
+bash: fork: retry: Resource temporarily unavailable
+bash: fork: retry: Resource temporarily unavailable
+bash: fork: Resource temporarily unavailable
+[?2004hstudent1@JUHEE-NOH:/home/njh19270/linux/2026-04-20$ su[K[Kcd /ho[K[K[K~
+[?2004l[?2004hstudent1@JUHEE-NOH:~$ ls
+[?2004lbash: fork: retry: Resource temporarily unavailable
+bash: fork: retry: Resource temporarily unavailable
+bash: fork: retry: Resource temporarily unavailable
+bash: fork: retry: Resource temporarily unavailable
+bash: fork: Resource temporarily unavailable
+[?2004hstudent1@JUHEE-NOH:~$ exot[K[Kit
+[?2004lexit
+[?2004h]0;student2@JUHEE-NOH: /home/njh19270/linux/2026-04-20[01;32mstudent2@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/2026-04-20[00m$ exit
+[?2004lexit
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/2026-04-20[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-04-20[00m$ exit
+[?2004lexit
+
+Script done on 2026-04-20 01:35:50+09:00 [COMMAND_EXIT_CODE="254"]
+Script started on 2026-04-20 01:36:27+09:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+bash: SCRIPT.sh: No such file or directory
+bash: SCRIPT.sh: No such file or directory
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/2026-04-20[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-04-20[00m$ u[Ksu student1
+[?2004lPassword: 
+[?2004h]0;student1@JUHEE-NOH: /home/njh19270/linux/2026-04-20[01;32mstudent1@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/2026-04-20[00m$ cd ~
+[?2004l[?2004h]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ cd v[Kdev_share/
+[?2004l[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ ls
+[?2004lreport1.hwp  [0m[01;32mtest.sh[0m
+[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ su student2
+[?2004lPassword: 
+[?2004h]0;student2@JUHEE-NOH: /home/student1/dev_share[01;32mstudent2@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ ls
+[?2004lls: cannot open directory '.': Permission denied
+[?2004h]0;student2@JUHEE-NOH: /home/student1/dev_share[01;32mstudent2@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ id
+[?2004luid=1006(student2) gid=1006(student2) groups=1006(student2),1025(dev_team1)
+[?2004h]0;student2@JUHEE-NOH: /home/student1/dev_share[01;32mstudent2@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ ls
+[?2004lls: cannot open directory '.': Permission denied
+[?2004h]0;student2@JUHEE-NOH: /home/student1/dev_share[01;32mstudent2@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ exot[K[Kit
+[?2004lexit
+[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ exit
+[?2004lexit
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/2026-04-20[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-04-20[00m$ sudo groupdel dev_team1 
+[?2004l[sudo] password for njh19270: 
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/2026-04-20[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-04-20[00m$ [7mgrep "dev_team1" /etc/group[27mgrep "dev_team1" /etc/group
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux/2026-04-20[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-04-20[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/2026-04-20[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-04-20[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/2026-04-20[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-04-20[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/2026-04-20[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-04-20[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/2026-04-20[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-04-20[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/2026-04-20[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-04-20[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/2026-04-20[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-04-20[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/2026-04-20[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-04-20[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/2026-04-20[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-04-20[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/2026-04-20[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-04-20[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/2026-04-20[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-04-20[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/2026-04-20[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-04-20[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/2026-04-20[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-04-20[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/2026-04-20[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-04-20[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/2026-04-20[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-04-20[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/2026-04-20[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-04-20[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/2026-04-20[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-04-20[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/2026-04-20[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-04-20[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/2026-04-20[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-04-20[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/2026-04-20[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-04-20[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/2026-04-20[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-04-20[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/2026-04-20[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-04-20[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/2026-04-20[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-04-20[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/2026-04-20[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-04-20[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/2026-04-20[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-04-20[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/2026-04-20[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-04-20[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/2026-04-20[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-04-20[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/2026-04-20[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-04-20[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/2026-04-20[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-04-20[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/2026-04-20[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-04-20[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/2026-04-20[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-04-20[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/2026-04-20[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-04-20[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/2026-04-20[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-04-20[00m$ sudo groupadd dev_team1
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux/2026-04-20[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-04-20[00m$ sudo groupadd dev_team1grep "dev_team1" /etc/group
+[?2004l[01;31m[Kdev_team1[m[K:x:1027:
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/2026-04-20[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-04-20[00m$ cd /et[K[Kt/[K[Ketc/skel
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: /etc/skel[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/etc/skel[00m$ ls
+[?2004lreadme.txt
+[?2004h]0;njh19270@JUHEE-NOH: /etc/skel[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/etc/skel[00m$ sudo [K[K[K[K[Kcd ~
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~[00m$ ls[K[Kcd linux/week03
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ ls
+[?2004l2026_20220984_week03_2_log.txt  [0m[01;32mcreate_user.sh[0m  t.txt         [01;34mweb_service[0m
+2026_20220984_week03_log.txt    [01;32mdel_user.sh[0m     [01;32mteam_user.sh[0m
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ cd[K[Ksudo nano team_user.s[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kudo ./team_user.sh 
+[?2004lstudent1 를 dev_team1에 추가 완료
+student2 를 dev_team1에 추가 완료
+student3 를 dev_team1에 추가 완료
+student4 를 dev_team1에 추가 완료
+student5 를 dev_team1에 추가 완료
+모든 작업이 완료되었습니다.
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ grep "dev_team1" /t[Ketc/group
+[?2004l[01;31m[Kdev_team1[m[K:x:1027:student1,student2,student3,student4,student5
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ su student1
+[?2004lPassword: 
+[?2004h]0;student1@JUHEE-NOH: /home/njh19270/linux/week03[01;32mstudent1@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/week03[00m$ stat dev_st[Khare
+[?2004lstat: cannot statx 'dev_share': No such file or directory
+[?2004h]0;student1@JUHEE-NOH: /home/njh19270/linux/week03[01;32mstudent1@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/week03[00m$ cd ..
+[?2004l[?2004h]0;student1@JUHEE-NOH: /home/njh19270/linux[01;32mstudent1@JUHEE-NOH[00m:[01;34m/home/njh19270/linux[00m$ cd~ ~[C
+[?2004l[?2004h]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ ls
+[?2004l[0m[01;34mdev_share[0m  [01;34mhtml[0m  readme.txt
+[?2004h]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ stat dev_share/
+[?2004l  File: dev_share/
+  Size: 4096      	Blocks: 8          IO Block: 4096   directory
+Device: 8,48	Inode: 62705       Links: 2
+Access: (2750/drwxr-s---)  Uid: ( 1005/student1)   Gid: ( 1025/ UNKNOWN)
+Access: 2026-04-20 01:20:05.924741336 +0900
+Modify: 2026-03-27 11:11:06.756921891 +0900
+Change: 2026-03-27 11:28:24.124573784 +0900
+ Birth: 2026-03-27 10:32:31.734438903 +0900
+[?2004h]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ chgrp dev_team1 dev_share/
+[?2004l[?2004h]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ chgrp dev_team1 dev_share/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pstat[C[C[C[C[C[C[C[C[C[C[C
+[?2004l  File: dev_share/
+  Size: 4096      	Blocks: 8          IO Block: 4096   directory
+Device: 8,48	Inode: 62705       Links: 2
+Access: (2750/drwxr-s---)  Uid: ( 1005/student1)   Gid: ( 1027/dev_team1)
+Access: 2026-04-20 01:20:05.924741336 +0900
+Modify: 2026-03-27 11:11:06.756921891 +0900
+Change: 2026-04-20 01:41:15.605623328 +0900
+ Birth: 2026-03-27 10:32:31.734438903 +0900
+[?2004h]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ ls -al
+[?2004ltotal 44
+drwxr-x---   6 student1 student1  4096 Apr 10 11:10 [0m[01;34m.[0m
+drwxr-xr-x  27 root     root      4096 Apr 19 23:52 [01;34m..[0m
+-rw-------   1 student1 student1  1032 Apr 20 01:38 .bash_history
+-rw-r--r--   1 student1 student1   220 Mar 31  2024 .bash_logout
+-rw-r--r--   1 student1 student1  3815 Mar 27 09:41 .bashrc
+drwx------   4 student1 student1  4096 Apr 10 11:11 [01;34m.config[0m
+drwxrwxr-x   3 student1 student1  4096 Mar 27 11:10 [01;34m.local[0m
+-rw-r--r--   1 student1 student1   806 Mar 20 11:32 .profile
+drwxr-s---+  2 student1 dev_team1 4096 Mar 27 11:11 [01;34mdev_share[0m
+drwxr-s---   2 student1      1025 4096 Apr 10 01:59 [01;34mhtml[0m
+-rw-r--r--   1 student1 student1     6 Mar 27 10:04 readme.txt
+[?2004h]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ dev[K[K[Kls
+[?2004l[0m[01;34mdev_share[0m  [01;34mhtml[0m  readme.txt
+[?2004h]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ cd dev_share/
+[?2004l[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ ls
+[?2004lreport1.hwp  [0m[01;32mtest.sh[0m
+[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ su[K[Kd[Ksu student2
+[?2004lPassword: 
+[?2004h]0;student2@JUHEE-NOH: /home/student1/dev_share[01;32mstudent2@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ ls
+[?2004lls: cannot open directory '.': Permission denied
+[?2004h]0;student2@JUHEE-NOH: /home/student1/dev_share[01;32mstudent2@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ cd ..
+[?2004lbash: cd: ..: Permission denied
+[?2004h]0;student2@JUHEE-NOH: /home/student1/dev_share[01;32mstudent2@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ su stu[K[K[K[K[K[Kexit
+[?2004lexit
+[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ su student3
+[?2004lPassword: 
+[?2004h]0;student3@JUHEE-NOH: /home/student1/dev_share[01;32mstudent3@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ ls
+[?2004lreport1.hwp  [0m[01;32mtest.sh[0m
+[?2004h]0;student3@JUHEE-NOH: /home/student1/dev_share[01;32mstudent3@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ ext
+[?2004lCommand 'ext' not found, did you mean:
+  command 'xt' from snap xt (0+git.99c6ce0)
+  command 'ex' from deb vim (2:9.1.0016-1ubuntu7.11)
+  command 'ex' from deb vim-tiny (2:9.1.0016-1ubuntu7.11)
+  command 'ex' from deb vim-gtk3 (2:9.1.0016-1ubuntu7.11)
+  command 'ex' from deb vim-motif (2:9.1.0016-1ubuntu7.11)
+  command 'ex' from deb vim-nox (2:9.1.0016-1ubuntu7.11)
+  command 'ex' from deb neovim (0.7.2-8)
+  command 'ex' from deb nvi (1.81.6-19)
+  command 'ent' from deb ent (1.2debian-3)
+  command 'exa' from deb exa (0.10.1-5build1)
+  command 'exa' from deb eza (0.16.2-1build1)
+  command 'next' from deb mailutils-mh (1:3.16-1build1)
+  command 'next' from deb mmh (0.4-6)
+  command 'next' from deb nmh (1.8-1)
+  command 'eet' from deb libeet-bin (1.26.3-2)
+See 'snap info <snapname>' for additional versions.
+[?2004h]0;student3@JUHEE-NOH: /home/student1/dev_share[01;32mstudent3@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ exit
+[?2004lexit
+[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ exit
+[?2004lexit
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ exit
+[?2004lexit
+
+Script done on 2026-04-20 01:42:32+09:00 [COMMAND_EXIT_CODE="127"]
+Script started on 2026-04-20 01:42:45+09:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+bash: SCRIPT.sh: No such file or directory
+bash: SCRIPT.sh: No such file or directory
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/2026-04-20[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-04-20[00m$ stat[K[K[K[Ksu student3
+[?2004lPassword: 
+[?2004h]0;student3@JUHEE-NOH: /home/njh19270/linux/2026-04-20[01;32mstudent3@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/2026-04-20[00m$ ls[K[Kid
+[?2004luid=1007(student3) gid=1007(student3) groups=1007(student3),1027(dev_team1)
+[?2004h]0;student3@JUHEE-NOH: /home/njh19270/linux/2026-04-20[01;32mstudent3@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/2026-04-20[00m$ exit
+[?2004lexit
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/2026-04-20[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-04-20[00m$ su student2
+[?2004lPassword: 
+[?2004h]0;student2@JUHEE-NOH: /home/njh19270/linux/2026-04-20[01;32mstudent2@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/2026-04-20[00m$ id
+[?2004luid=1006(student2) gid=1006(student2) groups=1006(student2),1027(dev_team1)
+[?2004h]0;student2@JUHEE-NOH: /home/njh19270/linux/2026-04-20[01;32mstudent2@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/2026-04-20[00m$ su[K[Kp[Kexit
+[?2004lexit
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/2026-04-20[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-04-20[00m$ su student1
+[?2004lPassword: 
+[?2004h]0;student1@JUHEE-NOH: /home/njh19270/linux/2026-04-20[01;32mstudent1@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/2026-04-20[00m$ cd ~
+[?2004l[?2004h]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ cd dev_share/
+[?2004l[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ su student2
+[?2004lPassword: 
+[?2004h]0;student2@JUHEE-NOH: /home/student1/dev_share[01;32mstudent2@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ ls
+[?2004lls: cannot open directory '.': Permission denied
+[?2004h]0;student2@JUHEE-NOH: /home/student1/dev_share[01;32mstudent2@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ exit
+[?2004lexit
+[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ stat d
+[?2004lstat: cannot statx 'd': No such file or directory
+[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ stat[K[K[K[Kcd ..
+[?2004l[?2004h]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ stat dev_share/
+[?2004l  File: dev_share/
+  Size: 4096      	Blocks: 8          IO Block: 4096   directory
+Device: 8,48	Inode: 62705       Links: 2
+Access: (2750/drwxr-s---)  Uid: ( 1005/student1)   Gid: ( 1027/dev_team1)
+Access: 2026-04-20 01:41:54.434765914 +0900
+Modify: 2026-03-27 11:11:06.756921891 +0900
+Change: 2026-04-20 01:41:15.605623328 +0900
+ Birth: 2026-03-27 10:32:31.734438903 +0900
+[?2004h]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ id
+[?2004luid=1005(student1) gid=1005(student1) groups=1005(student1),1027(dev_team1)
+[?2004h]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ su [K[K[Kexit
+[?2004lexit
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/2026-04-20[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-04-20[00m$ stat /home/student1
+[?2004l  File: /home/student1
+  Size: 4096      	Blocks: 8          IO Block: 4096   directory
+Device: 8,48	Inode: 58684       Links: 6
+Access: (0750/drwxr-x---)  Uid: ( 1005/student1)   Gid: ( 1005/student1)
+Access: 2026-04-20 00:30:39.566121690 +0900
+Modify: 2026-04-10 11:10:52.377086269 +0900
+Change: 2026-04-10 11:10:52.377086269 +0900
+ Birth: 2026-03-27 10:08:32.469598839 +0900
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/2026-04-20[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-04-20[00m$ [7msudo gpasswd -d student2 dev_team1[27msudo gpasswd -d student2 dev_team1
+[?2004l[sudo] password for njh19270: 
+Removing user student2 from group dev_team1
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/2026-04-20[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-04-20[00m$ [7msudo usermod -aG dev_team1 student2[27msudo usermod -aG dev_team1 student2
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux/2026-04-20[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-04-20[00m$ [7mgrep "dev_team1" /etc/group[27mgrep "dev_team1" /etc/group
+[?2004l[01;31m[Kdev_team1[m[K:x:1027:student1,student3,student4,student5,student2
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/2026-04-20[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-04-20[00m$ [7msu student2[27msu student2
+[?2004lPassword: 
+[?2004h]0;student2@JUHEE-NOH: /home/njh19270/linux/2026-04-20[01;32mstudent2@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/2026-04-20[00m$ exit
+[?2004lexit
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/2026-04-20[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-04-20[00m$ cd /home/student1
+[?2004lbash: cd: /home/student1: Permission denied
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/2026-04-20[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-04-20[00m$ su student1
+[?2004lPassword: 
+su: Authentication failure
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/2026-04-20[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-04-20[00m$ cd ~
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~[00m$ cd de[Kev[K[K[K[K[K[Kcd ~su student1
+[?2004lPassword: 
+[?2004h]0;student1@JUHEE-NOH: /home/njh19270[01;32mstudent1@JUHEE-NOH[00m:[01;34m/home/njh19270[00m$ cd ~
+[?2004l[?2004h]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ cd dev_share/
+[?2004l[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ su d[Kstudent2
+[?2004lPassword: 
+[?2004h]0;student2@JUHEE-NOH: /home/student1/dev_share[01;32mstudent2@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ ls
+[?2004lls: cannot open directory '.': Permission denied
+[?2004h]0;student2@JUHEE-NOH: /home/student1/dev_share[01;32mstudent2@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ stat /home/student1
+[?2004l  File: /home/student1
+  Size: 4096      	Blocks: 8          IO Block: 4096   directory
+Device: 8,48	Inode: 58684       Links: 6
+Access: (0750/drwxr-x---)  Uid: ( 1005/student1)   Gid: ( 1005/student1)
+Access: 2026-04-20 00:30:39.566121690 +0900
+Modify: 2026-04-10 11:10:52.377086269 +0900
+Change: 2026-04-10 11:10:52.377086269 +0900
+ Birth: 2026-03-27 10:08:32.469598839 +0900
+[?2004h]0;student2@JUHEE-NOH: /home/student1/dev_share[01;32mstudent2@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ st[Ku[K[Kexit
+[?2004lexit
+[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ su[Ktud[K[K[Ku student4
+[?2004lPassword: 
+^C
+[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ su student3[K4
+[?2004lPassword: 
+You are required to change your password immediately (administrator enforced).
+Changing password for student4.
+Current password: 
+New password: 
+Retype new password: 
+[?2004h]0;student4@JUHEE-NOH: /home/student1/dev_share[01;32mstudent4@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ ls
+[?2004lreport1.hwp  [0m[01;32mtest.sh[0m
+[?2004h]0;student4@JUHEE-NOH: /home/student1/dev_share[01;32mstudent4@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ cd[K[Kexit
+[?2004lexit
+[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ sut[K student5
+[?2004lPassword: 
+You are required to change your password immediately (administrator enforced).
+Changing password for student5.
+Current password: 
+New password: 
+Retype new password: 
+[?2004h]0;student5@JUHEE-NOH: /home/student1/dev_share[01;32mstudent5@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ ls
+[?2004lreport1.hwp  [0m[01;32mtest.sh[0m
+[?2004h]0;student5@JUHEE-NOH: /home/student1/dev_share[01;32mstudent5@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ stat studen[K[K[K[K[K[K/home/sut[K[Ktudent2
+[?2004l  File: /home/student2
+  Size: 4096      	Blocks: 8          IO Block: 4096   directory
+Device: 8,48	Inode: 58683       Links: 2
+Access: (0750/drwxr-x---)  Uid: ( 1006/student2)   Gid: ( 1006/student2)
+Access: 2026-04-17 10:37:25.202258736 +0900
+Modify: 2026-03-27 11:43:32.837655790 +0900
+Change: 2026-03-27 11:43:32.837655790 +0900
+ Birth: 2026-03-27 10:08:32.566346827 +0900
+[?2004h]0;student5@JUHEE-NOH: /home/student1/dev_share[01;32mstudent5@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ stat /home/student2ls[Kstat /home/student2[K3
+[?2004l  File: /home/student3
+  Size: 4096      	Blocks: 8          IO Block: 4096   directory
+Device: 8,48	Inode: 58686       Links: 2
+Access: (0750/drwxr-x---)  Uid: ( 1007/student3)   Gid: ( 1007/student3)
+Access: 2026-04-17 10:37:25.438256678 +0900
+Modify: 2026-03-27 11:43:26.481867996 +0900
+Change: 2026-03-27 11:43:26.481867996 +0900
+ Birth: 2026-03-27 10:08:32.655032487 +0900
+[?2004h]0;student5@JUHEE-NOH: /home/student1/dev_share[01;32mstudent5@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ stat /home/student3[K4
+[?2004l  File: /home/student4
+  Size: 4096      	Blocks: 8          IO Block: 4096   directory
+Device: 8,48	Inode: 58703       Links: 2
+Access: (0750/drwxr-x---)  Uid: ( 1008/student4)   Gid: ( 1008/student4)
+Access: 2026-04-17 10:37:25.438256678 +0900
+Modify: 2026-04-20 01:50:56.338912583 +0900
+Change: 2026-04-20 01:50:56.338912583 +0900
+ Birth: 2026-03-27 10:08:32.747749311 +0900
+[?2004h]0;student5@JUHEE-NOH: /home/student1/dev_share[01;32mstudent5@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ stat /home/student4[K5
+[?2004l  File: /home/student5
+  Size: 4096      	Blocks: 8          IO Block: 4096   directory
+Device: 8,48	Inode: 58700       Links: 2
+Access: (0750/drwxr-x---)  Uid: ( 1009/student5)   Gid: ( 1009/student5)
+Access: 2026-04-17 10:37:25.438256678 +0900
+Modify: 2026-03-27 10:08:32.836434970 +0900
+Change: 2026-03-27 10:08:32.836434970 +0900
+ Birth: 2026-03-27 10:08:32.836434970 +0900
+[?2004h]0;student5@JUHEE-NOH: /home/student1/dev_share[01;32mstudent5@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ id stu[K[K[K[K[K[Kgreap "student2" /etx//group
+[?2004lCommand 'greap' not found, did you mean:
+  command 'grep' from deb grep (3.11-3)
+  command 'grap' from deb grap (1.46-1)
+Try: apt install <deb name>
+[?2004h]0;student5@JUHEE-NOH: /home/student1/dev_share[01;32mstudent5@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ greap "student2" /etx//group[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pgroup
+[?2004lgrep: /etx/group: No such file or directory
+[?2004h]0;student5@JUHEE-NOH: /home/student1/dev_share[01;32mstudent5@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ grep "student2" /etx/group[1P/groupc/group
+[?2004l[01;31m[Kstudent2[m[K:x:1006:
+[01;31m[Kstudent2[m[K0:x:1026:
+dev_team1:x:1027:student1,student3,student4,student5,[01;31m[Kstudent2[m[K
+[?2004h]0;student5@JUHEE-NOH: /home/student1/dev_share[01;32mstudent5@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ [7mid student2[27mid student2
+[?2004luid=1006(student2) gid=1006(student2) groups=1006(student2),1027(dev_team1)
+[?2004h]0;student5@JUHEE-NOH: /home/student1/dev_share[01;32mstudent5@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ su[K[Kexit
+[?2004lexit
+[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ exit
+[?2004lexit
+[?2004h]0;njh19270@JUHEE-NOH: ~[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~[00m$ [7msudo userdel -r student2[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo userdel -r student2
+[?2004luserdel: student2 mail spool (/var/mail/student2) not found
+[?2004h]0;njh19270@JUHEE-NOH: ~[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~[00m$ cd /home
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: /home[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/home[00m$ cd /homesudo userdel -r student2
+[?2004luserdel: user 'student2' does not exist
+[?2004h]0;njh19270@JUHEE-NOH: /home[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/home[00m$ ls
+[?2004l[0m[01;34mguest[0m           [01;34mnjh19270[0m   [01;34mstudent11[0m  [01;34mstudent14[0m  [01;34mstudent17[0m  [01;34mstudent20[0m  [01;34mstudent5[0m  [01;34mstudent8[0m
+[01;34mguest2[0m          [01;34mstudent1[0m   [01;34mstudent12[0m  [01;34mstudent15[0m  [01;34mstudent18[0m  [01;34mstudent3[0m   [01;34mstudent6[0m  [01;34mstudent9[0m
+[01;34mguest_practice[0m  [01;34mstudent10[0m  [01;34mstudent13[0m  [01;34mstudent16[0m  [01;34mstudent19[0m  [01;34mstudent4[0m   [01;34mstudent7[0m  [01;34mweb_admin[0m
+[?2004h]0;njh19270@JUHEE-NOH: /home[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/home[00m$ [7msudo useradd -m -s /bin/bash student2[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo useradd -m -s /bin/bash student2
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: /home[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/home[00m$ ls
+[?2004l[0m[01;34mguest[0m           [01;34mnjh19270[0m   [01;34mstudent11[0m  [01;34mstudent14[0m  [01;34mstudent17[0m  [01;34mstudent2[0m   [01;34mstudent4[0m  [01;34mstudent7[0m  [01;34mweb_admin[0m
+[01;34mguest2[0m          [01;34mstudent1[0m   [01;34mstudent12[0m  [01;34mstudent15[0m  [01;34mstudent18[0m  [01;34mstudent20[0m  [01;34mstudent5[0m  [01;34mstudent8[0m
+[01;34mguest_practice[0m  [01;34mstudent10[0m  [01;34mstudent13[0m  [01;34mstudent16[0m  [01;34mstudent19[0m  [01;34mstudent3[0m   [01;34mstudent6[0m  [01;34mstudent9[0m
+[?2004h]0;njh19270@JUHEE-NOH: /home[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/home[00m$ [7m2[27m[K[7mecho "student2:password!" | sudo chpasswd[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "student2:password!" | sudo chpasswd
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: /home[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/home[00m$ [7msudo chage -d 0 student2[27msudo chage -d 0 student2
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: /home[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/home[00m$ [7msudo usermod -aG dev_team1 student2[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo usermod -aG dev_team1 student2
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: /home[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/home[00m$ su [K[K[Ksu student1
+[?2004lPassword: 
+[?2004h]0;student1@JUHEE-NOH: /home[01;32mstudent1@JUHEE-NOH[00m:[01;34m/home[00m$ cd ~
+[?2004l[?2004h]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ cd dev_share/
+[?2004l[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ su student2
+[?2004lPassword: 
+^C
+[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ su student2
+[?2004lPassword: 
+You are required to change your password immediately (administrator enforced).
+Changing password for student2.
+Current password: 
+New password: 
+Retype new password: 
+[?2004h]0;student2@JUHEE-NOH: /home/student1/dev_share[01;32mstudent2@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ ls
+[?2004lreport1.hwp  [0m[01;32mtest.sh[0m
+[?2004h]0;student2@JUHEE-NOH: /home/student1/dev_share[01;32mstudent2@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ id
+[?2004luid=1026(student2) gid=1028(student2) groups=1028(student2),1027(dev_team1)
+[?2004h]0;student2@JUHEE-NOH: /home/student1/dev_share[01;32mstudent2@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ su student9
+[?2004lPassword: 
+[?2004h]0;student9@JUHEE-NOH: /home/student1/dev_share[01;32mstudent9@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ ls
+[?2004lls: cannot open directory '.': Permission denied
+[?2004h]0;student9@JUHEE-NOH: /home/student1/dev_share[01;32mstudent9@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ exit
+[?2004lexit
+[?2004h]0;student2@JUHEE-NOH: /home/student1/dev_share[01;32mstudent2@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ exot[K[Kit
+[?2004lexit
+[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ ls
+[?2004lreport1.hwp  [0m[01;32mtest.sh[0m
+[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ cat test.sh
+[?2004l#!/bin/bash
+echo "=============================="
+echo " 실행 테스트 성공"
+echo " 실행 사용자: $(whoami)"
+echo "=============================="
+[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ at[K[Ksts[Kat test.sh 
+[?2004l  File: test.sh
+  Size: 156       	Blocks: 8          IO Block: 4096   regular file
+Device: 8,48	Inode: 62712       Links: 1
+Access: (0750/-rwxr-x---)  Uid: ( 1005/student1)   Gid: ( 1025/ UNKNOWN)
+Access: 2026-04-20 02:04:28.008064243 +0900
+Modify: 2026-03-27 11:11:05.532834400 +0900
+Change: 2026-03-27 11:32:20.816558681 +0900
+ Birth: 2026-03-27 11:11:05.532834400 +0900
+[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ chmod 700 test.sh 
+[?2004l[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ ls -al
+[?2004ltotal 16
+drwxr-s---+ 2 student1 dev_team1 4096 Mar 27 11:11 [0m[01;34m.[0m
+drwxr-x---  6 student1 student1  4096 Apr 10 11:10 [01;34m..[0m
+-rw-rw-r--  1 student1      1025    6 Mar 27 10:54 report1.hwp
+-rwx------+ 1 student1      1025  156 Mar 27 11:11 [01;32mtest.sh[0m
+[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ ch [Kmod -x test.sh 
+[?2004l[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ ;s[K[Kls -al
+[?2004ltotal 16
+drwxr-s---+ 2 student1 dev_team1 4096 Mar 27 11:11 [0m[01;34m.[0m
+drwxr-x---  6 student1 student1  4096 Apr 10 11:10 [01;34m..[0m
+-rw-rw-r--  1 student1      1025    6 Mar 27 10:54 report1.hwp
+-rw-------+ 1 student1      1025  156 Mar 27 11:11 test.sh
+[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ [7msudo setfacl -b test.sh[27m[1Psudo setfacl -b test.s[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ks[Kstt[Kat d[K[K[K[K[K[Kcd ..
+[?2004l[?2004h]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ cd[K[Kdev[K[K[Kcd [K[K[Kdev[K[K[Kstat dev_share/
+[?2004l  File: dev_share/
+  Size: 4096      	Blocks: 8          IO Block: 4096   directory
+Device: 8,48	Inode: 62705       Links: 2
+Access: (2750/drwxr-s---)  Uid: ( 1005/student1)   Gid: ( 1027/dev_team1)
+Access: 2026-04-20 01:41:54.434765914 +0900
+Modify: 2026-03-27 11:11:06.756921891 +0900
+Change: 2026-04-20 01:41:15.605623328 +0900
+ Birth: 2026-03-27 10:32:31.734438903 +0900
+[?2004h]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ ls -al
+[?2004ltotal 44
+drwxr-x---   6 student1 student1  4096 Apr 10 11:10 [0m[01;34m.[0m
+drwxr-xr-x  27 root     root      4096 Apr 20 01:55 [01;34m..[0m
+-rw-------   1 student1 student1  1304 Apr 20 01:54 .bash_history
+-rw-r--r--   1 student1 student1   220 Mar 31  2024 .bash_logout
+-rw-r--r--   1 student1 student1  3815 Mar 27 09:41 .bashrc
+drwx------   4 student1 student1  4096 Apr 10 11:11 [01;34m.config[0m
+drwxrwxr-x   3 student1 student1  4096 Mar 27 11:10 [01;34m.local[0m
+-rw-r--r--   1 student1 student1   806 Mar 20 11:32 .profile
+drwxr-s---+  2 student1 dev_team1 4096 Mar 27 11:11 [01;34mdev_share[0m
+drwxr-s---   2 student1      1025 4096 Apr 10 01:59 [01;34mhtml[0m
+-rw-r--r--   1 student1 student1     6 Mar 27 10:04 readme.txt
+[?2004h]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ [7ms[27m[K[7msudo setfacl -b dev_share[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo setfacl -b dev_share
+[?2004l[sudo] password for student1: 
+student1 is not in the sudoers file.
+[?2004h]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ su[K[Kexit
+[?2004lexit
+[?2004h]0;njh19270@JUHEE-NOH: /home[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/home[00m$ [7msudo setfacl -b dev_share[27msudo setfacl -b dev_share
+[?2004lsetfacl: dev_share: No such file or directory
+[?2004h]0;njh19270@JUHEE-NOH: /home[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/home[00m$ cd student
+[?2004lbash: cd: student: No such file or directory
+[?2004h]0;njh19270@JUHEE-NOH: /home[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/home[00m$ cd student1
+[?2004lbash: cd: student1: Permission denied
+[?2004h]0;njh19270@JUHEE-NOH: /home[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/home[00m$ su student1
+[?2004lPassword: 
+[?2004h]0;student1@JUHEE-NOH: /home[01;32mstudent1@JUHEE-NOH[00m:[01;34m/home[00m$ [7msudo setfacl -b /home/student1/dev_share[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo setfacl -b /home/student1/dev_share
+[A
+[?2004l[sudo] password for student1: 
+Sorry, try again.
+[sudo] password for student1: 
+student1 is not in the sudoers file.
+[?2004h]0;student1@JUHEE-NOH: /home[01;32mstudent1@JUHEE-NOH[00m:[01;34m/home[00m$ exit
+[?2004lexit
+[?2004h]0;njh19270@JUHEE-NOH: /home[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/home[00m$ [7msudo setfacl -b /home/student1/dev_share/test.sh[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo setfacl -b /home/student1/dev_share/test.sh
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: /home[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/home[00m$ [7msudo setfacl -b /home/student1/dev_share[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo setfacl -b /home/student1/dev_share
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: /home[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/home[00m$ [7msudo ls -al /home/student1/dev_share[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo ls -al /home/student1/dev_share
+[?2004ltotal 16
+drwxr-s--- 2 student1 dev_team1 4096 Mar 27 11:11 .
+drwxr-x--- 6 student1 student1  4096 Apr 10 11:10 ..
+-rw-rw-r-- 1 student1      1025    6 Mar 27 10:54 report1.hwp
+-rw------- 1 student1      1025  156 Mar 27 11:11 test.sh
+[?2004h]0;njh19270@JUHEE-NOH: /home[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/home[00m$ [7m [27msudo ls -al /home/student1/dev_share[K[K[K[K[K[K[K[K[K[K
+[?2004ltotal 44
+drwxr-x---  6 student1 student1  4096 Apr 10 11:10 .
+drwxr-xr-x 27 root     root      4096 Apr 20 01:55 ..
+-rw-------  1 student1 student1  1521 Apr 20 02:10 .bash_history
+-rw-r--r--  1 student1 student1   220 Mar 31  2024 .bash_logout
+-rw-r--r--  1 student1 student1  3815 Mar 27 09:41 .bashrc
+drwx------  4 student1 student1  4096 Apr 10 11:11 .config
+drwxrwxr-x  3 student1 student1  4096 Mar 27 11:10 .local
+-rw-r--r--  1 student1 student1   806 Mar 20 11:32 .profile
+drwxr-s---  2 student1 dev_team1 4096 Mar 27 11:11 dev_share
+drwxr-s---  2 student1      1025 4096 Apr 10 01:59 html
+-rw-r--r--  1 student1 student1     6 Mar 27 10:04 readme.txt
+[?2004h]0;njh19270@JUHEE-NOH: /home[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/home[00m$ su student1
+[?2004lPassword: 
+^C
+[?2004h]0;njh19270@JUHEE-NOH: /home[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/home[00m$ su student1
+[?2004lPassword: 
+[?2004h]0;student1@JUHEE-NOH: /home[01;32mstudent1@JUHEE-NOH[00m:[01;34m/home[00m$ cd ~
+[?2004l[?2004h]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ ls
+[?2004l[0m[01;34mdev_share[0m  [01;34mhtml[0m  readme.txt
+[?2004h]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ cd dev_share/
+[?2004l[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ ls
+[?2004lreport1.hwp  test.sh
+[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ cd tes[K[K[K[K[K[Kstat test.sh
+[?2004l  File: test.sh
+  Size: 156       	Blocks: 8          IO Block: 4096   regular file
+Device: 8,48	Inode: 62712       Links: 1
+Access: (0600/-rw-------)  Uid: ( 1005/student1)   Gid: ( 1025/ UNKNOWN)
+Access: 2026-04-20 02:04:28.008064243 +0900
+Modify: 2026-03-27 11:11:05.532834400 +0900
+Change: 2026-04-20 02:10:56.573272606 +0900
+ Birth: 2026-03-27 11:11:05.532834400 +0900
+[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ chmod 700 tet[Kst.sh 
+[?2004l[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ ls-al
+[?2004lls-al: command not found
+[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ ls-al -al
+[?2004ltotal 16
+drwxr-s--- 2 student1 dev_team1 4096 Mar 27 11:11 [0m[01;34m.[0m
+drwxr-x--- 6 student1 student1  4096 Apr 10 11:10 [01;34m..[0m
+-rw-rw-r-- 1 student1      1025    6 Mar 27 10:54 report1.hwp
+-rwx------ 1 student1      1025  156 Mar 27 11:11 [01;32mtest.sh[0m
+[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ [7msetfacl -m u:student2:r-x test.sh[27msetfacl -m u:student2:r-x test.sh
+[?2004l[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ stat test.sh
+[?2004l  File: test.sh
+  Size: 156       	Blocks: 8          IO Block: 4096   regular file
+Device: 8,48	Inode: 62712       Links: 1
+Access: (0750/-rwxr-x---)  Uid: ( 1005/student1)   Gid: ( 1025/ UNKNOWN)
+Access: 2026-04-20 02:04:28.008064243 +0900
+Modify: 2026-03-27 11:11:05.532834400 +0900
+Change: 2026-04-20 02:16:00.772423856 +0900
+ Birth: 2026-03-27 11:11:05.532834400 +0900
+[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ ls -al
+[?2004ltotal 16
+drwxr-s---  2 student1 dev_team1 4096 Mar 27 11:11 [0m[01;34m.[0m
+drwxr-x---  6 student1 student1  4096 Apr 10 11:10 [01;34m..[0m
+-rw-rw-r--  1 student1      1025    6 Mar 27 10:54 report1.hwp
+-rwxr-x---+ 1 student1      1025  156 Mar 27 11:11 [01;32mtest.sh[0m
+[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ [7m [27m [7m [27m[K[K[7mchgrp dev_team1 test.sh[27mchgrp dev_team1 test.sh
+[?2004l[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ ls -al
+[?2004ltotal 16
+drwxr-s---  2 student1 dev_team1 4096 Mar 27 11:11 [0m[01;34m.[0m
+drwxr-x---  6 student1 student1  4096 Apr 10 11:10 [01;34m..[0m
+-rw-rw-r--  1 student1      1025    6 Mar 27 10:54 report1.hwp
+-rwxr-x---+ 1 student1 dev_team1  156 Mar 27 11:11 [01;32mtest.sh[0m
+[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ stat t[Ktest.sh
+[?2004l  File: test.sh
+  Size: 156       	Blocks: 8          IO Block: 4096   regular file
+Device: 8,48	Inode: 62712       Links: 1
+Access: (0750/-rwxr-x---)  Uid: ( 1005/student1)   Gid: ( 1027/dev_team1)
+Access: 2026-04-20 02:04:28.008064243 +0900
+Modify: 2026-03-27 11:11:05.532834400 +0900
+Change: 2026-04-20 02:17:44.582276577 +0900
+ Birth: 2026-03-27 11:11:05.532834400 +0900
+[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ [K]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ [K]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ [K]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ [7mgetfacl test.sh[27mgetfacl test.sh
+[?2004l# file: test.sh
+# owner: student1
+# group: dev_team1
+user::rwx
+user:student2:r-x
+group::---
+mask::r-x
+other::---
+
+[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ getfacl test.sh[3Pstat[C[C[C[C[C[C[C[C[3@getfacl[C[C[C[C[C[C[C[C[K[K[K[K[K[K[Kdev_s[Kshare
+[?2004lgetfacl: dev_share: No such file or directory
+[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ cd ..
+[?2004l[?2004h]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ getfacl dev_share/
+[?2004l# file: dev_share/
+# owner: student1
+# group: dev_team1
+# flags: -s-
+user::rwx
+group::r-x
+other::---
+
+[?2004h]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ su student2
+[?2004lPassword: 
+[?2004h]0;student2@JUHEE-NOH: /home/student1[01;32mstudent2@JUHEE-NOH[00m:[01;34m/home/student1[00m$ cd d[K[K[K[Kexit
+[?2004lexit
+[?2004h]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ su[K[Kcd dev_share/
+[?2004l[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ ls
+[?2004lreport1.hwp  [0m[01;32mtest.sh[0m
+[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ su student2
+[?2004lPassword: 
+[?2004h]0;student2@JUHEE-NOH: /home/student1/dev_share[01;32mstudent2@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ ls
+[?2004lreport1.hwp  [0m[01;32mtest.sh[0m
+[?2004h]0;student2@JUHEE-NOH: /home/student1/dev_share[01;32mstudent2@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ cat test.sh 
+[?2004l#!/bin/bash
+echo "=============================="
+echo " 실행 테스트 성공"
+echo " 실행 사용자: $(whoami)"
+echo "=============================="
+[?2004h]0;student2@JUHEE-NOH: /home/student1/dev_share[01;32mstudent2@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ ./test.sh
+[?2004l==============================
+ 실행 테스트 성공
+ 실행 사용자: student2
+==============================
+[?2004h]0;student2@JUHEE-NOH: /home/student1/dev_share[01;32mstudent2@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ exit
+[?2004lexit
+[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ su student6
+[?2004lPassword: 
+su: Authentication failure
+[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ su student6
+[?2004lPassword: 
+You are required to change your password immediately (administrator enforced).
+Changing password for student6.
+Current password: 
+New password: 
+Retype new password: 
+[?2004h]0;student6@JUHEE-NOH: /home/student1/dev_share[01;32mstudent6@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ ls
+[?2004lls: cannot open directory '.': Permission denied
+[?2004h]0;student6@JUHEE-NOH: /home/student1/dev_share[01;32mstudent6@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ su [K[K[Kexit
+[?2004lexit
+[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ su student3
+[?2004lPassword: 
+[?2004h]0;student3@JUHEE-NOH: /home/student1/dev_share[01;32mstudent3@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ ls
+[?2004lreport1.hwp  [0m[01;32mtest.sh[0m
+[?2004h]0;student3@JUHEE-NOH: /home/student1/dev_share[01;32mstudent3@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ ./test.sh
+[?2004lbash: ./test.sh: Permission denied
+[?2004h]0;student3@JUHEE-NOH: /home/student1/dev_share[01;32mstudent3@JUHEE-NOH[00m:[01;34m/home/student1/dev_share[00m$ exit
+[?2004lexit
+[?2004h]0;student1@JUHEE-NOH: ~/dev_share[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/dev_share[00m$ exit
+[?2004lexit
+[?2004h]0;njh19270@JUHEE-NOH: /home[01;32mnjh19270@JUHEE-NOH[00m:[01;34m/home[00m$ cd ~
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~[00m$ cd linux
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux[00m$ ls
+[?2004l[0m[01;34m2026-03-20[0m  [01;34m2026-03-27[0m  [01;34m2026-04-10[0m  [01;34m2026-04-19[0m  [01;34mweek02[0m     [01;34mweek03[0m  [01;34mweek06[0m
+[01;34m2026-03-24[0m  [01;34m2026-04-07[0m  [01;34m2026-04-17[0m  [01;34m2026-04-20[0m  week02.md  [01;34mweek05[0m  [01;34mweek07[0m
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux[00m$ cd week03
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ ls
+[?2004l2026_20220984_week03_2_log.txt  [0m[01;32mcreate_user.sh[0m  t.txt         [01;34mweb_service[0m
+2026_20220984_week03_log.txt    [01;32mdel_user.sh[0m     [01;32mteam_user.sh[0m
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ cd web_service/
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ ls
+[?2004ldocker-compose.yml  [0m[01;34mhtml[0m
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ cd[K[Ksu web_admin 
+[?2004lPassword: 
+su: Authentication failure
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ su web_admin 
+[?2004lPassword: 
+su: Authentication failure
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ su web_admin 
+[?2004lPassword: 
+su: Authentication failure
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ su web_admin 
+[?2004lPassword: 
+su: Authentication failure
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ su web_admin 
+[?2004lPassword: 
+[?2004h]0;web_admin@JUHEE-NOH: /home/njh19270/linux/week03/web_service[01;32mweb_admin@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/week03/web_service[00m$ ls
+[?2004ldocker-compose.yml  [0m[01;34mhtml[0m
+[?2004h]0;web_admin@JUHEE-NOH: /home/njh19270/linux/week03/web_service[01;32mweb_admin@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/week03/web_service[00m$ sudo visudo
+[?2004l[sudo] password for web_admin: 
+Sorry, user web_admin is not allowed to execute '/usr/sbin/visudo' as root on JUHEE-NOH.localdomain.
+[?2004h]0;web_admin@JUHEE-NOH: /home/njh19270/linux/week03/web_service[01;32mweb_admin@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/week03/web_service[00m$ exir
+[?2004lCommand 'exir' not found, did you mean:
+  command 'exim' from deb exim4-daemon-heavy (4.97-4ubuntu4.3)
+  command 'exim' from deb exim4-daemon-light (4.97-4ubuntu4.3)
+  command 'exif' from deb exif (0.6.22-3)
+  command 'exip' from deb exip (0.1.0-2ubuntu0.24.04.2)
+  command 'expr' from deb coreutils (9.4-3ubuntu6.2)
+  command 'xir' from deb libxir-utils (2.5-1build1)
+Try: apt install <deb name>
+[?2004h]0;web_admin@JUHEE-NOH: /home/njh19270/linux/week03/web_service[01;32mweb_admin@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/week03/web_service[00m$ exir[Kt
+[?2004lexit
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ sudo visudo
+[?2004l[sudo] password for njh19270: 
+[?2004h[?1049h[22;0;0t[1;27r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[25;54H(B[0;7m[ Reading... ](B[m[25;52H(B[0;7m[ Read 61 lines ](B[m[H(B[0;7m  GNU nano 7.2                                        /etc/sudoers.tmp                                                  [1;119H(B[m[26d(B[0;7m^G(B[m Help[26;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[26;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[27d(B[0;7m^X(B[m Exit[27;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2d[36m#[3d# This file MUST be edited with the 'visudo' command as root.[4d#[5d# Please consider adding local content in /etc/sudoers.d/ instead of[6d# directly modifying this file.[7d#[8d# See the man page for details on how to write a sudoers file.[9d#[10d[39m(B[mDefaults[38;5;208m        [39m(B[menv_reset[11dDefaults[38;5;208m        [39m(B[mmail_badpass[12dDefaults[38;5;208m        [39m(B[msecure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin"[14d[36m# This fixes CVE-2005-4890 and possibly breaks some versions of kdesu[15d# (#1011624, https://bugs.kde.org/show_bug.cgi?id=452532)[16d[39m(B[mDefaults[38;5;208m        [39m(B[muse_pty[18d[36m# This preserves proxy settings from user environments of root[19d# equivalent users (group sudo)[20d#Defaults:%sudo env_keep += "http_proxy https_proxy ftp_proxy all_proxy no_proxy"[22d# This allows running arbitrary commands, but so does ALL, and it means[23d# different sudoers have their choice of editor respected.[24d#Defaults:%sudo env_keep += "EDITOR"[2d[39m(B[m[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[?12l[?25h[17d[?25l[?12l[?25h[18d[?25l[?12l[?25h[19d[?25l[?12l[?25h[20d[?25l[?12l[?25h[21d[?25l[25d[K[?12l[?25h[22d[?25l[?12l[?25h[23d[?25l[?12l[?25h[24d[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[36m# Completely harmless preservation of a user preference.[39m(B[m[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[36m#Defaults:%sudo env_keep += "GREP_COLOR"[39m(B[m[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[36m# While you shouldn't normally run git as root, you need to with etckeeper[39m(B[m[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[36m#Defaults:%sudo env_keep += "GIT_AUTHOR_* GIT_COMMITTER_*"[39m(B[m[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[36m# Per-user preferences; root won't have sensible values for them.[39m(B[m[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[36m#Defaults:%sudo env_keep += "EMAIL DEBEMAIL DEBFULLNAME"[39m(B[m[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[36m# "sudo scp" or "sudo rsync" should be able to use your SSH agent.[39m(B[m[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[36m#Defaults:%sudo env_keep += "SSH_AGENT_PID SSH_AUTH_SOCK"[39m(B[m[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[36m# Ditto for GPG agent[39m(B[m[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[36m#Defaults:%sudo env_keep += "GPG_AGENT_INFO"[39m(B[m[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[36m# Host alias specification[39m(B[m[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[36m# User alias specification[39m(B[m[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[36m# Cmnd alias specification[39m(B[m[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[36m# User privilege specification[39m(B[m[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1Hroot[38;5;208m    [39m(B[mALL=(ALL:ALL) ALL[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[36m# Members of the admin group may gain root privileges[39m(B[m[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H%admin ALL=(ALL) ALL[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[36m# Allow members of group sudo to execute any command[39m(B[m[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H%sudo[38;5;208m   [39m(B[mALL=(ALL:ALL) ALL[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[36m# See sudoers(5) for more information on "@include" directives:[39m(B[m[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H@includedir /etc/sudoers.d[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1Hweb_admin ALL=(ALL) NOPASSWD: /usr/bin/docker-compose up -d[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1Hguest_practice ALL=(ALL) NOPASSWD: /usr/bin/docker-compose restart[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[22d[?25l[?12l[?25h[23d[?25l[26d[J[27d[?12l[?25h[27;1H[?1049l[23;0;0t[?1l>[?2004lvisudo: /etc/sudoers.tmp unchanged
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ su web_admin 
+[?2004lPassword: 
+[?2004h]0;web_admin@JUHEE-NOH: /home/njh19270/linux/week03/web_service[01;32mweb_admin@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/week03/web_service[00m$ sudo docker-
+docker-compose  docker-proxy    
+]0;web_admin@JUHEE-NOH: /home/njh19270/linux/week03/web_service[01;32mweb_admin@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/week03/web_service[00m$ sudo docker-compose up -d
+[?2004lmy-web-proxy is up-to-date
+[?2004h]0;web_admin@JUHEE-NOH: /home/njh19270/linux/week03/web_service[01;32mweb_admin@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/week03/web_service[00m$ sudo docker-compus[K[Kose r[Krestart 
+[?2004l[sudo] password for web_admin: 
+Sorry, user web_admin is not allowed to execute '/usr/bin/docker-compose restart' as root on JUHEE-NOH.localdomain.
+[?2004h]0;web_admin@JUHEE-NOH: /home/njh19270/linux/week03/web_service[01;32mweb_admin@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/week03/web_service[00m$ sudo docker-compose restart [K[K[K[K[K[K[K[Ksta[Kop
+[?2004l[sudo] password for web_admin: 
+Sorry, user web_admin is not allowed to execute '/usr/bin/docker-compose stop' as root on JUHEE-NOH.localdomain.
+[?2004h]0;web_admin@JUHEE-NOH: /home/njh19270/linux/week03/web_service[01;32mweb_admin@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/week03/web_service[00m$ exit
+[?2004lexit
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ ls
+[?2004ldocker-compose.yml  [0m[01;34mhtml[0m
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03/web_service[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03/web_service[00m$ cd ..
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ ls
+[?2004l2026_20220984_week03_2_log.txt  [0m[01;32mcreate_user.sh[0m  t.txt         [01;34mweb_service[0m
+2026_20220984_week03_log.txt    [01;32mdel_user.sh[0m     [01;32mteam_user.sh[0m
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ nan[K[K[Kcat del_user.sh
+[?2004l#!/bin/bash
+
+for i in {6..20}
+do
+  user="student$i"
+
+  # 로그인 중인지 확인
+  if who | grep -q "$user"; then
+    echo "$user is currently logged in → skip"
+  else
+    sudo userdel -r "$user"
+    echo "$user deleted"
+  fi
+done
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ ./ del[K[K[K[Kdel[K[Kel_user.sh 
+[?2004luserdel: student6 mail spool (/var/mail/student6) not found
+student6 deleted
+userdel: student7 mail spool (/var/mail/student7) not found
+student7 deleted
+userdel: student8 mail spool (/var/mail/student8) not found
+student8 deleted
+userdel: student9 mail spool (/var/mail/student9) not found
+student9 deleted
+userdel: student10 mail spool (/var/mail/student10) not found
+student10 deleted
+userdel: student11 mail spool (/var/mail/student11) not found
+student11 deleted
+userdel: student12 mail spool (/var/mail/student12) not found
+student12 deleted
+userdel: student13 mail spool (/var/mail/student13) not found
+student13 deleted
+userdel: student14 mail spool (/var/mail/student14) not found
+student14 deleted
+userdel: student15 mail spool (/var/mail/student15) not found
+student15 deleted
+userdel: student16 mail spool (/var/mail/student16) not found
+student16 deleted
+userdel: student17 mail spool (/var/mail/student17) not found
+student17 deleted
+userdel: student18 mail spool (/var/mail/student18) not found
+student18 deleted
+userdel: student19 mail spool (/var/mail/student19) not found
+student19 deleted
+userdel: student20 mail spool (/var/mail/student20) not found
+student20 deleted
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ su student1
+[?2004lPassword: 
+[?2004h]0;student1@JUHEE-NOH: /home/njh19270/linux/week03[01;32mstudent1@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/week03[00m$ cd ~
+[?2004l[?2004h]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ ls[K[Kls
+[?2004l[0m[01;34mdev_share[0m  [01;34mhtml[0m  readme.txt
+[?2004h]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ rm -r[K[K-r html
+[?2004l[?2004h]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ ls
+[?2004l[0m[01;34mdev_share[0m  readme.txt
+[?2004h]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ mkdir html
+[?2004l[?2004h]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ stat [K[K[K[K[Kls -al
+[?2004ltotal 44
+drwxr-x---  6 student1 student1  4096 Apr 20 02:42 [0m[01;34m.[0m
+drwxr-xr-x 12 root     root      4096 Apr 20 02:35 [01;34m..[0m
+-rw-------  1 student1 student1  1818 Apr 20 02:27 .bash_history
+-rw-r--r--  1 student1 student1   220 Mar 31  2024 .bash_logout
+-rw-r--r--  1 student1 student1  3815 Mar 27 09:41 .bashrc
+drwx------  4 student1 student1  4096 Apr 10 11:11 [01;34m.config[0m
+drwxrwxr-x  3 student1 student1  4096 Mar 27 11:10 [01;34m.local[0m
+-rw-r--r--  1 student1 student1   806 Mar 20 11:32 .profile
+drwxr-s---  2 student1 dev_team1 4096 Mar 27 11:11 [01;34mdev_share[0m
+drwxrwxr-x  2 student1 student1  4096 Apr 20 02:42 [01;34mhtml[0m
+-rw-r--r--  1 student1 student1     6 Mar 27 10:04 readme.txt
+[?2004h]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ stat d[Khtml
+[?2004l  File: html
+  Size: 4096      	Blocks: 8          IO Block: 4096   directory
+Device: 8,48	Inode: 7417        Links: 2
+Access: (0775/drwxrwxr-x)  Uid: ( 1005/student1)   Gid: ( 1005/student1)
+Access: 2026-04-20 02:42:29.487230429 +0900
+Modify: 2026-04-20 02:42:29.487230429 +0900
+Change: 2026-04-20 02:42:29.487230429 +0900
+ Birth: 2026-04-20 02:42:29.487230429 +0900
+[?2004h]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ [K]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ [K]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ [K]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ [K]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ [K]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ [K]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ [K]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ [K]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ [K]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ [K]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ [K]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ [K]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ [K]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ [K]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ [K]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ [K]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ [K]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ [K]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ [K]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ [K]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ [K]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ [K]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ [K]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ [K]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ [K]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ [K]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ [K]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ [K]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ [K]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ [K]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ [K]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ dev[K[K[Kchgrp dev_team1 dev[K[K[Khtml
+[?2004l[?2004h]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ sudo chmod 2750[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksu[K[Kexit
+[?2004lexit
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ sudo chmod 2750 /hoem[K[Kme/su[Ktudent1/html
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ stat dev[K[K[Khtml
+[?2004lstat: cannot statx 'html': No such file or directory
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ stat html[K[K[K[K[K[K[K[K[Ksu student1
+[?2004lPassword: 
+[?2004h]0;student1@JUHEE-NOH: /home/njh19270/linux/week03[01;32mstudent1@JUHEE-NOH[00m:[01;34m/home/njh19270/linux/week03[00m$ cd ~/[K
+[?2004l[?2004h]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ ls
+[?2004l[0m[01;34mdev_share[0m  [01;34mhtml[0m  readme.txt
+[?2004h]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ l[Kstat sh[K[Khtml
+[?2004l  File: html
+  Size: 4096      	Blocks: 8          IO Block: 4096   directory
+Device: 8,48	Inode: 7417        Links: 2
+Access: (2750/drwxr-s---)  Uid: ( 1005/student1)   Gid: ( 1027/dev_team1)
+Access: 2026-04-20 02:42:29.487230429 +0900
+Modify: 2026-04-20 02:42:29.487230429 +0900
+Change: 2026-04-20 02:43:54.914784960 +0900
+ Birth: 2026-04-20 02:42:29.487230429 +0900
+[?2004h]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ setfacl -m u:student3:--- d[Khtml
+[?2004l[?2004h]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ setfacl -m u:student3:--- html[C[1P[1@r[1P[1@4
+[?2004l[?2004h]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ getfacl t[Khtml
+[?2004l# file: html
+# owner: student1
+# group: dev_team1
+# flags: -s-
+user::rwx
+user:student3:---
+user:student4:---
+group::r-x
+mask::r-x
+other::---
+
+[?2004h]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ su student3
+[?2004lPassword: 
+[?2004h]0;student3@JUHEE-NOH: /home/student1[01;32mstudent3@JUHEE-NOH[00m:[01;34m/home/student1[00m$ ls
+[?2004lls: cannot open directory '.': Permission denied
+[?2004h]0;student3@JUHEE-NOH: /home/student1[01;32mstudent3@JUHEE-NOH[00m:[01;34m/home/student1[00m$ cd ..[K[K[K[K[Ksu student1 [K
+[?2004lPassword: 
+[?2004h]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ cd [K[K[Kls
+[?2004l[0m[01;34mdev_share[0m  [01;34mhtml[0m  readme.txt
+[?2004h]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ cd html
+[?2004l[?2004h]0;student1@JUHEE-NOH: ~/html[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/html[00m$ su student2
+[?2004lPassword: 
+[?2004h]0;student2@JUHEE-NOH: /home/student1/html[01;32mstudent2@JUHEE-NOH[00m:[01;34m/home/student1/html[00m$ ls
+[?2004l[?2004h]0;student2@JUHEE-NOH: /home/student1/html[01;32mstudent2@JUHEE-NOH[00m:[01;34m/home/student1/html[00m$ su studetn[K[Knt3
+[?2004lPassword: 
+[?2004h]0;student3@JUHEE-NOH: /home/student1/html[01;32mstudent3@JUHEE-NOH[00m:[01;34m/home/student1/html[00m$ ls
+[?2004lls: cannot open directory '.': Permission denied
+[?2004h]0;student3@JUHEE-NOH: /home/student1/html[01;32mstudent3@JUHEE-NOH[00m:[01;34m/home/student1/html[00m$ su [K[K[Ksu student4
+[?2004lPassword: 
+[?2004h]0;student4@JUHEE-NOH: /home/student1/html[01;32mstudent4@JUHEE-NOH[00m:[01;34m/home/student1/html[00m$ ls
+[?2004lls: cannot open directory '.': Permission denied
+[?2004h]0;student4@JUHEE-NOH: /home/student1/html[01;32mstudent4@JUHEE-NOH[00m:[01;34m/home/student1/html[00m$ exit
+[?2004lexit
+[?2004h]0;student3@JUHEE-NOH: /home/student1/html[01;32mstudent3@JUHEE-NOH[00m:[01;34m/home/student1/html[00m$ exite[K
+[?2004lexit
+[?2004h]0;student2@JUHEE-NOH: /home/student1/html[01;32mstudent2@JUHEE-NOH[00m:[01;34m/home/student1/html[00m$ exit
+[?2004lexit
+[?2004h]0;student1@JUHEE-NOH: ~/html[01;32mstudent1@JUHEE-NOH[00m:[01;34m~/html[00m$ exit
+[?2004lexit
+[?2004h]0;student3@JUHEE-NOH: /home/student1[01;32mstudent3@JUHEE-NOH[00m:[01;34m/home/student1[00m$ exit
+[?2004lexit
+[?2004h]0;student1@JUHEE-NOH: ~[01;32mstudent1@JUHEE-NOH[00m:[01;34m~[00m$ exit
+[?2004lexit
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week03[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week03[00m$ e[Kcd ~
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~[00m$ git pull origin main
+[?2004lfatal: not a git repository (or any of the parent directories): .git
+[?2004h]0;njh19270@JUHEE-NOH: ~[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~[00m$ cd linux/
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux[00m$ cd linux/git pull origin main
+[?2004lremote: Enumerating objects: 4, done.[K
+remote: Counting objects:  25% (1/4)[Kremote: Counting objects:  50% (2/4)[Kremote: Counting objects:  75% (3/4)[Kremote: Counting objects: 100% (4/4)[Kremote: Counting objects: 100% (4/4), done.[K
+remote: Compressing objects:  33% (1/3)[Kremote: Compressing objects:  66% (2/3)[Kremote: Compressing objects: 100% (3/3)[Kremote: Compressing objects: 100% (3/3), done.[K
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)[K
+Unpacking objects:  33% (1/3)Unpacking objects:  66% (2/3)Unpacking objects: 100% (3/3)Unpacking objects: 100% (3/3), 8.09 KiB | 2.02 MiB/s, done.
+From https://github.com/JuheeNoh123/LINUX_LECTURE_20220984
+ * branch            main       -> FETCH_HEAD
+   50b5f85..ee4362c  main       -> origin/main
+Updating 50b5f85..ee4362c
+Fast-forward
+ week03_04.md | 533 [32m++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ 1 file changed, 533 insertions(+)
+ create mode 100644 week03_04.md
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux[00m$ ei[Kxit
+[?2004lexit
+
+Script done on 2026-04-20 03:12:42+09:00 [COMMAND_EXIT_CODE="0"]

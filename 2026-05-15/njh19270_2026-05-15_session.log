@@ -864,3 +864,60 @@ Disk stats (read/write):
 [?2004lexit
 
 Script done on 2026-05-15 01:04:52+09:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-05-15 01:06:32+09:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+bash: SCRIPT.sh: No such file or directory
+bash: SCRIPT.sh: No such file or directory
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/2026-05-15[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-05-15[00m$ Script started on 2026-05-15 01:06:32+09:00 [TTY="/dev/pts/1" COLUMNS="-1" LINES="-1"]
+bash: SCRIPT.sh: No such file or directory
+bash: SCRIPT.sh: No such file or directory
+njh19270@JUHEE-NOH:~/linux/2026-05-15$ cd ..
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux[00m$ s[Kls
+[?2004l[0m[01;34m2026-03-20[0m  [01;34m2026-04-07[0m  [01;34m2026-04-19[0m  [01;34m2026-04-23[0m  README.md  [01;34mweek03[0m        week05.md  [01;34mweek07[0m
+[01;34m2026-03-24[0m  [01;34m2026-04-10[0m  [01;34m2026-04-20[0m  [01;34m2026-04-24[0m  [01;34mweek02[0m     week03_04.md  [01;34mweek06[0m     week07.md
+[01;34m2026-03-27[0m  [01;34m2026-04-17[0m  [01;34m2026-04-22[0m  [01;34m2026-05-15[0m  week02.md  [01;34mweek05[0m        week06.md  [01;34mweek09[0m
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux[00m$ git add .
+[?2004l^C
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux[00m$ git stats[Ksu
+[?2004lgit: 'statsu' is not a git command. See 'git --help'.
+
+The most similar command is
+	status
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux[00m$ git statsu[1Pu[Cs
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   2026-04-17/njh19270_2026-04-17_session.log[m
+	[31mmodified:   2026-04-17/njh19270_2026-04-17_session.tm[m
+	[31mmodified:   2026-05-15/njh19270_2026-05-15_session.log[m
+	[31mmodified:   2026-05-15/njh19270_2026-05-15_session.tm[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m2026-04-19/[m
+	[31m2026-04-20/[m
+	[31m2026-04-22/[m
+	[31m2026-04-23/[m
+	[31m2026-04-24/[m
+	[31mweek07/hard.txt[m
+	[31mweek07/hardlink[m
+	[31mweek07/large.bin[m
+	[31mweek07/medium.bin[m
+	[31mweek07/small.bin[m
+	[31mweek07/sym.txt[m
+	[31mweek07/tiny.bin[m
+	[31mweek09/[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux[00m$ gi [Kt pull origin main
+[?2004lFrom https://github.com/JuheeNoh123/LINUX_LECTURE_20220984
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux[00m$ git pus[K[K[Kadd .
+[?2004l^C
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux[00m$ exit
+[?2004lexit
+
+Script done on 2026-05-15 01:07:32+09:00 [COMMAND_EXIT_CODE="130"]

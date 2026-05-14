@@ -1,0 +1,438 @@
+Script started on 2026-04-24 00:52:25+09:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="120" LINES="30"]
+bash: SCRIPT.sh: No such file or directory
+bash: SCRIPT.sh: No such file or directory
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/2026-04-24[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-04-24[00m$ df -Th
+[?2004lFilesystem     Type     Size  Used Avail Use% Mounted on
+/dev/sdd       ext4    1007G  4.0G  952G   1% /
+rootfs         rootfs   3.9G  2.7M  3.9G   1% /init
+none           tmpfs    3.9G     0  3.9G   0% /dev/shm
+none           tmpfs    3.9G  796K  3.9G   1% /run
+none           tmpfs    3.9G     0  3.9G   0% /run/lock
+none           tmpfs    3.9G  104K  3.9G   1% /run/user
+tmpfs          tmpfs    3.9G   16K  3.9G   1% /run/user/1000
+tmpfs          tmpfs    782M   16K  782M   1% /run/user/1007
+drivers        9p       476G  427G   49G  90% /usr/lib/wsl/drivers
+none           overlay  3.9G     0  3.9G   0% /usr/lib/wsl/lib
+none           tmpfs    3.9G  4.0K  3.9G   1% /mnt/wsl
+none           overlay  3.9G   76K  3.9G   1% /mnt/wslg/versions.txt
+none           overlay  3.9G   76K  3.9G   1% /mnt/wslg/doc
+none           overlay  3.9G     0  3.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+C:\            9p       476G  427G   49G  90% /mnt/c
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/2026-04-24[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-04-24[00m$ [7mlsblk --f[27mlsblk --f
+[?2004lNAME
+    FSTYPE FSVER LABEL UUID                                 FSAVAIL FSUSE% MOUNTPOINTS
+sda ext4   1.0                                                             
+sdb ext4   1.0                                                             
+sdc swap   1           8d0e84e3-e6d4-476c-8122-aea98c06b08f                [SWAP]
+sdd ext4   1.0         12572eaa-f5ca-4f63-92c9-13913ea2c290  951.7G     0% /var/lib/docker
+                                                                           /mnt/wslg/distro
+                                                                           /
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/2026-04-24[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-04-24[00m$ [7mls -al /dev/sda[27mls -al /dev/sda
+[?2004lbrw-rw---- 1 root disk 8, 0 Apr 23 21:51 [0m[40;33;01m/dev/sda[0m
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/2026-04-24[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-04-24[00m$ [7msudo fdisk -l[27msudo fdisk -l
+[?2004l[sudo] password for njh19270: 
+[1mDisk /dev/ram0: 4 MiB, 4194304 bytes, 8192 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+[1mDisk /dev/ram1: 4 MiB, 4194304 bytes, 8192 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+[1mDisk /dev/ram2: 4 MiB, 4194304 bytes, 8192 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+[1mDisk /dev/ram3: 4 MiB, 4194304 bytes, 8192 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+[1mDisk /dev/ram4: 4 MiB, 4194304 bytes, 8192 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+[1mDisk /dev/ram5: 4 MiB, 4194304 bytes, 8192 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+[1mDisk /dev/ram6: 4 MiB, 4194304 bytes, 8192 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+[1mDisk /dev/ram7: 4 MiB, 4194304 bytes, 8192 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+[1mDisk /dev/ram8: 4 MiB, 4194304 bytes, 8192 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+[1mDisk /dev/ram9: 4 MiB, 4194304 bytes, 8192 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+[1mDisk /dev/ram10: 4 MiB, 4194304 bytes, 8192 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+[1mDisk /dev/ram11: 4 MiB, 4194304 bytes, 8192 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+[1mDisk /dev/ram12: 4 MiB, 4194304 bytes, 8192 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+[1mDisk /dev/ram13: 4 MiB, 4194304 bytes, 8192 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+[1mDisk /dev/ram14: 4 MiB, 4194304 bytes, 8192 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+[1mDisk /dev/ram15: 4 MiB, 4194304 bytes, 8192 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+[1mDisk /dev/sda: 388.45 MiB, 407314432 bytes, 795536 sectors
+[0mDisk model: Virtual Disk    
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+[1mDisk /dev/sdb: 186.04 MiB, 195080192 bytes, 381016 sectors
+[0mDisk model: Virtual Disk    
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+[1mDisk /dev/sdc: 2 GiB, 2147487744 bytes, 4194312 sectors
+[0mDisk model: Virtual Disk    
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+[1mDisk /dev/sdd: 1 TiB, 1099511627776 bytes, 2147483648 sectors
+[0mDisk model: Virtual Disk    
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/2026-04-24[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-04-24[00m$ cd ..
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux[00m$ ls
+[?2004l[0m[01;34m2026-03-20[0m  [01;34m2026-03-27[0m  [01;34m2026-04-10[0m  [01;34m2026-04-19[0m  [01;34m2026-04-22[0m  [01;34m2026-04-24[0m  week02.md  week03_04.md  week05.md  [01;34mweek07[0m
+[01;34m2026-03-24[0m  [01;34m2026-04-07[0m  [01;34m2026-04-17[0m  [01;34m2026-04-20[0m  [01;34m2026-04-23[0m  [01;34mweek02[0m      [01;34mweek03[0m     [01;34mweek05[0m        [01;34mweek06[0m     week_06.md
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux[00m$ cd week06[K7
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ ls
+[?2004lhard  [0m[01;36msyml[0m  test  [01;34mtest2[0m
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ cd[K[Kstat te[K[K[Kte[K[K test
+[?2004l  File: test
+  Size: 25        	Blocks: 8          IO Block: 4096   regular file
+Device: 8,48	Inode: 65109       Links: 1
+Access: (0644/-rw-r--r--)  Uid: ( 1000/njh19270)   Gid: ( 1000/njh19270)
+Access: 2026-04-17 10:57:17.625467124 +0900
+Modify: 2026-04-17 10:57:05.581534930 +0900
+Change: 2026-04-17 10:57:05.581534930 +0900
+ Birth: 2026-04-17 10:57:05.581534930 +0900
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ df -i
+[?2004lFilesystem       Inodes   IUsed    IFree IUse% Mounted on
+/dev/sdd       67108864   65301 67043563    1% /
+rootfs           998580      12   998568    1% /init
+none             999833       1   999832    1% /dev/shm
+none             999833     642   999191    1% /run
+none             999833       2   999831    1% /run/lock
+none             999833      34   999799    1% /run/user
+tmpfs            999833      41   999792    1% /run/user/1000
+tmpfs            199966      34   199932    1% /run/user/1007
+drivers             999 -999001  1000000     - /usr/lib/wsl/drivers
+none             999833       6   999827    1% /usr/lib/wsl/lib
+none             999833       2   999831    1% /mnt/wsl
+none             999833      52   999781    1% /mnt/wslg/versions.txt
+none             999833      52   999781    1% /mnt/wslg/doc
+none             999833       5   999828    1% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+C:\                 999 -999001  1000000     - /mnt/c
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ ls -i
+[?2004l65107 hard  65108 [0m[01;36msyml[0m  65109 test  58660 [01;34mtest2[0m
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ stat hard
+[?2004l  File: hard
+  Size: 25        	Blocks: 8          IO Block: 4096   regular file
+Device: 8,48	Inode: 65107       Links: 1
+Access: (0644/-rw-r--r--)  Uid: ( 1000/njh19270)   Gid: ( 1000/njh19270)
+Access: 2026-04-17 10:57:17.625467124 +0900
+Modify: 2026-04-17 10:57:05.581534930 +0900
+Change: 2026-04-17 10:57:05.581534930 +0900
+ Birth: 2026-04-17 10:57:05.581534930 +0900
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ ls
+[?2004lhard  [0m[01;36msyml[0m  test  [01;34mtest2[0m
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ cd test
+[?2004lbash: cd: test: Not a directory
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ cd test2
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07/test2[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07/test2[00m$ ls
+[?2004l[0m[01;34mtest3[0m
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07/test2[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07/test2[00m$ stat ts[Kest2[K3
+[?2004l  File: test3
+  Size: 4096      	Blocks: 8          IO Block: 4096   directory
+Device: 8,48	Inode: 62745       Links: 2
+Access: (0755/drwxr-xr-x)  Uid: ( 1000/njh19270)   Gid: ( 1000/njh19270)
+Access: 2026-04-17 10:37:25.210258667 +0900
+Modify: 2026-04-17 10:23:37.651159667 +0900
+Change: 2026-04-17 10:23:37.651159667 +0900
+ Birth: 2026-04-17 10:23:37.651159667 +0900
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07/test2[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07/test2[00m$ stat test2
+[?2004lstat: cannot statx 'test2': No such file or directory
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07/test2[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07/test2[00m$ cd .. 
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ state[K st[K[Ktest2
+[?2004l  File: test2
+  Size: 4096      	Blocks: 8          IO Block: 4096   directory
+Device: 8,48	Inode: 58660       Links: 3
+Access: (0755/drwxr-xr-x)  Uid: ( 1000/njh19270)   Gid: ( 1000/njh19270)
+Access: 2026-04-24 01:20:26.676419573 +0900
+Modify: 2026-04-17 10:23:37.651159667 +0900
+Change: 2026-04-17 10:23:37.651159667 +0900
+ Birth: 2026-04-17 10:21:26.200590487 +0900
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ t[Kstes[K[Kat tse[K[Kest[K[K[K[K[K[K[K[K[Kcd test3[K2
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07/test2[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07/test2[00m$ cd test3
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07/test2/test3[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07/test2/test3[00m$ ks[K[Kls
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07/test2/test3[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07/test2/test3[00m$ stat test
+[?2004lstat: cannot statx 'test': No such file or directory
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07/test2/test3[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07/test2/test3[00m$ cd ..
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07/test2[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07/test2[00m$ cd ..
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ stat test
+[?2004l  File: test
+  Size: 25        	Blocks: 8          IO Block: 4096   regular file
+Device: 8,48	Inode: 65109       Links: 1
+Access: (0644/-rw-r--r--)  Uid: ( 1000/njh19270)   Gid: ( 1000/njh19270)
+Access: 2026-04-17 10:57:17.625467124 +0900
+Modify: 2026-04-17 10:57:05.581534930 +0900
+Change: 2026-04-17 10:57:05.581534930 +0900
+ Birth: 2026-04-17 10:57:05.581534930 +0900
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ state[K hard
+[?2004l  File: hard
+  Size: 25        	Blocks: 8          IO Block: 4096   regular file
+Device: 8,48	Inode: 65107       Links: 1
+Access: (0644/-rw-r--r--)  Uid: ( 1000/njh19270)   Gid: ( 1000/njh19270)
+Access: 2026-04-17 10:57:17.625467124 +0900
+Modify: 2026-04-17 10:57:05.581534930 +0900
+Change: 2026-04-17 10:57:05.581534930 +0900
+ Birth: 2026-04-17 10:57:05.581534930 +0900
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ ls
+[?2004lhard  [0m[01;36msyml[0m  test  [01;34mtest2[0m
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ stat st[Kyml
+[?2004l  File: syml -> test
+  Size: 4         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 8,48	Inode: 65108       Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: ( 1000/njh19270)   Gid: ( 1000/njh19270)
+Access: 2026-04-24 01:08:42.906119541 +0900
+Modify: 2026-04-17 10:57:05.581534930 +0900
+Change: 2026-04-17 10:57:05.581534930 +0900
+ Birth: 2026-04-17 10:57:05.581534930 +0900
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ [7mln test hard[27mln test hard
+[?2004lln: failed to create hard link 'hard': File exists
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ ln test hardlink
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ stat test
+[?2004l  File: test
+  Size: 25        	Blocks: 8          IO Block: 4096   regular file
+Device: 8,48	Inode: 65109       Links: 2
+Access: (0644/-rw-r--r--)  Uid: ( 1000/njh19270)   Gid: ( 1000/njh19270)
+Access: 2026-04-17 10:57:17.625467124 +0900
+Modify: 2026-04-17 10:57:05.581534930 +0900
+Change: 2026-04-24 01:26:37.679229560 +0900
+ Birth: 2026-04-17 10:57:05.581534930 +0900
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ stat hard
+[?2004l  File: hard
+  Size: 25        	Blocks: 8          IO Block: 4096   regular file
+Device: 8,48	Inode: 65107       Links: 1
+Access: (0644/-rw-r--r--)  Uid: ( 1000/njh19270)   Gid: ( 1000/njh19270)
+Access: 2026-04-17 10:57:17.625467124 +0900
+Modify: 2026-04-17 10:57:05.581534930 +0900
+Change: 2026-04-17 10:57:05.581534930 +0900
+ Birth: 2026-04-17 10:57:05.581534930 +0900
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ stat syml 
+[?2004l  File: syml -> test
+  Size: 4         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 8,48	Inode: 65108       Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: ( 1000/njh19270)   Gid: ( 1000/njh19270)
+Access: 2026-04-24 01:08:42.906119541 +0900
+Modify: 2026-04-17 10:57:05.581534930 +0900
+Change: 2026-04-17 10:57:05.581534930 +0900
+ Birth: 2026-04-17 10:57:05.581534930 +0900
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ [7msudo du -ah --max-depth=1 /home | sort -hr[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo du -ah --max-depth=1 /home | sort -hr
+[?2004l[sudo] password for njh19270: 
+369M	/home/njh19270
+369M	/home
+68K	/home/student1
+24K	/home/student5
+24K	/home/student4
+24K	/home/student3
+24K	/home/student2
+24K	/home/guest_practice
+24K	/home/guest
+20K	/home/web_admin
+20K	/home/guest2
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ [7msudo du -sh /var/lib/docker   [27msudo du -sh /var/lib/docker   
+[?2004l158M	/var/lib/docker
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ docker s[Kps
+[?2004lCONTAINER ID   IMAGE          COMMAND                  CREATED       STATUS       PORTS                                     NAMES
+46a1709b5dfa   nginx:alpine   "/docker-entrypoint.…"   2 hours ago   Up 2 hours   0.0.0.0:8081->80/tcp, [::]:8081->80/tcp   stress-nginx
+fdbea012fa03   nginx:alpine   "/docker-entrypoint.…"   2 hours ago   Up 2 hours   0.0.0.0:80->80/tcp, [::]:80->80/tcp       my-web-proxy
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ docker systre[K[Kem df
+[?2004lTYPE            TOTAL     ACTIVE    SIZE      RECLAIMABLE
+Images          4         3         421.1MB   345.7MB (82%)
+Containers      4         2         12.05MB   86.02kB (0%)
+Local Volumes   0         0         0B        0B
+Build Cache     0         0         0B        0B
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ [7msudo ls -F /var/lib/docker[27msudo ls -F /var/lib/docker
+[?2004lbuildkit/  containers/	engine-id  image/  network/  plugins/  rootfs/	runtimes/  swarm/  tmp/  volumes/
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ [7mdocker system df -v[27mdocker system df -v
+[?2004lImages space usage:
+
+REPOSITORY    TAG           IMAGE ID       CREATED         SIZE      SHARED SIZE   UNIQUE SIZE   CONTAINERS
+nginx         alpine        645eda1c2477   2 weeks ago     93.5MB    0B            93.5MB        2
+nginx         latest        bc45d248c4e1   6 weeks ago     240MB     0B            240MB         1
+hello-world   latest        85404b3c5395   8 months ago    25.9kB    0B            25.9kB        1
+nginx         1.25-alpine   516475cc129d   23 months ago   75.4MB    0B            75.36MB       0
+
+Containers space usage:
+
+CONTAINER ID   IMAGE          COMMAND                  LOCAL VOLUMES   SIZE      CREATED       STATUS                     NAMES
+46a1709b5dfa   nginx:alpine   "/docker-entrypoint.…"   0               5.98MB    2 hours ago   Up 2 hours                 stress-nginx
+fdbea012fa03   nginx:alpine   "/docker-entrypoint.…"   0               5.98MB    2 hours ago   Up 2 hours                 my-web-proxy
+1cd05865b7e2   nginx:latest   "/docker-entrypoint.…"   0               81.9kB    5 weeks ago   Exited (255) 5 weeks ago   my-nginx
+1500c4a03ba8   hello-world    "/hello"                 0               4.1kB     5 weeks ago   Exited (0) 5 weeks ago     pedantic_kare
+
+Local Volumes space usage:
+
+VOLUME NAME   LINKS     SIZE
+
+Build cache usage: 0B
+
+CACHE ID   CACHE TYPE   SIZE      CREATED   LAST USED   USAGE     SHARED
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ [7mdocker info | grep -i "storage driver"[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdocker info | grep -i "storage driver"
+[?2004l [01;31m[KStorage Driver[m[K: overlayfs
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ [7mcat /proc/mounts | grep docker [27mcat /proc/mounts | grep docker 
+[?2004lnsfs /run/[01;31m[Kdocker[m[K/netns/fd49e0c1ee9a nsfs rw 0 0
+nsfs /run/[01;31m[Kdocker[m[K/netns/7f1670c47fe8 nsfs rw 0 0
+/dev/sdd /var/lib/[01;31m[Kdocker[m[K ext4 rw,relatime,discard,errors=remount-ro,data=ordered 0 0
+overlay /var/lib/[01;31m[Kdocker[m[K/rootfs/overlayfs/fdbea012fa03de78c70dc827c5a228b05fa3ea4307617a419f58688e0fe2f0e9 overlay rw,relatime,lowerdir=/var/lib/containerd/io.containerd.snapshotter.v1.overlayfs/snapshots/59/fs:/var/lib/containerd/io.containerd.snapshotter.v1.overlayfs/snapshots/38/fs:/var/lib/containerd/io.containerd.snapshotter.v1.overlayfs/snapshots/37/fs:/var/lib/containerd/io.containerd.snapshotter.v1.overlayfs/snapshots/36/fs:/var/lib/containerd/io.containerd.snapshotter.v1.overlayfs/snapshots/35/fs:/var/lib/containerd/io.containerd.snapshotter.v1.overlayfs/snapshots/34/fs:/var/lib/containerd/io.containerd.snapshotter.v1.overlayfs/snapshots/33/fs:/var/lib/containerd/io.containerd.snapshotter.v1.overlayfs/snapshots/32/fs:/var/lib/containerd/io.containerd.snapshotter.v1.overlayfs/snapshots/31/fs,upperdir=/var/lib/containerd/io.containerd.snapshotter.v1.overlayfs/snapshots/60/fs,workdir=/var/lib/containerd/io.containerd.snapshotter.v1.overlayfs/snapshots/60/work 0 0
+overlay /var/lib/[01;31m[Kdocker[m[K/rootfs/overlayfs/46a1709b5dfa6a147efc2e9f77fbe4fa426ff6a13414639bf4a3fedbc2434d41 overlay rw,relatime,lowerdir=/var/lib/containerd/io.containerd.snapshotter.v1.overlayfs/snapshots/61/fs:/var/lib/containerd/io.containerd.snapshotter.v1.overlayfs/snapshots/38/fs:/var/lib/containerd/io.containerd.snapshotter.v1.overlayfs/snapshots/37/fs:/var/lib/containerd/io.containerd.snapshotter.v1.overlayfs/snapshots/36/fs:/var/lib/containerd/io.containerd.snapshotter.v1.overlayfs/snapshots/35/fs:/var/lib/containerd/io.containerd.snapshotter.v1.overlayfs/snapshots/34/fs:/var/lib/containerd/io.containerd.snapshotter.v1.overlayfs/snapshots/33/fs:/var/lib/containerd/io.containerd.snapshotter.v1.overlayfs/snapshots/32/fs:/var/lib/containerd/io.containerd.snapshotter.v1.overlayfs/snapshots/31/fs,upperdir=/var/lib/containerd/io.containerd.snapshotter.v1.overlayfs/snapshots/62/fs,workdir=/var/lib/containerd/io.containerd.snapshotter.v1.overlayfs/snapshots/62/work 0 0
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ [7mecho "linux filesystem" > origin.txt[27mecho "linux filesystem" > origin.txt
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ [7mln origin.txt hard.txt[27mln origin.txt hard.txt
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ [7mln -s origin.txt sym.txt[27mln -s origin.txt sym.txt
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ [7mls -li origin.txt hard.txt sym.txt[27mls -li origin.txt hard.txt sym.txt
+[?2004l38290 -rw-r--r-- 2 njh19270 njh19270 17 Apr 24 01:43 hard.txt
+38290 -rw-r--r-- 2 njh19270 njh19270 17 Apr 24 01:43 origin.txt
+38291 lrwxrwxrwx 1 njh19270 njh19270 10 Apr 24 01:43 [0m[01;36msym.txt[0m -> origin.txt
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ cat sym.txt 
+[?2004llinux filesystem
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ rm origin.txt
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ ls
+[?2004lhard  hard.txt  hardlink  [0m[40;31;01msym.txt[0m  [01;36msyml[0m  test  [01;34mtest2[0m
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ ori[K[K[Klsrm origin.txt[1Pcat sym.txt ls -li origin.txt hard.txt sym.txt
+[?2004lls: cannot access 'origin.txt': No such file or directory
+38290 -rw-r--r-- 1 njh19270 njh19270 17 Apr 24 01:43 hard.txt
+38291 lrwxrwxrwx 1 njh19270 njh19270 10 Apr 24 01:43 [0m[40;31;01msym.txt[0m -> [40;31;01morigin.txt[0m
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ ls[K[Kcat hard.txt 
+[?2004llinux filesystem
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ cat sym.txt 
+[?2004lcat: sym.txt: No such file or directory
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ stat sym.txt 
+[?2004l  File: sym.txt -> origin.txt
+  Size: 10        	Blocks: 0          IO Block: 4096   symbolic link
+Device: 8,48	Inode: 38291       Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: ( 1000/njh19270)   Gid: ( 1000/njh19270)
+Access: 2026-04-24 01:43:52.070144039 +0900
+Modify: 2026-04-24 01:43:47.898451566 +0900
+Change: 2026-04-24 01:43:47.898451566 +0900
+ Birth: 2026-04-24 01:43:47.898451566 +0900
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ [7mdd if=/dev/zero of=tiny.bin    bs=1K  count=1    # 1KB[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdd if=/dev/zero of=tiny.bin    bs=1K  count=1    # 1KB
+[?2004l1+0 records in
+1+0 records out
+1024 bytes (1.0 kB, 1.0 KiB) copied, 7.5337e-05 s, 13.6 MB/s
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ [7mdd if=/dev/zero of=small.bin   bs=1K  count=40   # 40KB[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdd if=/dev/zero of=small.bin   bs=1K  count=40   # 40KB
+[?2004l40+0 records in
+40+0 records out
+40960 bytes (41 kB, 40 KiB) copied, 7.8552e-05 s, 521 MB/s
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ [7mdd if=/dev/zero of=medium.bin  bs=1M  count=1    # 1MB[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdd if=/dev/zero of=medium.bin  bs=1M  count=1    # 1MB
+[A
+[?2004l1+0 records in
+1+0 records out
+1048576 bytes (1.0 MB, 1.0 MiB) copied, 0.00192398 s, 545 MB/s
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ [7mdd if=/dev/zero of=large.bin   bs=1M  count=10[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdd if=/dev/zero of=large.bin   bs=1M  count=10
+[?2004l10+0 records in
+10+0 records out
+10485760 bytes (10 MB, 10 MiB) copied, 0.0113948 s, 920 MB/s
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ sc[Ktat [K[K[K[K[Kls
+[?2004lhard  hard.txt  hardlink  large.bin  medium.bin  small.bin  [0m[40;31;01msym.txt[0m  [01;36msyml[0m  test  [01;34mtest2[0m  tiny.bin
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ stat large.bin medium.bin small.bin tiny.bin 
+[?2004l  File: large.bin
+  Size: 10485760  	Blocks: 20480      IO Block: 4096   regular file
+Device: 8,48	Inode: 38299       Links: 1
+Access: (0644/-rw-r--r--)  Uid: ( 1000/njh19270)   Gid: ( 1000/njh19270)
+Access: 2026-04-24 01:58:57.297918862 +0900
+Modify: 2026-04-24 01:58:57.309977935 +0900
+Change: 2026-04-24 01:58:57.309977935 +0900
+ Birth: 2026-04-24 01:58:57.297918862 +0900
+  File: medium.bin
+  Size: 1048576   	Blocks: 2048       IO Block: 4096   regular file
+Device: 8,48	Inode: 38294       Links: 1
+Access: (0644/-rw-r--r--)  Uid: ( 1000/njh19270)   Gid: ( 1000/njh19270)
+Access: 2026-04-24 01:58:51.085270233 +0900
+Modify: 2026-04-24 01:58:51.085270233 +0900
+Change: 2026-04-24 01:58:51.085270233 +0900
+ Birth: 2026-04-24 01:58:51.085270233 +0900
+  File: small.bin
+  Size: 40960     	Blocks: 80         IO Block: 4096   regular file
+Device: 8,48	Inode: 38293       Links: 1
+Access: (0644/-rw-r--r--)  Uid: ( 1000/njh19270)   Gid: ( 1000/njh19270)
+Access: 2026-04-24 01:58:44.280682571 +0900
+Modify: 2026-04-24 01:58:44.280682571 +0900
+Change: 2026-04-24 01:58:44.280682571 +0900
+ Birth: 2026-04-24 01:58:44.280682571 +0900
+  File: tiny.bin
+  Size: 1024      	Blocks: 8          IO Block: 4096   regular file
+Device: 8,48	Inode: 38292       Links: 1
+Access: (0644/-rw-r--r--)  Uid: ( 1000/njh19270)   Gid: ( 1000/njh19270)
+Access: 2026-04-24 01:58:38.203832311 +0900
+Modify: 2026-04-24 01:58:38.203832311 +0900
+Change: 2026-04-24 01:58:38.203832311 +0900
+ Birth: 2026-04-24 01:58:38.203832311 +0900
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ exit
+[?2004lexit
+
+Script done on 2026-04-24 02:22:06+09:00 [COMMAND_EXIT_CODE="0"]
