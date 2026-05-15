@@ -1,0 +1,31 @@
+services:
+  db:
+    image: mysql:8.0
+    container_name: wp_db
+    env_file: .env
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+    volumes:
+      - /mnt/mysql_data:/var/lib/mysql # 9주차 disk_b LVM Bind Mount
+    networks:
+      - wp_net
+    restart: unless-stopped
+
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost",
+          "-u", "root", "-p${MYSQL_ROOT_PASSWORD}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+
+volumes:
+  wp_data: # WordPress·Nginx 공유용 (Nginx/WP는 Named Volume 유지)  
+
+networks:
+  wp_net:
+    driver: bridge
+
