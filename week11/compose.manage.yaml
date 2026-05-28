@@ -1,0 +1,38 @@
+services:
+  portainer:
+    image: portainer/portainer-ce:latest
+    container_name: wp_portainer
+    ports:
+      - "9443:9443"
+    volumes:
+      # Docker 소켓 연결
+      - /var/run/docker.sock:/var/run/docker.sock
+      - portainer_data:/data   # 설정 영구 저장
+    networks:
+      - wp_net
+    restart: unless-stopped
+
+  netdata:
+    image: netdata/netdata:latest
+    container_name: wp_netdata
+    ports:
+      - "19999:19999"
+    volumes:
+      - /proc:/host/proc:ro
+      - /sys:/host/sys:ro
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+    cap_add:
+      - SYS_PTRACE
+    security_opt:
+      - apparmor:unconfined
+    networks:
+      - wp_net
+    restart: unless-stopped
+
+volumes:
+  portainer_data:
+
+networks:
+  wp_net:
+    external: true   # 10주차 네트워크 재사용
+    name: wordpress_wp_net
