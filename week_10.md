@@ -1,4 +1,4 @@
-<img width="767" height="605" alt="image" src="https://github.com/user-attachments/assets/e99d951e-46f5-431a-a0e2-b90212fe24d4" /># 10주차
+# 10주차
 
 ## 웹서버 구축 운영 (Nginx + Wordpress + MySQL 3-Tier)
 
@@ -100,7 +100,7 @@ location ~ /\.(ht|git) {
 - healthcheck로 mysqladmin ping 체크
 - 기존 mysql_lab 정리 후 데이터 초기화 필요
 
-<img width="797" height="576" alt="image" src="https://github.com/user-attachments/assets/39e20e22-13ec-49d0-b540-340fd6f9d1e5" />
+<img width="767" height="605" alt="image" src="https://github.com/user-attachments/assets/a8d32ac9-8d07-4e5a-8ef5-2d7f2fc80539" />
 
 
 ```bash
@@ -116,7 +116,8 @@ df -hT /mnt/mysql_data
 
 #### 5. compose.wordpress.yaml
 
-<img width="737" height="547" alt="image" src="https://github.com/user-attachments/assets/01715f1c-d757-4c67-952f-df9093eb7a6a" />
+<img width="797" height="576" alt="image" src="https://github.com/user-attachments/assets/1a56b187-2ab5-44ce-9e58-7b94716f69c6" />
+
 
 
 ```yaml
@@ -154,7 +155,8 @@ networks:
 
 #### 6. compose.nginx.yaml
 
-<img width="737" height="547" alt="image" src="https://github.com/user-attachments/assets/86cf3e7b-2dfb-471d-8b77-0ffc1eef2c62" />
+<img width="737" height="547" alt="image" src="https://github.com/user-attachments/assets/bc64e416-c9b8-4e09-aa59-8b24528304bf" />
+
 
 
 ```yaml
