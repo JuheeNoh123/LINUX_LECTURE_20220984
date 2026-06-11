@@ -1,0 +1,295 @@
+Script started on 2026-06-09 22:27:22+09:00 [TTY="/dev/pts/1" COLUMNS="-1" LINES="-1"]
+bash: SCRIPT.sh: No such file or directory
+bash: SCRIPT.sh: No such file or directory
+njh19270@JUHEE-NOH:~/linux/2026-06-09$ Script started on 2026-06-09 22:27:24+09:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+bash: SCRIPT.sh: No such file or directory
+bash: SCRIPT.sh: No such file or directory
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/2026-06-09[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-06-09[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux/2026-06-09[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/2026-06-09[00m$ df[K[Kcd ..
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux[00m$ df-Th
+[?2004ldf-Th: command not found
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux[00m$ cd -Th
+[?2004lbash: cd: -T: invalid option
+cd: usage: cd [-L|[-P [-e]] [-@]] [dir]
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux[00m$ df -Th
+[?2004lFilesystem     Type     Size  Used Avail Use% Mounted on
+none           overlay  3.9G     0  3.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none           tmpfs    3.9G  4.0K  3.9G   1% /mnt/wsl
+drivers        9p       476G  425G   52G  90% /usr/lib/wsl/drivers
+/dev/sdd       ext4    1007G   14G  943G   2% /
+none           tmpfs    3.9G   76K  3.9G   1% /mnt/wslg
+none           overlay  3.9G     0  3.9G   0% /usr/lib/wsl/lib
+rootfs         rootfs   3.9G  2.7M  3.9G   1% /init
+none           tmpfs    3.9G  496K  3.9G   1% /run
+none           tmpfs    3.9G     0  3.9G   0% /run/lock
+none           tmpfs    3.9G     0  3.9G   0% /run/shm
+none           overlay  3.9G   76K  3.9G   1% /mnt/wslg/versions.txt
+none           overlay  3.9G   76K  3.9G   1% /mnt/wslg/doc
+C:\            9p       476G  425G   52G  90% /mnt/c
+tmpfs          tmpfs    3.9G     0  3.9G   0% /run/user/1000
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux[00m$ lsblk -f
+[?2004lNAME FSTYPE FSVER LABEL UUID                                 FSAVAIL FSUSE% MOUNTPOINTS
+sda  ext4   1.0                                                             
+sdb  ext4   1.0                                                             
+sdc  swap   1           f89a4c88-6f29-4f70-ba09-750f62d5ba5b                [SWAP]
+sdd  ext4   1.0         12572eaa-f5ca-4f63-92c9-13913ea2c290  942.3G     1% /mnt/wslg/distro
+                                                                            /
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux[00m$ [K]0;njh19270@JUHEE-NOH: ~/linux[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux[00m$ x`[K[Kdocker ps
+[?2004lfailed to connect to the docker API at unix:///var/run/docker.sock; check if the path is correct and if the daemon is running: dial unix /var/run/docker.sock: connect: no such file or directory
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux[00m$ la -al /dev/sda
+[?2004lbrw-rw---- 1 root disk 8, 0 Jun  9 22:27 [0m[40;33;01m/dev/sda[0m
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux[00m$ [7msudo fdisk–l[27msudo fdisk–l\[K
+[?2004l[sudo] password for njh19270: 
+sudo: fdisk–l: command not found
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux[00m$ sudo fdisk–l –l
+[?2004l[32m
+Welcome to fdisk (util-linux 2.39.3).
+[0mChanges will remain in memory only, until you decide to write them.
+Be careful before using the write command.
+
+fdisk: cannot open –l: No such file or directory
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux[00m$ sudo fdisk –l[1Pl-l
+[?2004l[1mDisk /dev/ram0: 4 MiB, 4194304 bytes, 8192 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+[1mDisk /dev/ram1: 4 MiB, 4194304 bytes, 8192 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+[1mDisk /dev/ram2: 4 MiB, 4194304 bytes, 8192 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+[1mDisk /dev/ram3: 4 MiB, 4194304 bytes, 8192 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+[1mDisk /dev/ram4: 4 MiB, 4194304 bytes, 8192 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+[1mDisk /dev/ram5: 4 MiB, 4194304 bytes, 8192 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+[1mDisk /dev/ram6: 4 MiB, 4194304 bytes, 8192 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+[1mDisk /dev/ram7: 4 MiB, 4194304 bytes, 8192 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+[1mDisk /dev/ram8: 4 MiB, 4194304 bytes, 8192 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+[1mDisk /dev/ram9: 4 MiB, 4194304 bytes, 8192 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+[1mDisk /dev/ram10: 4 MiB, 4194304 bytes, 8192 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+[1mDisk /dev/ram11: 4 MiB, 4194304 bytes, 8192 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+[1mDisk /dev/ram12: 4 MiB, 4194304 bytes, 8192 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+[1mDisk /dev/ram13: 4 MiB, 4194304 bytes, 8192 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+[1mDisk /dev/ram14: 4 MiB, 4194304 bytes, 8192 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+[1mDisk /dev/ram15: 4 MiB, 4194304 bytes, 8192 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+[1mDisk /dev/sdb: 186.04 MiB, 195080192 bytes, 381016 sectors
+[0mDisk model: Virtual Disk    
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+[1mDisk /dev/sda: 388.45 MiB, 407314432 bytes, 795536 sectors
+[0mDisk model: Virtual Disk    
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+[1mDisk /dev/sdc: 2 GiB, 2147487744 bytes, 4194312 sectors
+[0mDisk model: Virtual Disk    
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+[1mDisk /dev/sdd: 1 TiB, 1099511627776 bytes, 2147483648 sectors
+[0mDisk model: Virtual Disk    
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux[00m$ df- i
+[?2004lCommand 'df-' not found, did you mean:
+  command 'df' from deb coreutils (9.4-3ubuntu6.2)
+  command 'dfc' from deb dfc (3.1.1-1.2)
+Try: sudo apt install <deb name>
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux[00m$ df- i[1@ [C[C[1Pi
+[?2004lFilesystem       Inodes   IUsed    IFree IUse% Mounted on
+none             999833       5   999828    1% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none             999833       2   999831    1% /mnt/wsl
+drivers             999 -999001  1000000     - /usr/lib/wsl/drivers
+/dev/sdd       67108864  179538 66929326    1% /
+none             999833      33   999800    1% /mnt/wslg
+none             999833       6   999827    1% /usr/lib/wsl/lib
+rootfs           998580      12   998568    1% /init
+none             999833     504   999329    1% /run
+none             999833       3   999830    1% /run/lock
+none             999833       1   999832    1% /run/shm
+none             999833      52   999781    1% /mnt/wslg/versions.txt
+none             999833      52   999781    1% /mnt/wslg/doc
+C:\                 999 -999001  1000000     - /mnt/c
+tmpfs            999833       8   999825    1% /run/user/1000
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux[00m$ cd week0
+[?2004lbash: cd: week0: No such file or directory
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux[00m$ cd week07
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ ls
+[?2004lhard  hard.txt  hardlink  large.bin  medium.bin  small.bin  [0m[40;31;01msym.txt[0m  [01;36msyml[0m  test  [01;34mtest2[0m  tiny.bin
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ stat test
+[?2004l  File: test
+  Size: 25        	Blocks: 8          IO Block: 4096   regular file
+Device: 8,48	Inode: 65109       Links: 2
+Access: (0644/-rw-r--r--)  Uid: ( 1000/njh19270)   Gid: ( 1000/njh19270)
+Access: 2026-05-15 01:05:01.734907104 +0900
+Modify: 2026-04-17 10:57:05.581534930 +0900
+Change: 2026-04-24 01:26:37.679229560 +0900
+ Birth: 2026-04-17 10:57:05.581534930 +0900
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ cd test
+[?2004lbash: cd: test: Not a directory
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ mkdir test
+[?2004lmkdir: cannot create directory ‘test’: File exists
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ cd test
+[?2004lbash: cd: test: Not a directory
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ ln test[K[K[K[K[K[K[Kstat hardlink
+[?2004l  File: hardlink
+  Size: 25        	Blocks: 8          IO Block: 4096   regular file
+Device: 8,48	Inode: 65109       Links: 2
+Access: (0644/-rw-r--r--)  Uid: ( 1000/njh19270)   Gid: ( 1000/njh19270)
+Access: 2026-05-15 01:05:01.734907104 +0900
+Modify: 2026-04-17 10:57:05.581534930 +0900
+Change: 2026-04-24 01:26:37.679229560 +0900
+ Birth: 2026-04-17 10:57:05.581534930 +0900
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ ln -s test t[Ksymlink
+[?2004l[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ stat sym
+[?2004lstat: cannot statx 'sym': No such file or directory
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ stat symlink
+[?2004l  File: symlink -> test
+  Size: 4         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 8,48	Inode: 5715        Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: ( 1000/njh19270)   Gid: ( 1000/njh19270)
+Access: 2026-06-10 01:17:31.620952487 +0900
+Modify: 2026-06-10 01:17:31.620952487 +0900
+Change: 2026-06-10 01:17:31.620952487 +0900
+ Birth: 2026-06-10 01:17:31.620952487 +0900
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ ls
+[?2004lhard      hardlink   medium.bin  [0m[40;31;01msym.txt[0m  [01;36msymlink[0m  [01;34mtest2[0m
+hard.txt  large.bin  small.bin   [01;36msyml[0m     test     tiny.bin
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ stat test
+[?2004l  File: test
+  Size: 25        	Blocks: 8          IO Block: 4096   regular file
+Device: 8,48	Inode: 65109       Links: 2
+Access: (0644/-rw-r--r--)  Uid: ( 1000/njh19270)   Gid: ( 1000/njh19270)
+Access: 2026-05-15 01:05:01.734907104 +0900
+Modify: 2026-04-17 10:57:05.581534930 +0900
+Change: 2026-04-24 01:26:37.679229560 +0900
+ Birth: 2026-04-17 10:57:05.581534930 +0900
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ stat test[K[K[K[Khardlink 
+[?2004l  File: hardlink
+  Size: 25        	Blocks: 8          IO Block: 4096   regular file
+Device: 8,48	Inode: 65109       Links: 2
+Access: (0644/-rw-r--r--)  Uid: ( 1000/njh19270)   Gid: ( 1000/njh19270)
+Access: 2026-05-15 01:05:01.734907104 +0900
+Modify: 2026-04-17 10:57:05.581534930 +0900
+Change: 2026-04-24 01:26:37.679229560 +0900
+ Birth: 2026-04-17 10:57:05.581534930 +0900
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ sudo du -ah --max-depth=1 /home/[K | sort -hr
+[?2004l4.4G	/home/njh19270
+4.4G	/home
+68K	/home/student1
+24K	/home/student5
+24K	/home/student4
+24K	/home/student3
+24K	/home/student2
+24K	/home/guest_practice
+24K	/home/guest
+20K	/home/web_admin
+20K	/home/guest2
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ sudo ls -f /var/lin[Kb/dockere
+[?2004lls: cannot access '/var/lib/dockere': No such file or directory
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ sudo ls -f /var/lib/dockere[K
+[?2004lvolumes  plugins  rootfs    engine-id  swarm	   tmp	image
+.	 network  buildkit  runtimes   containers  ..	containerd
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ dkc[K[Kocker system df -v
+[?2004lfailed to connect to the docker API at unix:///var/run/docker.sock; check if the path is correct and if the daemon is running: dial unix /var/run/docker.sock: connect: no such file or directory
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ cat st[Kym.txt 
+[?2004lcat: sym.txt: No such file or directory
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ ls
+[?2004lhard      hardlink   medium.bin  [0m[40;31;01msym.txt[0m  [01;36msymlink[0m  [01;34mtest2[0m
+hard.txt  large.bin  small.bin   [01;36msyml[0m     test     tiny.bin
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ lscat sym.txt [C[C[C[C[C[C[K[K[K[K[K[K
+[?2004lcat: sy: No such file or directory
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ cat sym
+[?2004lcat: sym: No such file or directory
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ cat hard
+[?2004lasdasdasdasdasdadsadasds
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ cat hard.txt
+[?2004llinux filesystem
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ cat syml
+[?2004lasdasdasdasdasdadsadasds
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ cat t[Ksya[Km.txt
+[?2004lcat: sym.txt: No such file or directory
+[?2004h]0;njh19270@JUHEE-NOH: ~/linux/week07[01;32mnjh19270@JUHEE-NOH[00m:[01;34m~/linux/week07[00m$ exit
+[?2004lexit
+
+Script done on 2026-06-10 01:32:58+09:00 [COMMAND_EXIT_CODE="1"]
